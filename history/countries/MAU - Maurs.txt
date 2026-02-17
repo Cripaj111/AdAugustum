@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+primary_culture = berber
+religion = catholic
+capital = 1751 #Ceuta
+
+1444.1.1 = {
+    monarch = {
+        name = "Kicimierz"
+        dynasty = "Kaziński"
+        adm = 3
+        dip = 6
+        mil = 4
+        birthdate = 1400.1.12
+    }
+}
