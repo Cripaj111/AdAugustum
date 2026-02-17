@@ -10,4 +10,7 @@ tags={
 	"Events"
 }
 name="Ad Augustum"
+replace_path = "history/countries"
+replace_path = "history/provinces"
+replace_path = "history/diplomacy"
 supported_version="v1.37.5.0"

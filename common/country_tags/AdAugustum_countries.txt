@@ -1,1 +1,0 @@
-MAU = "countries/maurs.txt"
