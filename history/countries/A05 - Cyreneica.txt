@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+capital = 2326 #Bardiyah
+
+1444.1.1 = {
+    monarch = {
+        name = "Peter"
+        dynasty = "of Cyreneica"
+        adm = 5
+        dip = 4
+        mil = 3
+        birthdate = 1412.09.12
+    }
+}

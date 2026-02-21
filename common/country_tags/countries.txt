@@ -1,1 +1,5 @@
 A01 = "countries/Maurs.txt"
+A02 = "countries/Carthage.txt"
+A03 = "countries/Rizzan.txt"
+A04 = "countries/Aegyptus.txt"
+A05 = "countries/Cyreneica.txt"

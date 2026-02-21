@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = authocracy_reform
+technology_group = western
+primary_culture = berber
+religion = catholic
+capital = 341 #Tunis
+
+1444.1.1 = {
+    monarch = {
+        name = "Rizzler"
+        dynasty = "Chud"
+        adm = 6
+        dip = 6
+        mil = 6
+        birthdate = 1390.10.05
+    }
+}

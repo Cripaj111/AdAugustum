@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+capital = 358 #Alexandria
+
+1444.1.1 = {
+    monarch = {
+        name = "Cosmas"
+        dynasty = "Focas"
+        adm = 5
+        dip = 4
+        mil = 3
+        birthdate = 1380.12.12
+    }
+}
