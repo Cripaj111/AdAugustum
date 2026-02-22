@@ -1,0 +1,18 @@
+government = monarchy
+government_rank = 2
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+capital = 2312
+
+1444.1.1 = {
+    monarch = {
+        name = "Nabonid"
+        dynasty = "Nur-enlil"
+        adm = 3
+        dip = 2
+        mil = 6
+        birthdate = "1411.12.06"
+    }
+}

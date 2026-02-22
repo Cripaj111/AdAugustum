@@ -1,9 +1,9 @@
 government = monarchy
-add_government_reform = authocracy_reform
+add_government_reform = autocracy_reform
 technology_group = western
 primary_culture = berber
 religion = catholic
-capital = 341 #Tunis
+capital = 4567 #Sabha
 
 1444.1.1 = {
     monarch = {

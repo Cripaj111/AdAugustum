@@ -3,3 +3,12 @@ A02 = "countries/Carthage.txt"
 A03 = "countries/Rizzan.txt"
 A04 = "countries/Aegyptus.txt"
 A05 = "countries/Cyreneica.txt"
+
+L01 = "countries/Byzantium.txt"
+L02 = "countries/Chaldea.txt"
+L03 = "countries/Armeniakon.txt"
+L04 = "countries/Georgia.txt"
+L05 = "countries/Cyprus.txt"
+L06 = "countries/Oghuz.txt"
+
+E01 = "countries/PapalState.txt"

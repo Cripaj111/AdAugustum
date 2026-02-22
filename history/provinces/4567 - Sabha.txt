@@ -3,8 +3,8 @@
 owner = A03
 controller = A03
 culture = tunisian
-religion = sunni
-capital = "catholic"
+religion = catholic
+capital = "Rizzan"
 trade_goods = livestock
 hre = no
 base_tax = 2 

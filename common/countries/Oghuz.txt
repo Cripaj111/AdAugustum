@@ -1,10 +1,8 @@
-#Rizzan
+#Oghuz turks
 
 graphical_culture = muslimgfx
+color = { 76 106 122 }
 
-color = { 133 93 53 }
-
-revolutionary_colors = { 1  0  10 }
 
 historical_idea_groups = {
 	defensive_ideas

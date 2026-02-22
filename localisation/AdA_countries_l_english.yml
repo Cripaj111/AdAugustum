@@ -14,3 +14,24 @@ A04_ADJ: "Aegyptian"
 
 A05: "Cyreneica"
 A05_ADJ: "Cyreneic"
+
+L01: "Byzantine Empire"
+L01_ADJ: "Byzantine"
+
+L02: "Chaldea"
+L02_ADJ: "Chaldean"
+
+L03: "Thema Armeniakon"
+L03_ADJ: "Armenian"
+
+L04: "Georgia"
+L04_ADJ: "Georgian"
+
+L05: "Cyprus"
+L05_ADJ: "Cypriot"
+
+L06: "Oghuz Turks"
+L06_ADJ: "Oghuz"
+
+E01: "Saint Peter's Domain"
+E01_ADJ: "Papal"

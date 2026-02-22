@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = georgian
+religion = orthodox
+capital = 423 #Tbilsi
+
+1444.1.1 = {
+    monarch = {
+        name = "David"
+        dynasty = "Bagrationid"
+        adm = 2
+        dip = 1
+        mil = 1
+        birthdate = 1380.12.12
+    }
+}

@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = papacy_reform
+technology_group = western
+primary_culture = romagnan
+religion = catholic
+capital = 114 #Ravenna
+
+1444.1.1 = {
+    monarch = {
+        name = "Peter"
+        dynasty = "Piccolomini"
+        adm = 3
+        dip = 1
+        mil = 1
+        birthdate = 1390.10.31
+    }
+}

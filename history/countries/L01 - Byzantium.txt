@@ -1,0 +1,18 @@
+government = monarchy
+government_rank = 3
+add_government_reform = byzantine_autocracy_reform
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+capital = 151 #Constantinople
+
+1444.1.1 = {
+    monarch = {
+        name = "Ioannes"
+        dynasty = "Gavras"
+        adm = 5
+        dip = 3
+        mil = 6
+        birthdate = 1392.7.24
+    }
+}

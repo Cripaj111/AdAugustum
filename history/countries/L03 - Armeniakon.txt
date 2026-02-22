@@ -1,0 +1,18 @@
+government = monarchy
+government_rank = 1
+add_government_reform = margraviate_reform
+technology_group = eastern
+primary_culture = armenian
+religion = orthodox
+capital = 416
+
+1444.1.1 = {
+    monarch = {
+        name = "Paulos"
+        dynasty = "Gavras"
+        adm = 5
+        dip = 2
+        mil = 6
+        birthdate = "1411.12.06"
+    }
+}
