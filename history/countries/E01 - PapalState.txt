@@ -1,5 +1,5 @@
 government = theocracy
-add_government_reform = papacy_reform
+add_government_reform = papal_government
 technology_group = western
 primary_culture = romagnan
 religion = catholic

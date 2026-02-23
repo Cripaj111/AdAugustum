@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = transylvanian
+religion = orthodox
+capital = 4128 #Kiralyfold
+
+1444.1.1 = {
+    monarch = {
+        name = "Genzeric"
+        dynasty = "of Gothia"
+        adm = 4
+        dip = 5
+        mil = 2
+        birthdate = 1398.12.1
+    }
+}

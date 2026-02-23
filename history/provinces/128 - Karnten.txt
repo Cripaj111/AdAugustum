@@ -1,0 +1,23 @@
+#128 - K�rnten
+
+owner = B04
+controller = B04
+add_core = B04
+
+culture	= dalmatian
+religion = catholic
+base_tax = 4
+base_production = 3
+trade_goods = iron 
+base_manpower = 3
+fort_15th = yes 
+capital = "Klagenfurt" 
+is_city = yes
+hre = no
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

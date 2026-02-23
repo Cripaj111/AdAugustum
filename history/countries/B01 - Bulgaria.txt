@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = bulgarian
+religion = orthodox
+capital = 150	# Sofia
+
+1444.1.1 = {
+    monarch = {
+        name = "Kyryll"
+        dynasty = "Chudomirovich"
+        adm = 4
+        dip = 1
+        mil = 6
+        birthdate = 1386.12.1
+    }
+}

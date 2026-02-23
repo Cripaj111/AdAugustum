@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = andalucian
+religion = catholic
+technology_group = western
+capital = 221 #Murcia
+
+1444.1.1 = {
+    monarch = {
+        name = "Fernando"
+        dynasty = "Castamara"
+        adm = 3
+        dip = 1
+        mil = 2
+        bithdate = "1396.9.11"
+    }
+}

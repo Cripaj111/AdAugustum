@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = castillian
+religion = catholic
+technology_group = western
+capital = 207 #Asturias
+
+1444.1.1 = {
+    monarch = {
+        name = "Fernando"
+        dynasty = "Ajerra"
+        adm = 4
+        dip = 2
+        mil = 6
+        bithdate = "1410.6.27"
+    }
+}

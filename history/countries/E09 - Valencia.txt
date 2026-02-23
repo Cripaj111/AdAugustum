@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = catalan
+religion = catholic
+technology_group = western
+capital = 220 #Valencia
+
+1444.1.1 = {
+    monarch = {
+        name = "Sancho"
+        dynasty = "Ajerra"
+        adm = 5
+        dip = 4
+        mil = 1
+        bithdate = "1429.11.07"
+    }
+}

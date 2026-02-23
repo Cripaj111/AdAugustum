@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = dalmatian
+religion = catholic
+capital = 128 #kartnen
+
+1444.1.1 = {
+    monarch = {
+        name = "Enrico"
+        dynasty = "Avanti"
+        adm = 2
+        dip = 5
+        mil = 3
+        birthdate = 1427.8.15
+    }
+}

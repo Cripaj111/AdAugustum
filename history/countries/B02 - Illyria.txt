@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = dalmatian
+religion = catholic
+capital = 4752 #Rijeka
+
+1444.1.1 = {
+    monarch = {
+        name = "Angelo"
+        dynasty = "Fraticelli"
+        adm = 6
+        dip = 2
+        mil = 5
+        birthdate = 1403.9.7
+    }
+}

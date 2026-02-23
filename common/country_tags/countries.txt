@@ -1,9 +1,15 @@
+################################
+##       AFRICA               ##
+################################
 A01 = "countries/Maurs.txt"
 A02 = "countries/Carthage.txt"
 A03 = "countries/Rizzan.txt"
 A04 = "countries/Aegyptus.txt"
 A05 = "countries/Cyreneica.txt"
 
+################################
+##     MIDDLE EAST            ##
+################################
 L01 = "countries/Byzantium.txt"
 L02 = "countries/Chaldea.txt"
 L03 = "countries/Armeniakon.txt"
@@ -11,4 +17,34 @@ L04 = "countries/Georgia.txt"
 L05 = "countries/Cyprus.txt"
 L06 = "countries/Oghuz.txt"
 
+################################
+##      ITALY                 ##
+################################
 E01 = "countries/PapalState.txt"
+E02 = "countries/Benevent.txt" #Ostrogoths
+E03 = "countries/Etrutria.txt"
+E04 = "countries/Transalpinia.txt" 
+E05 = "countries/Longobard.txt"    
+E06 = "countries/Pisa.txt"
+
+################################
+##        IBERIA              ##
+################################
+E07 = "countries/Asturia.txt" #1st brother
+E08 = "countries/Portugal.txt" #2nd brother
+E09 = "countries/Valencia.txt" #3rd brother
+E10 = "countries/Baetica.txt" 
+E11 = "countries/Basqia.txt"
+E12 = "countries/Catalonia.txt"
+
+################################
+## BALKANS & CARPATHIA        ##
+################################
+B01 = "countries/Bulgaria.txt"
+B02 = "countries/Illyria.txt"
+B03 = "countries/Serbia.txt"
+B04 = "countries/Carniola.txt"
+B05 = "countries/Hungary.txt"
+B06 = "countries/Tervingia.txt" #transylwania
+B07 = "countries/Jizni.txt" #słowianie w austrii
+

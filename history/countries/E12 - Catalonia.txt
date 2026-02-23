@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = catalan
+religion = catholic
+technology_group = western
+capital = 213 # Barcelona
+
+1444.1.1 = {
+    monarch = {
+        name = "Sebastian"
+        dynasty = "Gonzales"
+        adm = 1
+        dip = 2
+        mil = 2
+        bithdate = "1410.6.27"
+    }
+}
