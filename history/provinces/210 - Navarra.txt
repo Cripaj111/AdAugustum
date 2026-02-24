@@ -1,8 +1,8 @@
 #210 - Navarra
 
-owner = E11
-controller = E11
-add_core = E11
+owner = H11
+controller = H11
+add_core = H11
 culture = basque
 religion = catholic
 hre = no

@@ -3,7 +3,7 @@ add_government_reform = margraviate_reform
 technology_group = eastern
 primary_culture = czech
 religion = catholic
-capital = 150	# Sofia
+capital = 134	# Wien
 
 1444.1.1 = {
     monarch = {

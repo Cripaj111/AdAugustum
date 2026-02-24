@@ -1,8 +1,8 @@
 # 4745 - R�gen
 
-owner = E21
-controller = E21
-add_core = E21
+owner = H21
+controller = H21
+add_core = H21
 
 culture = pommeranian
 religion = norse_pagan_reformed

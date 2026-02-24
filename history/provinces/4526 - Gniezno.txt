@@ -1,7 +1,7 @@
 #4526 - Gniezno
 
-owner = E24
-controller = E24
+owner = H24
+controller = H24
 culture = polish
 religion = slavic
 capital = "Gniezno"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core =E24
+add_core =H24
 
 
 discovered_by = KAZ

@@ -1,8 +1,8 @@
 #134 - Wien
 
-owner = B07
-controller = B07
-add_core = B07
+owner = J07
+controller = J07
+add_core = J07
 culture = czech
 religion = catholic
 base_tax = 6 

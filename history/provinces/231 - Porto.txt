@@ -1,7 +1,7 @@
 #231 - Porto
 
-owner = E08
-controller = E08
+owner = H08
+controller = H08
 culture = portugese
 religion = catholic
 capital = "Porto"
@@ -11,7 +11,7 @@ base_tax = 7
 base_production = 7
 base_manpower = 5
 is_city = yes
-add_core = POR
+add_core = H08
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

@@ -1,0 +1,27 @@
+#Heidelberg
+graphical_culture = westerngfx
+
+color = { 159 255 15 }
+
+revolutionary_colors = { 1  0  10 }
+
+historical_idea_groups = {
+	defensive_ideas
+	innovativeness_ideas
+	maritime_ideas
+	exploration_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}

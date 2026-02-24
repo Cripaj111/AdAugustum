@@ -1,8 +1,8 @@
 #221 - Murcia
 
-owner = E10
-controller = E10
-add_core = E10
+owner = H10
+controller = H10
+add_core = H10
 culture = andalucian
 religion = catholic 
 hre = no

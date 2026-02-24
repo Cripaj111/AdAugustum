@@ -1,7 +1,7 @@
 #4752 - Rijeka
 
-owner = B02
-controller = B02
+owner = J02
+controller = J02
 culture = dalmatian
 religion = catholic
 capital = "Rijeka"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = B02
+add_core = J02
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

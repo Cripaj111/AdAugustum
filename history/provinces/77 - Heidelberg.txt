@@ -1,0 +1,21 @@
+#77 - Heidelberg
+
+capital = "Heidelberg"
+culture = saxon
+religion = catholic
+trade_goods = wine
+owner = I51
+base_tax = 5
+base_production = 4
+base_manpower = 4
+fort_15th = yes
+is_city = yes
+controller = I51
+add_core = I51
+hre = yes
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

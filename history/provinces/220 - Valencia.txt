@@ -1,8 +1,8 @@
 #220 - Val�ncia
 
-owner = E09
-controller = E09
-add_core = E09
+owner = H09
+controller = H09
+add_core = H09
 culture = catalan
 religion = catholic
 hre = no

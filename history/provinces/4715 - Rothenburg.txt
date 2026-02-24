@@ -1,0 +1,17 @@
+owner = I52
+controller = I52
+capital = "Rothenburg ob der Tauber"
+is_city = yes
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 4 
+base_production = 5
+base_manpower = 1
+trade_goods = grain
+add_core = I52
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

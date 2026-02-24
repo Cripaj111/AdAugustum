@@ -1,0 +1,21 @@
+#56 - Osnabr�ck
+
+owner = I36
+controller = I36
+culture = saxon
+religion = catholic
+capital = "Osnabr�ck"
+trade_goods = salt
+hre = yes
+base_tax = 3
+base_production = 4
+base_manpower = 2
+is_city = yes
+add_core = I36
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

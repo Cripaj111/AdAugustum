@@ -1,0 +1,20 @@
+# 67 - Franken
+
+owner = I49
+controller = I49
+add_core = I49
+culture = saxon
+religion = catholic
+base_tax = 8
+base_production = 8
+trade_goods = paper
+base_manpower = 3
+capital = "N�rnberg"
+is_city = yes
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 16
+center_of_trade = 2

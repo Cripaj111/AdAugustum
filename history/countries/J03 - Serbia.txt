@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 technology_group = eastern
 primary_culture = serbian
 religion = orthodox
-capital = 150	# Sofia
+capital = 4239 #belgrade
 
 1444.1.1 = {
     monarch = {

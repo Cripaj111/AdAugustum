@@ -1,7 +1,7 @@
 #2424 - Przemysl
 
-owner = E28
-controller = E28
+owner = H28
+controller = H28
 culture = ruthenian
 religion = slavic
 hre = no
@@ -11,7 +11,7 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Przemysl"
 is_city = yes
-add_core = E28
+add_core = H28
 
 
 

@@ -1,7 +1,7 @@
 # 175 Armagnac - Principal cities: Auch
 
-owner = E32
-controller = E32
+owner = H32
+controller = H32
 capital = "Auch"
 is_city = yes
 culture = aquitanian
@@ -12,7 +12,7 @@ base_production = 5
 trade_goods = wool
 base_manpower = 5
 add_local_autonomy = 25
-add_core = E32
+add_core = H32
 
 
 

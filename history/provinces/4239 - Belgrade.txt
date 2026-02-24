@@ -1,7 +1,7 @@
 #4239 - Belgrade
 
-owner = B03
-controller = B03
+owner = J03
+controller = J03
 culture = serbian
 religion = orthodox
 capital = "Belgrade"
@@ -12,7 +12,7 @@ base_production = 4
 base_manpower = 2
 is_city = yes
 fort_15th = yes
-add_core = B03
+add_core = J03
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

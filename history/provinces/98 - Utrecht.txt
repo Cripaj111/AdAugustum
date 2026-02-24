@@ -1,0 +1,19 @@
+# 98 Utrecht - Principal cities: Utrecht
+
+owner = I26
+controller = I26
+capital = "Utrecht"
+is_city = yes
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = cloth
+base_manpower = 2
+add_core = I26
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

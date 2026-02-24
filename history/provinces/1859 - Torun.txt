@@ -1,7 +1,7 @@
 #1859 - Torun
 
-owner = E23
-controller = E23
+owner = H23
+controller = H23
 capital = "Torun"
 is_city = yes
 culture = polish
@@ -11,7 +11,7 @@ hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2
-add_core = E23
+add_core = H23
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

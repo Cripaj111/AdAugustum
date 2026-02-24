@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = E27
-controller = E27
+owner = H27
+controller = H27
 culture = polish
 religion = slavic
 capital = "Krak�w"
@@ -17,7 +17,7 @@ base_manpower = 6
 is_city = yes
 fort_15th = yes
  #Jagiellonian University established in 1364 by Casimir III the Great
-add_core = E27
+add_core = H27
 
 discovered_by = KAZ
 discovered_by = CRI

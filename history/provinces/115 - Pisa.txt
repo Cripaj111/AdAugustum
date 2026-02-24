@@ -1,7 +1,7 @@
 #115 - Pisa
 
-owner = E06
-controller = E06
+owner = H06
+controller = H06
 culture = tuscan
 religion = catholic
 hre = yes

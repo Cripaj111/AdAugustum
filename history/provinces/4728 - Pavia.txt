@@ -1,7 +1,7 @@
 # 4728 - Pavia
 
-owner = E05
-controller = E05
+owner = H05
+controller = H05
 culture = lombard
 religion = catholic
 hre = yes
@@ -11,7 +11,7 @@ trade_goods = grain
 base_manpower = 5
 capital = "Pavia"
 is_city = yes	# Estimated
-add_core = E05
+add_core = H05
 
 
 
