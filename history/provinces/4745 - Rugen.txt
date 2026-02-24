@@ -1,0 +1,21 @@
+# 4745 - R�gen
+
+owner = E21
+controller = E21
+add_core = E21
+
+culture = pommeranian
+religion = norse_pagan_reformed
+hre = no
+base_tax = 2
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+capital = "Arkona"
+is_city = yes
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

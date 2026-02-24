@@ -12,6 +12,6 @@ capital = 231 #Porto
         adm = 4
         dip = 2
         mil = 6
-        bithdate = "1415.2.14"
+        bith_date = 1415.2.14
     }
 }

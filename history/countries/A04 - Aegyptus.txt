@@ -12,6 +12,6 @@ capital = 358 #Alexandria
         adm = 5
         dip = 4
         mil = 3
-        birthdate = 1380.12.12
+        birth_date = 1380.12.12
     }
 }

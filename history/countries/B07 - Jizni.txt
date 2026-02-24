@@ -12,6 +12,6 @@ capital = 150	# Sofia
         adm = 4
         dip = 1
         mil = 6
-        birthdate = 1386.12.1
+        birth_date = 1386.12.1
     }
 }

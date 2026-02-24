@@ -18,21 +18,22 @@ L05 = "countries/Cyprus.txt"
 L06 = "countries/Oghuz.txt"
 
 ################################
-##      ITALY                 ##
+##      ITALY  $ SOUTH        ##
 ################################
 E01 = "countries/PapalState.txt"
-E02 = "countries/Benevent.txt" #Ostrogoths
+E02 = "countries/Benevent.txt" 
 E03 = "countries/Etrutria.txt"
 E04 = "countries/Transalpinia.txt" 
 E05 = "countries/Longobard.txt"    
 E06 = "countries/Pisa.txt"
+E32 = "countries/Aquitaine.txt"
 
 ################################
 ##        IBERIA              ##
 ################################
-E07 = "countries/Asturia.txt" #1st brother
-E08 = "countries/Portugal.txt" #2nd brother
-E09 = "countries/Valencia.txt" #3rd brother
+E07 = "countries/Asturia.txt" 
+E08 = "countries/Portugal.txt" 
+E09 = "countries/Valencia.txt" 
 E10 = "countries/Baetica.txt" 
 E11 = "countries/Basqia.txt"
 E12 = "countries/Catalonia.txt"
@@ -45,6 +46,43 @@ B02 = "countries/Illyria.txt"
 B03 = "countries/Serbia.txt"
 B04 = "countries/Carniola.txt"
 B05 = "countries/Hungary.txt"
-B06 = "countries/Tervingia.txt" #transylwania
-B07 = "countries/Jizni.txt" #słowianie w austrii
+B06 = "countries/Tervingia.txt" 
+B07 = "countries/Jizni.txt" 
 
+##################################
+##         EASTERN EUROPE       ##
+##################################
+E20 = "countries/Bohemia.txt"
+E21 = "countries/Vendia.txt"
+E22 = "countries/Pomerania.txt"
+E23 = "countries/Kuyavia.txt"
+E24 = "countries/Poland.txt"
+E25 = "countries/Pruthenia.txt"
+E26 = "countries/Samogitia.txt"
+E27 = "countries/Vistulans.txt"
+E28 = "countries/Lendians.txt"
+E29 = "countries/Mazovia.txt"
+E30 = "countries/Lusatia.txt"
+E31 = "countries/Silesia.txt"
+
+#####################################
+#####    MAINLAND EMPIRE        #####
+#####################################
+I01 = "countries/Bretany.txt"
+I02 = "countries/Burgundy.txt"
+I03 = "countries/Bourbonnais.txt"
+I04 = "countries/Normandy.txt"
+I05 = "countries/Picardy.txt"
+I06 = "countries/Calais.txt"
+I07 = "countries/Reims.txt"
+I08 = "countries/Paris.txt"
+I09 = "countries/Valois.txt"
+I10 = "countries/Chartes.txt"
+I11 = "countries/Nemours.txt"
+I12 = "countries/Orleanais.txt"
+I13 = "countries/Franche-comte.txt"
+I14 = "countries/Chamberry.txt"
+I15 = "countries/Geneva.txt"
+I16 = "countries/Verdun.txt"
+I17 = "countries/Fribourg.txt"
+I18 = "countries/Habsburg.txt"

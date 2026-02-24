@@ -12,6 +12,6 @@ capital = 210 #Navarra
         adm = 3
         dip = 5
         mil = 3
-        bithdate = "1402.8.11"
+        bith_date = 1402.8.11
     }
 }

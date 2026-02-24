@@ -3,7 +3,7 @@
 owner = L05
 controller = L05
 culture = greek
-religion = nordic
+religion = norse_pagan_reformed
 capital = "Nicosia"
 trade_goods = wine
 hre = no

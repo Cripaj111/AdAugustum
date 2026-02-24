@@ -12,6 +12,6 @@ capital = 221 #Murcia
         adm = 3
         dip = 1
         mil = 2
-        bithdate = "1396.9.11"
+        bith_date = 1396.9.11
     }
 }

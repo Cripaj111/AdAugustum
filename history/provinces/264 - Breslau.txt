@@ -1,0 +1,25 @@
+#264 - Breslau (Breslau+Brieg+�ls+Wartenberg+Wohlau/Steinau)
+
+owner = E31
+controller = E31
+culture = schlesian
+religion = slavic
+capital = "Breslau"
+trade_goods = cloth
+hre = yes
+base_tax = 5 
+base_production = 5
+is_city = yes 
+base_manpower = 3
+add_core = E31
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 8
+center_of_trade = 1

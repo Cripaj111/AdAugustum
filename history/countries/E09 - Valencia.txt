@@ -12,6 +12,6 @@ capital = 220 #Valencia
         adm = 5
         dip = 4
         mil = 1
-        bithdate = "1429.11.07"
+        bith_date = 1429.11.07
     }
 }

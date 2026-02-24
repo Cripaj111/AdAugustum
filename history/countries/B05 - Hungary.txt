@@ -12,6 +12,6 @@ capital = 153 #Pest
         adm = 4
         dip = 1
         mil = 6
-        birthdate = 1395.10.12
+        birth_date = 1395.10.12
     }
 }
