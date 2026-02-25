@@ -1,0 +1,15 @@
+#284 - Crimea
+
+owner = S01
+controller = S01
+culture = pontic
+religion = orthodox
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = salt
+base_manpower = 6
+capital = "Qirq-Yer"
+is_city = yes
+fort_15th = yes #Qirq-Yer Fortress
+add_core = S01

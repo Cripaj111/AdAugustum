@@ -1,0 +1,19 @@
+owner = S06
+controller = S06
+add_core = S06
+culture = kazakh
+religion = tengri_pagan_reformed
+capital = "Altay"
+trade_goods = livestock
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 2
+is_city = yes
+
+
+
+
+discovered_by = CHG
+discovered_by = chinese
+discovered_by = nomad_group

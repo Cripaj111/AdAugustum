@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = highland_scottish
+religion = norse_pagan_reformed
+capital = 253 #Outer Hebrides

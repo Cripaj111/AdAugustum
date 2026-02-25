@@ -1,7 +1,7 @@
 #1869 - Zurich
 
-owner = H18
-controller = H18
+owner = I18
+controller = I18
 culture = burgundian
 religion = catholic
 capital = "Habsburg"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = H18
+add_core = I18
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

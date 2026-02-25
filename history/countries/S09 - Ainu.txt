@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = chinese
+religion = animism
+primary_culture = ainu
+religion = tengri
+capital = 1847 #Shiribeshi

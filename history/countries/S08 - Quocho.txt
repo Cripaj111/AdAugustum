@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = chinese
+primary_culture = uyghur
+religion = tengri_pagan_reformed
+capital = 2121 #Kuqa

@@ -1,0 +1,21 @@
+#238 - Essex
+
+owner = P01
+controller = P01
+culture = english
+religion = catholic
+hre = yes
+base_tax = 6
+base_production = 6
+trade_goods = cloth
+base_manpower = 2
+capital = "Chelmsford"
+is_city = yes
+add_core = P01
+
+
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

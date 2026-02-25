@@ -117,7 +117,6 @@ I46 = "countries/Frankfurt.txt"
 I47 = "countries/Aschaffenburg.txt"
 I48 = "countries/Oberfranken.txt"
 I49 = "countries/Nurnburg.txt"
-
 I50 = "countries/Strasburg.txt"
 I51 = "countries/Heidelberg.txt"
 I52 = "countries/Rotheburg.txt"
@@ -130,3 +129,38 @@ I58 = "countries/Baden.txt"
 I59 = "countries/Ulm.txt"
 I60 = "countries/Bern.txt"
 I61 = "countries/Mullhouse.txt"
+
+###################################
+##  BRITISH ISLES & NORMANS      ##
+###################################
+P01 = "countries/Essex.txt"
+P02 = "countries/Mercia.txt"
+P03 = "countries/Sussex.txt"
+P04 = "countries/Gloucester.txt"
+P05 = "countries/Hampshire.txt"
+P06 = "countries/Cornwall.txt"
+P07 = "countries/Camry.txt"
+P08 = "countries/Cumbria.txt"
+P09 = "countries/Pictia.txt"
+P10 = "countries/Albanord.txt"
+P11 = "countries/Munster.txt"
+P12 = "countries/Ulster.txt"
+P13 = "countries/BritishOrder.txt"
+P14 = "countries/Denmark.txt"
+P15 = "countries/Jutland.txt"
+P16 = "countries/Norway.txt"
+P17 = "countries/Sweden.txt"
+
+
+###################################
+####       STEPPE LORDS        ####
+###################################
+S01 = "countries/TauridOrder.txt"
+S02 = "countries/Sarmatia.txt"
+S03 = "countries/Seljuks.txt"
+S04 = "countries/VolgaBulgars.txt"
+S05 = "countries/BlueHorde.txt"
+S06 = "countries/Chagatay.txt"
+S07 = "countries/Yuan.txt"
+S08 = "countries/Quocho.txt"
+S09 = "countries/Ainu.txt"
