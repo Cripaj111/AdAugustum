@@ -3,103 +3,83 @@
 ####### AFRICA#############
 A01: "Maurs"
 A01_ADJ: "Maur"
-
 A02: "Carthage"
 A02_ADJ: "Carthaginian"
-
 A03: "Rizzan"
 A03_ADJ: "Rizzan"
-
 A04: "Aegyptus"
 A04_ADJ: "Aegyptian"
-
 A05: "Cyreneica"
 A05_ADJ: "Cyreneic"
 ####### IDDLE EAST #############
-
 L01: "Byzantine Empire"
 L01_ADJ: "Byzantine"
-
 L02: "Chaldea"
 L02_ADJ: "Chaldean"
-
 L03: "Thema Armeniakon"
 L03_ADJ: "Armenian"
-
 L04: "Georgia"
 L04_ADJ: "Georgian"
-
 L05: "Cyprus"
 L05_ADJ: "Cypriot"
-
 L06: "Oghuz Turks"
 L06_ADJ: "Oghuz"
-
+L07: "Fadl"
+L07_ADJ: "Fadli"
+L08: "Ghassanids"
+L08_ADJ: "Ghassanid"
+L09: "Gerrha"
+L09_ADJ: "Gerrhan"
+L10: "Masquat"
+L10_ADJ: "Masquati"
+L11: "Qurays"
+L11_ADJ: "Quraysi"
+L12: "Omega Israel"
+L12_ADJ: "Omega Israeli"
 ####### ITALY #############
 H01: "Saint Peter's Domain"
 H01_ADJ: "Papal"
-
 H02: "Benevent"
 H02_ADJ: "Ostrogoth"
-
 H03: "Etruria"
 H03_ADJ: "Etrurian"
-
 H04: "Transalpinia"
 H04_ADJ: "Transalpinian"
-
 H05: "Longobard League"
 H05_ADJ: "Longobard"
-
 H06: "Pisa"
 H06_ADJ: "Pisan"
-
 H32: "Aquitaine"
 H32_ADJ: "Aquitainian"
-
 ####### IBERIA #############
 H07: "Asturia"
 H07_ADJ: "Asturian"
-
 H08: "Portugal"
 H08_ADJ: "Portugal"
-
 H09: "Valencia"
 H09_ADJ: "Valencian"
-
 H10: "Baetica"
 H10_ADJ: "Baetic"
-
 H11: "Basqiua"
 H11_ADJ: "Basque"
-
 H12: "Catalonia"
 H12_ADJ: "Catalan"
-
 ####### BALKANS & CARPATHIA #############
 J01: "Bulgaria"
 J01_ADJ: "Bulgarian"
-
 J02: "Illyria"
 J02_ADJ: "Illyrian"
-
 J03: "Serbia"
 J03_ADJ: "Serbian"
-
 J04: "Carniola"
 J04_ADJ: "Carniolan"
-
 J05: "Hungary"
 J05_ADJ: "Hungarian"
-
 J06: "Terving"
 J06_ADJ: "Tervingian"
-
 J07: "Jiznimark"
 J07_ADJ: "Marcher"
-
 ######## EASTERN EUROPE####################
-
 H20: "Bohemia"
 H20_ADJ: "Bohemian"
 H21: "Vendia"
@@ -124,7 +104,6 @@ H30: "Lusatia"
 H30_ADJ: "Lusatian"
 H31: "Silesia"
 H31_ADJ: "Silesian"
-
 ########### MAINLAND EMPIRE ################
 I01: "Brittany"
 I01_ADJ: "Breton"

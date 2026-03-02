@@ -17,6 +17,13 @@ L04 = "countries/Georgia.txt"
 L05 = "countries/Cyprus.txt"
 L06 = "countries/Oghuz.txt"
 
+L07 = "countries/Fadl.txt"
+L08 = "countries/Ghassanids.txt"
+L09 = "countries/Gerrha.txt"
+L10 = "countries/Masquat.txt"
+L11 = "countries/Qurays.txt"
+L12 = "countries/Jemen.txt"
+
 ################################
 ##      ITALY  $ SOUTH        ##
 ################################

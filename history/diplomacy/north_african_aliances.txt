@@ -1,0 +1,16 @@
+###Aegyptian rule over Cereneica####
+dependency = {
+	subject_type = vassal
+	first = A04
+	second = A05
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+###Moorish rule over Beatica####
+dependency = {
+	subject_type = vassal
+	first = A01
+	second = H10
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}

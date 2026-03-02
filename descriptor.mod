@@ -10,9 +10,10 @@ tags={
 	"Events"
 }
 name="Ad Augustum"
+replace_path= "common/countries"
 replace_path = "history/countries"
 replace_path = "history/provinces"
 replace_path = "history/diplomacy"
 replace_path = "gfx/flags"
-replace_path = "common/religons"
+replace_path = "common/religions"
 supported_version="v1.37.5.0"

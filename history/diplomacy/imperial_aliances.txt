@@ -1,0 +1,22 @@
+### French rule over cities###
+dependency = {
+	subject_type = vassal
+	first = I08
+	second = I09
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = vassal
+	first = I08
+	second = I10
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = vassal
+	first = I08
+	second = I11
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}

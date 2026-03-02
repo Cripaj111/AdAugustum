@@ -839,6 +839,25 @@ christian = {
 		}
 	}
 	
+	nestorian = {
+		color = { 240 232 79 }
+		icon = 30
+		country = {
+			relation_with_heretics = 15
+			trade_efficiency = 0.1
+		}
+		country_as_secondary = {
+			trade_efficiency = 0.05
+		}
+		on_convert = {
+			add_prestige = conversion_zeal
+			duration = 360
+		}
+		misguided_heretic = yes
+		heretic = { MIAPHYSITES MONOPHISTES }
+
+
+	}
 	harmonized_modifier = harmonized_christian
 	
 	crusade_name = CRUSADE
