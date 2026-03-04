@@ -2,7 +2,7 @@ government = monarchy
 government_rank = 2
 add_government_reform = feudalism_reform
 technology_group = eastern
-primary_culture = greek
+primary_culture = chaldeic
 religion = nestorian
 capital = 2312
 

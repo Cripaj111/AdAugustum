@@ -2,7 +2,7 @@
 
 owner = L02
 controller = L02
-culture = greek
+culture = chaldeic
 religion = nestorian
 capital = "Babylon"
 trade_goods = spices
