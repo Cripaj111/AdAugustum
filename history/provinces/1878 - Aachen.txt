@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 owner = I23
 controller = I23
-culture = saxon
+culture = austrasian
 religion = catholic
 trade_goods = grain
 capital = "Aachen"

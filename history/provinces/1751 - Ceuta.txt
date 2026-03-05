@@ -2,10 +2,10 @@
 
 owner = A01
 controller = A01
-culture = moroccan
+culture = moorish
 religion = catholic
 capital = "Cebta"
-trade_goods = gold
+trade_goods = fish
 hre = no
 base_tax = 3 
 base_production = 3

@@ -3,7 +3,7 @@
 owner = I54
 controller = I54
 add_core = I54
-culture = saxon
+culture = bavarian
 religion = catholic
 base_tax = 3
 base_production = 4

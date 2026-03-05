@@ -2,6 +2,6 @@ government = tribal
 add_government_reform = steppe_horde
 technology_group = nomad_group
 religion = tengri_pagan_reformed
-primary_culture = turkish
+primary_culture = seljuk
 religion = tengri
 capital = 464 #astrakhan

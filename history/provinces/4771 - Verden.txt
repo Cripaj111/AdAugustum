@@ -2,7 +2,7 @@
 
 owner = I20
 controller = I20
-culture = saxon
+culture = ostphalian
 religion = catholic
 capital = "Verden"
 trade_goods = livestock

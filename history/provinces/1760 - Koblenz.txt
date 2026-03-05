@@ -1,6 +1,6 @@
 owner = I45
 controller = I45
-culture = hessian
+culture = westphalian
 religion = catholic
 trade_goods = grain
 capital = "Koblenz"

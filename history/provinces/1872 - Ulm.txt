@@ -2,7 +2,7 @@
 owner = I59
 controller = I59
 add_core = I59
-culture = saxon
+culture = swabian
 religion = catholic
 base_tax = 5 
 base_production = 6

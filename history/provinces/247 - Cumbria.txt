@@ -1,7 +1,7 @@
 #247 - Cumbria
 owner = P08
 controller = P08
-culture = english
+culture = pictish
 religion = catholic
 hre = no
 base_tax = 2 

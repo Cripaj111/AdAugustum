@@ -1,6 +1,6 @@
 # 1876 - Frankfurt
 capital = "Frankfurt"
-culture = saxon
+culture = franconian
 religion = catholic
 trade_goods = paper
 owner = I46

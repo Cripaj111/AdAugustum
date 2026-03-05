@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = eastern
-primary_culture = dalmatian
+primary_culture = illyrian
 religion = catholic
 capital = 4752 #Rijeka
 

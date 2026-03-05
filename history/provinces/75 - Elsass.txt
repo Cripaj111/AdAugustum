@@ -2,9 +2,9 @@
 
 owner = I50
 controller = I50
-capital = "Stra�burg"
+capital = "Stra burg"
 is_city = yes
-culture = saxon
+culture = franconian
 religion = catholic
 hre = yes
 base_tax = 6 

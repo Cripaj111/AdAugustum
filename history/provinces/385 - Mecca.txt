@@ -2,7 +2,7 @@
 
 owner = L11
 controller = L11
-culture = hejazi_culture
+culture = hejazi
 religion = sunni
 capital = "Makkah"
 trade_goods = incense

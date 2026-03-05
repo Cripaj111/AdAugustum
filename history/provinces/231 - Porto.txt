@@ -2,7 +2,7 @@
 
 owner = H08
 controller = H08
-culture = portugese
+culture = portuguese
 religion = catholic
 capital = "Porto"
 trade_goods = wine

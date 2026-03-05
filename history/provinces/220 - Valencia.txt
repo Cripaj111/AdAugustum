@@ -3,7 +3,7 @@
 owner = H09
 controller = H09
 add_core = H09
-culture = catalan
+culture = toledan
 religion = catholic
 hre = no
 base_tax = 6 

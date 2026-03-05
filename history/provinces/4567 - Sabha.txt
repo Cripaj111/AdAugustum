@@ -2,7 +2,7 @@
 
 owner = A03
 controller = A03
-culture = tunisian
+culture = rizzan
 religion = catholic
 capital = "Rizzan"
 trade_goods = livestock

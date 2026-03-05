@@ -2,6 +2,6 @@ government = monarchy
 add_government_reform = feudalism_reform
 technology_group = western
 elector = yes
-primary_culture = saxon
+primary_culture = ostphalian
 religion = catholic
 capital = 4771 #Verden

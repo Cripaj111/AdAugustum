@@ -3,7 +3,7 @@
 owner = I06
 controller = I06
 capital = "Calais"
-culture = cosmopolitan_french
+culture = austrasian
 religion = catholic
 hre = yes
 base_tax = 5 

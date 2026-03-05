@@ -1,12 +1,12 @@
-#85 - K�ln
+#85 - K ln
 
 owner =  I41
 controller = I41
 add_core = I41
-culture = saxon
+culture = austrasian
 religion = catholic
 trade_goods = paper
-capital = "K�ln"
+capital = "K ln"
 base_tax = 6 
 base_production = 6
 base_manpower = 3

@@ -2,7 +2,7 @@ government = tribal
 government_rank = 1
 add_government_reform = tribal_federation
 technology_group = nomad_group
-culture = turkish
+culture = oghuz
 religion = tengri
 capital = 4299 #Shamakhi
 

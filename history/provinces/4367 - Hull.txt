@@ -2,7 +2,7 @@
 
 owner = P13
 controller = P13
-culture = english
+culture = anglosaxon
 religion = catholic
 hre = no
 base_tax = 3

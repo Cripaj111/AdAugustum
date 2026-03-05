@@ -1,7 +1,7 @@
 owner = I39
 controller = I39
 add_core = I39
-culture = saxon
+culture = westphalian
 religion = catholic
 trade_goods = cloth
 capital = "Kleves"

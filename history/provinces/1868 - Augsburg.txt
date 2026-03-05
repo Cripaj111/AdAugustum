@@ -2,7 +2,7 @@
 owner = I55
 controller = I55
 add_core = I55
-culture = saxon
+culture = bavarian
 religion = catholic
 base_tax = 7 
 base_production = 6

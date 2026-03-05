@@ -2,7 +2,7 @@
 
 owner = I33
 controller = I33
-culture = saxon
+culture = frisian
 religion = catholic
 trade_goods = cloth
 capital = "Meppen"

@@ -2,7 +2,7 @@
 
 owner = J06
 controller = J06
-culture = transylvanian 
+culture = pecheneg 
 religion = orthodox
 capital = "Sibiu"
 trade_goods = cloth

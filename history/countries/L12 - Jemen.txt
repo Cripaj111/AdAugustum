@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = eastern
-primary_culture = yemeni_culture
+primary_culture = yemeni
 religion = jewish
-capital = 3281 #dhamar
+capital = 4281 #dhamar

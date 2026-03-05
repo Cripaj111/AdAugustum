@@ -2,7 +2,7 @@
 owner = I48
 controller = I48
 add_core = I48
-culture = saxon
+culture = franconian
 religion = catholic
 base_tax = 2
 base_production = 2

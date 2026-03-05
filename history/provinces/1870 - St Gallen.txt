@@ -2,7 +2,7 @@
 
 owner = I57
 controller = I57
-culture = saxon
+culture = swabian
 religion = catholic
 capital = "St Gallen"
 trade_goods = livestock

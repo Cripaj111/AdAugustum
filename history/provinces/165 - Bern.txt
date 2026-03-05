@@ -2,7 +2,7 @@
 
 owner = I60
 controller = I60
-culture = saxon
+culture = swabian
 religion = catholic
 capital = "Bern"
 trade_goods = iron

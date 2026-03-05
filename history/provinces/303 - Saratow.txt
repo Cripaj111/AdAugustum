@@ -2,7 +2,7 @@
 
 owner = S04
 controller = S04  
-culture = turkish
+culture = volga_bulgar
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 4

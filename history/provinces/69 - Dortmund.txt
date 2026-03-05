@@ -1,5 +1,5 @@
 # 69 - Dortmund
-culture = saxon
+culture = westphalian
 owner = I38
 controller = I38
 add_core = I38

@@ -3,7 +3,7 @@
 owner = I22
 controller = I22
 add_core = I22
-culture = saxon
+culture = ostphalian
 religion = catholic
 hre = yes
 base_tax = 4

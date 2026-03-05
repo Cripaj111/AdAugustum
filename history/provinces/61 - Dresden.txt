@@ -2,7 +2,7 @@
 
 owner = I19
 controller = I19
-culture = saxon
+culture = ostphalian
 religion = catholic
 capital = "Meissen"
 trade_goods = iron

@@ -2,7 +2,7 @@
 
 owner = L07
 controller = L07
-culture = bedouin_arabic
+culture = beduin
 religion = sunni
 capital = "Tadmuriyah"
 trade_goods = livestock

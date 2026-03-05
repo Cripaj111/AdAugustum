@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = tribal_federation
 technology_group = muslim
-primary_culture = gulf_arabic
+primary_culture = haasan
 religion = shiite
 capital = 394 #el-catif

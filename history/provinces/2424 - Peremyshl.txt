@@ -2,7 +2,7 @@
 
 owner = H28
 controller = H28
-culture = ruthenian
+culture = lendian
 religion = slavic
 hre = no
 base_tax = 3

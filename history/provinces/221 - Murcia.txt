@@ -3,7 +3,7 @@
 owner = H10
 controller = H10
 add_core = H10
-culture = andalucian
+culture = murcian
 religion = catholic 
 hre = no
 base_tax = 4

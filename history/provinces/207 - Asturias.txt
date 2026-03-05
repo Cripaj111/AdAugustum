@@ -8,7 +8,7 @@ owner = H07
 controller = H07
 add_core = H07
 
-culture = castilian
+culture = asturian
 religion = catholic
 hre = no
 base_tax = 4

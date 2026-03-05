@@ -2,7 +2,7 @@
 
 owner = H02
 controller = H02
-culture = neapolitan 
+culture = ostrogothic
 religion = catholic 
 hre = no 
 base_tax = 8

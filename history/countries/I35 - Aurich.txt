@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = western
-primary_culture = saxon
+primary_culture = frisian
 elector = yes
 religion = catholic
 capital = 1931 #east frisia

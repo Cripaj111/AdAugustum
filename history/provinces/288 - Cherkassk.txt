@@ -2,7 +2,7 @@
 
 owner = S02
 controller = S02
-culture = kazakh
+culture = sarmatian
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 3

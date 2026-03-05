@@ -3,7 +3,7 @@
 owner = I32
 controller = I32
 add_core = I32
-culture = saxon
+culture = ostphalian
 religion = catholic
 hre = yes
 base_tax = 5

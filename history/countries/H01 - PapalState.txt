@@ -7,8 +7,7 @@ capital = 114 #Ravenna
 
 1444.1.1 = {
     monarch = {
-        name = "Peter"
-        dynasty = "Piccolomini"
+        name = "Simon"
         adm = 3
         dip = 1
         mil = 1

@@ -2,7 +2,7 @@
 
 owner = I35
 controller = I35
-culture = saxon
+culture = frisian
 religion = catholic
 capital = "Aurich"
 trade_goods = salt

@@ -2,6 +2,6 @@ government = monarchy
 add_government_reform = feudalism_reform
 technology_group = western
 elector = yes
-primary_culture = english
+primary_culture = anglosaxon
 religion = catholic
 capital = 238 #essex

@@ -2,7 +2,7 @@
 
 owner = H24
 controller = H24
-culture = polish
+culture = polan
 religion = slavic
 capital = "Gniezno"
 trade_goods = cloth

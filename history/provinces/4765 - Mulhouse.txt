@@ -1,10 +1,10 @@
-# 4765 - Mulhouse. Primary city: M�lhausen
+# 4765 - Mulhouse. Primary city: M lhausen
 
 owner = I61
 controller = I61
-capital = "M�lhausen"
+capital = "M lhausen"
 is_city = yes
-culture = saxon
+culture = swabian
 religion = catholic
 hre = yes
 base_tax = 3 

@@ -2,7 +2,7 @@
 
 owner = H26
 controller = H26
-culture = lithuanian
+culture = samogitian
 religion = norse_pagan_reformed
 capital = "Varniai"
 trade_goods = livestock

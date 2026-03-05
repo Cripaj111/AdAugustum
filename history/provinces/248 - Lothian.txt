@@ -2,7 +2,7 @@
 
 owner = P09
 controller = P09
-culture = scottish
+culture = pictish
 religion = catholic
 hre = no
 base_tax = 6

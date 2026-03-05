@@ -2,9 +2,9 @@
 
 owner = A05
 controller = A05
-culture = greek
+culture = cyreneic
 religion = orthodox
-capital = "Bardiyah"
+capital = "Cyrene"
 trade_goods = livestock
 hre = no
 base_tax = 1 

@@ -2,7 +2,7 @@
 
 owner = L09
 controller = L09
-culture = gulf_arabic
+culture = haasan
 religion = shiite
 capital = "Al-Qatif"
 trade_goods = fish

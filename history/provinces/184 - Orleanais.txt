@@ -1,10 +1,10 @@
-# 184 Orl�annais + Blois - Principal cities: Orl�ans
+# 184 Orl annais + Blois - Principal cities: Orl ans
 
 owner = I12
 controller = I12
-capital = "Orl�ans"
+capital = "Orl ans"
 is_city = yes
-culture = cosmopolitan_french
+culture = neustrian
 religion = catholic
 hre = yes
 base_tax = 6

@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
 technology_group = western
-primary_culture = berber
+primary_culture = rizzan
 religion = catholic
 capital = 4567 #Sabha
 

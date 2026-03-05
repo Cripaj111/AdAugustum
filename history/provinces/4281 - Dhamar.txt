@@ -2,7 +2,7 @@
 
 owner = L12
 controller = L12
-culture = yemeni_culture
+culture = yemeni
 religion = jewish
 capital = "Dhamar"
 trade_goods = livestock

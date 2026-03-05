@@ -2,7 +2,7 @@
 
 owner = S05
 controller = S05
-culture = kazakh
+culture = uzbehk
 religion = tengri_pagan_reformed
 capital = "Saraychik"
 trade_goods = salt

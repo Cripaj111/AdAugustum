@@ -2,7 +2,7 @@
 
 owner = P06
 controller = P06
-culture = cornish
+culture = welsh
 religion = catholic
 hre = no
 base_tax = 1

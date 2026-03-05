@@ -2,7 +2,7 @@
 
 owner = L06
 controller = L06
-culture = turkish
+culture = oghuz
 religion = tengri
 capital = "Shamakhi"
 trade_goods = wool

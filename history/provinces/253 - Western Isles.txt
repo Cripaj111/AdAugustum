@@ -2,7 +2,7 @@
 
 owner = P10
 controller = P10
-culture = highland_scottish
+culture = norvegian
 religion = norse_pagan_reformed
 hre = no
 base_tax = 1 

@@ -2,7 +2,7 @@
 
 owner = I31
 controller = I31
-culture = saxon
+culture = westphalian
 religion = catholic
 capital = "Hannover"
 trade_goods = cloth

@@ -1,6 +1,6 @@
 owner = I44
 controller = I44
-culture = saxon
+culture = austrasian
 religion = catholic
 trade_goods = grain
 capital = "Trier"

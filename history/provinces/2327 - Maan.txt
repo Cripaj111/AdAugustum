@@ -2,7 +2,7 @@
 
 owner = L08
 controller = L08
-culture = bedouin_arabic
+culture = beduin
 religion = sunni
 capital = "Maan"
 trade_goods = livestock

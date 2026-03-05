@@ -2,7 +2,7 @@
 
 owner = A04
 controller = A04
-culture = greek
+culture = ptolemeic
 religion = orthodox
 capital = "Alexandreia"
 trade_goods = spices

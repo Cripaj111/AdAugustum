@@ -2,7 +2,7 @@
 
 owner = I30
 controller = I30
-culture = saxon
+culture = westphalian
 religion = catholic
 capital = "Bremen"
 trade_goods = fish

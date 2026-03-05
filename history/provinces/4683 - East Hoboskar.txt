@@ -1,7 +1,7 @@
 owner = S06
 controller = S06
 add_core = S06
-culture = kazakh
+culture = khalkha
 religion = tengri_pagan_reformed
 capital = "Altay"
 trade_goods = livestock

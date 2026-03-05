@@ -2,7 +2,7 @@
 
 owner = A02
 controller = A02
-culture = tunisian
+culture = carthaginian
 religion = catholic
 capital = "Carthage"
 trade_goods = salt

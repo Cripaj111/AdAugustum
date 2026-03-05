@@ -2,7 +2,7 @@
 
 owner = I34
 controller = I34
-culture = saxon
+culture = westphalian
 religion = catholic
 capital = "Hoya"
 trade_goods = livestock

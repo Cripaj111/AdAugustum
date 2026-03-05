@@ -2,7 +2,7 @@
 
 owner = J02
 controller = J02
-culture = dalmatian
+culture = illyrian
 religion = catholic
 capital = "Rijeka"
 trade_goods = cloth

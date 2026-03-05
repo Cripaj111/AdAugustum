@@ -379,6 +379,9 @@ latin = {
     catalonian = {
         primary = H12
     }
+	longobard = {
+		primary = H05
+	}
     male_names = {
 		Abbondanzio Abbondio Abelardo Abelino Achille Adalberto Adelfo Adelmio Adelmo Adone 
 		Agapito Agostino Aimone Alamanno Alarico Adriano
@@ -881,8 +884,8 @@ berberic = {
 		Almoravid Almohad Zirid Hammadid Marinid Barghawata Malgon Tauron
 		}
     moorish = {
-	primary = A01
-    }
+		primary = A01
+    	}
     moroccan = {
 
     }
@@ -934,9 +937,10 @@ semitic = {
 arabian = {
 	graphical_culture = muslimgfx
     beduin = {
-
+		primary = L07
     }
     hejazi = {
+		primary = L11 
 		dynasty_names = {
 			Khayratid "Al Abu Risha" Hawashim Husaynid Makramid Suleymanid "al-Mughaydi" Hasanid "Banu Mughayd" "Rufayda"
 		}
@@ -961,9 +965,10 @@ arabian = {
 
     }
     haasan = {
-
+		primary = L09
     }
     omani = {
+		primary = L10
 		dynasty_names = {
 			"Tahiride" "Jabrid" "al-Qasimi"
 			"Nabhani" "Yaruba" "Usfurid" "Jarwanid" "Hashim"
@@ -1087,6 +1092,7 @@ western_slavic = {
 		Mlada Olga Perchta Pribyslava Richeza Skonka Stanislava Svatava Helen
  		Vilemina Viola Yolanda Vladislava Vojslava Zdislava Zdenka Zofie Sophia
 	}
+	}
     slovakian = {
 		male_names = {
 			Matej Jan Lukas Stefan Pavol Peter Juraj Jozef Marek Daniel Moric Samuel Martin Ondrej Anton Karol
@@ -1192,24 +1198,23 @@ western_slavic = {
 			Ostrogski Ostror g Pac Sapieha Sanguszko Tarnowski Teczynski
 			Tyszkiewicz Kurnatowski Taczanowski Gosiewski Opalinski
 		}
-    }
 }
 eastern_slavic = {
     kievan = {
-			Ivan Dmitriy Yuriy Andrei Semen Boris Fyodor Oleg Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy 
+			male_names = {Ivan Dmitriy Yuriy Andrei Semen Boris Fyodor Oleg Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy 
 			Dorofey Feodosiy Feofilakt Gavriil Innokentiy Iosif Lavrentiy Makariy Matveiy Mikhail Nazariy 
 			Onisim Pavel Prokopiy Pyotr Radomir Saveliy Sergei Terentiy Valeriy Yakim Yevgeniy Yaroslav Yaropolk 
 			Vyacheslav Vsevolod Igor Izyaslav Rostislav Vladimir Mstislav Gleb Roman Ryurik Svyatoslav Ingvar 	
 			Stanislav Daniil Nikifor Jeremi Jarema 
-		}
+			}
+		
 		female_names = {
 			Gavriila Larisa Aleksandra Alla Bronislava Svetlana Yuliya Yaroslava Vladislava Lyudmila Nadejda Rostislava
 		}
 		dynasty_names = {
 			Wisniowiecki Korybut
-		}
-
-    
+		}  
+	} 
     chernichov = {
 		male_names = {
 			Andreiev Bogolubec Danili Danill
@@ -1282,7 +1287,6 @@ eastern_slavic = {
 		Lyubech Roslavsky Turov
 	}
 	male_names = {
-		# ILMENIAN / SEVERIAN / VOLHYNIAN
 		Briachislav Bretislaus Demid Dobrynia Fedot Theodat Gleb Igor Iliya Iziaslav Lev Leo Mitrofan 
 		Mstislav Mstislav Svetozar
 		Nikita Putiata Rodislav Rogvolod Rostislav Ruslan Stanislav Stanislav Sudislav 
@@ -1291,7 +1295,6 @@ eastern_slavic = {
 		Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Jaroslav Yefimiy Yelisey Yeremey Yevstafiy
 	}
 	female_names = {
-		# ILMENIAN / SEVERIAN / VOLHYNIAN
 		Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Euphemia Yefrosinia Euphrosyne Fevronia 
 		Gorislava Gradislava Gremislava
 		Liubava Liudmila Malfrida Malusha Maria Maria Marina Olena Helen Olga Pereyaslava Praskovya 
@@ -1383,6 +1386,7 @@ carpathian = {
 norman = {
 	graphical_culture = westerngfx
     danish = {
+		primary = P14
 		male_names = {
 				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj rn Arngrimr Arni Arne Arnfast 
 				Asbj rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjorn Beorn Bo Borkvard 
@@ -1426,6 +1430,7 @@ norman = {
 		}
     }
     swedish = {
+		primary =
     }
     norvegian = {
 		male_names = {
@@ -2234,7 +2239,7 @@ altaic = {
 		}
 	}
 	khalkha = {
-		primary = S07
+		primary = S06
 		male_names = {
 			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligt  Dayan 
 			Delbeg Ejei Elbeg Engke G y k G n Gulichi Irinchibal Jorightu Kublai K ke Ligdan Mark rgis M ngke 
@@ -2258,7 +2263,7 @@ altaic = {
 		}
 	}
 	uzbehk = {
-		primary = S06
+		primary = S05
 		male_names = {
 			Abdul-Aziz Abdul-Karim Abdul-Mumin Abdul-Rahim Abdulla Abu Said Abu'l-Feiz Abu'l-Ghazi Abu'l-Khayr 
 			Abu'l-Mansur Agatay Alim Anusha Arab Muhammad Avanesh Bahadur Bakht Baqi Muhammad Budjuga Bureke 
@@ -2307,6 +2312,119 @@ altaic = {
 			Sakina Tem len B rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene "Fatima" "Ibtisam" "Jalila" "Janan" 
 			"Layla" "Sakina" "Sharifa"
+		}
+	}
+}
+mountain_people = {
+	graphical_culture = westerngfx
+
+	albanian = {
+		male_names = {
+			Gjergj Leko Gjon Kostandin Lulizim Pal Tanush Aleksander Karolus Filippo Adnan Agim Bashkim Besnik 
+			Dardan Dhurim Dritoro Elidon Erjon Fatmir Flamur Florin Hekuran Ilir Ismail Klodian Luigj Milaim 
+			Pashko Pullumb Parparim Pjeter Rrok Shpotim Tahir Viktor Xhevat Ylli Zenel Halil Ali Mustafa Qemal 
+			Mehmet Ramiz Edi Demaci Edon Dukagjin Haxhi Lishandri Mensur Kreshnik Rahman Nxhiku Riza Rexhep 
+			Sulejman Selim Sadik Bujar Nikolla Enver Ramadan
+		}
+		female_names = {
+			Gjylo Afordita Blerta Bora Dafina Dardana Era Fatmire Flutura Gentiana Jehona Lindita Lule Luljeta Pranvera Shpresa 
+			Shqipe Teuta Venera Vera Vesa Yllka
+		}
+	
+		dynasty_names = { 
+			"Trpimirovic" "Svetoslavic" "Kosovic" "Kresimirovic" "Zrinski" "Domagojevic" "Hrvatinic" "Kotromanic" "Brankovic" "Lazarevic" "Ibrahimovic"
+		}
+	}
+	basque = {
+		dynasty_names = {
+			"de Navarra" "de Beaumont" "de Ler�n" "de Monteagudo" Escors 
+			"de Haro"
+		}
+		male_names = {
+			Enrique Carlos Francisco Juan Luis Gaston Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
+			Martin Sancho Garcia Felipe Teobaldo Alfonso Agustin Alejandro Alvaro Andres Antonio Bernardo Cesar 
+			Cristobal Diego Esteban Fernando Gaspar Jose Melchor Nicolas Siman Leonel
+			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
+			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
+			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
+			Lope Lupo Luis Louis Manrike Amalric Martin Martin Munio Munio Nuio Nuno Obeko Obeko Ordo�o 
+			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
+			Zentulo Centule Ladron Ferdinand Bernart
+		}
+		female_names = {
+			Juana Catalina Leonor Blanca
+			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Berengaria Blanka 
+			Blanche Elbira Elvira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia Constance 
+			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nuia Oneka Oneka Oria Plazentzia 
+			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
+		}
+	}
+	goralen = {
+
+	}
+}
+caucasian = {
+	graphical_culture = easterngfx
+	georgian = {
+		primary = L04
+
+		dynasty_names = { 
+			Bagrationi Mukhrani
+			"Javakhishvili" "Jaqeli" "Sologashvili" "Tavdgiridze" "Vakhvakhishvili" 
+			"Andronikashvili" "Gurieli" "Machabeli" "Abazasdze" "Zevdginidze" "Amirejibi" "Abuladze" 
+			"Chkhetidze" "Gelovani" "Panaskerteli" "Agiashvili" "Chavchavadze" 
+			"Cholokashvili" "Diasamidze" "Shildisani" "Iashvili" "Anchabadze"
+			"Orbeliani" "Japaridze" "Jorjadze"
+			"Kakhaberisdze" "Kherkheulidze" "Khimshiashvili" "Shervashidze" "Dadiani" 
+			"Kobulashvili" "Lortkipanidze" "Machutadze" "Mikeladze" "Mkhetsidze" "Palavandishvili"
+		}
+		male_names = {
+			Giorgi David Vakhtang Bagrat Alexander Erekle Konstantine Luarsab Simon Teimuraz Archil Bakar Iesse 
+			Kaihosro Rostom-Mirza Levan Demetre Stefanoz Anzori Bebur Birtveli Djurkha Gulikho Kartlos Koki 
+			Lukhum Malkhazi Mushni Okhropir Orbeli Revaz Takha Torgva Tornike Tsotne Xareba Zviadi
+			Adarnase Atrnerseh Aghsartan Aleksandre Alexander Andronik Andronicus Anzori Archili Ashot 
+			Ashot Bagrat Bakur Bagour Davit David Demetre Demetrius Demna Djavakhi Erekle Heracles 
+			Gabriel Gagiki Gagik Giorgi George Grigoli Gregory Guaram Guaram Gubaz Kviria
+			Gurgen Lupo Iese Ioane John Ishkhanik Ishkhan Iveri Jarji Kaikhosro Keykhosrau Kakhi Koba 
+			Konstantine Constantine Kvarkvare Kvirike Levan Leo Luarsab Malkhazi Malkhas Mamia Merab 
+			Mikheil Michael Mukhran Nerse Narses Nikoloz Nicholas Okhropir Orbeli Gabrieli
+			Padla Samoeli Samuel Shanshe Shahanshah Shota Simon Simon Stepanoz Stephen Sumbat Smbat 
+			Teimuraz Teimuraz Tornike Tornik Ushisha Vache Vakhtang Vakhtank Zurab Zviad
+		}
+		female_names = {
+			Ana Anna Baia Bedisa Borena Chiora Chito Dali Dedika Duda Dzabuli Elene Helen Eliso Endzela 
+			Gogutsa Gulchara Guliko Gulisa Gulvardi Guranduht Gorandukht Gvantsa Ia Judjuna Thamar
+			Kekela Ketevan Catherine Lamara Lamzira Lela Mariami Mariam Mathiko Mthvarisa Mzekhar Natia 
+			Nino Rusudan Sanatha Shorena Shukhia Suliko
+			Tamari Tamar Taplo Tinatini Tsiala Vardo
+		}
+	}
+	armenian = {
+		primary = L03
+		dynasty_names = { 
+			Bagratuni Rubenid Pahlavuni
+			Tumanishvili Abamelik Amatuni "Argutinsky-Dolgorukov" Bebutov "Hasan-Jalalyan" Khojaminasishvili
+			Melikov Orbelid 
+			"Bagdazarian" "Melik-Avanyan" 
+		}
+		male_names = {
+			David Mkhitar Ashot Gagik Smbat Abbas Hovhannes Smbat Vagram Musegh Sahak Tachar Arakel Ari Armen 
+			Arshavir Avedis Badouagan Bedros Berjouhi Boghos Ghoukas Hagop Haig Hovhannes Hovsep Jirair Kapriel 
+			Kevork Khajag Krikor Levon Movses Nairi Sevan Taniel Vahan Zadig Zoravan
+			Abas Abirad Aboughamr Aboulgharib Aleksandr Alexander Artashes Artashir Ardeshir Artavazd Arsen 
+			Arshak Ashot Ashot Athom Atrnerseh Atrnerseh Avag Avedis Bagour Bagour Bagrat Bedros Peter 
+			Boghos Paul Davit David Eshkhan Gagik Gagik Gevorg George Karayan
+			Gosdantin Constantine Grigor Gregory Gurgen Lupo Hagop Hamazasp Hethum Hovhannes John Hovsep 
+			Joseph Ishkhan Ishkhan Ivane Kapriel Gabriel Khachik Khosrov Khosrau Levon Leo Malkhas Malkhas 
+			Mamigon Manuel Manuel Margos Marcus Melek Mihrdat Mithridates Mikayel Michael Mleh Mushegh 
+			Mushel Mzhezh Nerseh Narses Oshin Roupen Reuben Sahag Isaac Sarkis Sergius Sevag Shahanshah 
+		}
+		female_names = {
+			Aghavni Alitz Alice Almasd Anahid Anna Anna Anoush Arda Arevig Arin Baydzar Berjanoush Berjouhi 
+			Datevig Dalita Eliz Eloise Gadar Gorandoukht Gorandukht Hasmig Houri Hranoush Hripsimeh 		
+			Keghanoush Keran Khorishah Kohar Latavri Leyli Lousin Mara Margarid Margaret Maria Maria 
+			Mariyam Mariam Meghranoush Nane Nazani Ovsanna Pounig Razmouhi Rita Satenik Satinik Seta Siran 
+			Sirvart Srpouhi Shoushanig Takouhi Tamar Tamar Vartanoush Vartouhi Vosgi Yeva Zabel Elizabeth 
 		}
 	}
 }

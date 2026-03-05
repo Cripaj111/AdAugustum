@@ -1,7 +1,7 @@
 #1861 - Derby
 owner = P02
 controller = P02
-culture = english
+culture = anglosaxon
 religion = catholic
 hre = yes
 base_tax = 2
