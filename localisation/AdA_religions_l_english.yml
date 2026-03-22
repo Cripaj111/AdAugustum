@@ -1,4 +1,12 @@
 ﻿l_english: 
 
  nestorian:0 "Nestorian"
- nestorian_desc:0 "Tutaj bedzie cos o nestorze i sw mikolaju"
+ nestorian_religion_desc:0 ""
+
+ icon_narsai:0 "Saint Mar Narsai of Babylon"
+ icon_shirin:0 "Saint Shirin  of Ktesyphont"
+ icon_augin:0 "Saint Mar Augin of Niniwa"
+ icon_yohannah:0 "Saint Yohannah of Samarkand"
+ icon_sergius:0 "Saint Sergius of Merv"
+ icon_alopen:0 "Saint Alopen of Chang'an"
+ icon_qadisha:0 "Saint Qadisha of Babylon"

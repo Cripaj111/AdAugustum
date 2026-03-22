@@ -1,0 +1,23 @@
+# - Urgell
+
+owner = H12		#Alfons V of Aragon
+controller = H12
+add_core = H12
+culture = catalonian
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wool 
+base_manpower = 3
+capital = "Tàrrega" 
+is_city = yes 
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+

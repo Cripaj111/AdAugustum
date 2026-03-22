@@ -3,7 +3,7 @@
 owner = P12
 controller = P12
 culture = irish
-religion = catholic
+religion = celtic
 hre = no
 base_tax = 3
 base_production = 3

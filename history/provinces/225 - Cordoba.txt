@@ -1,0 +1,21 @@
+#225 - Córdoba
+
+owner = A01		
+controller = A01
+add_core = A01
+culture = moorish
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+capital = "Córdoba" 
+fort_15th = yes
+is_city = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+

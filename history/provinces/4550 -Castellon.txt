@@ -1,0 +1,23 @@
+#1750 - Castellon
+
+owner = H09		#Martí I of Aragon
+controller = H09
+add_core = H09
+culture = murcian
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = grain
+base_manpower = 3 
+capital = "Castellon" 
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+

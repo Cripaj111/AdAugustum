@@ -1,5 +1,5 @@
 #Chagatay
-graphical_culture = nomadgfx
+graphical_culture = asiangfx
 
 color = { 37 37 37 }
 

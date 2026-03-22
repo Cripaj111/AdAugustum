@@ -3,7 +3,7 @@
 owner = P07
 controller = P07
 culture = welsh
-religion = catholic
+religion = celtic
 hre = no
 base_tax = 2 
 base_production = 2

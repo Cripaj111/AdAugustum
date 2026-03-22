@@ -1,0 +1,22 @@
+#44 - Hamburg
+
+owner = I20
+controller = I20
+add_core = I20
+culture = westphalian
+religion = catholic
+hre = yes
+base_tax = 7
+base_production = 7
+trade_goods = fish
+base_manpower = 5
+fort_15th = yes
+capital = "Hamburg"
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

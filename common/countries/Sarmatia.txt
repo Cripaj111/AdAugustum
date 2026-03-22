@@ -1,5 +1,5 @@
 #Sarmatia
-graphical_culture = nomadgfx
+graphical_culture = asiangfx
 
 color = { 82 82 82 }
 

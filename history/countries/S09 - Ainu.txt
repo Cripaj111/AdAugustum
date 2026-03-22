@@ -3,5 +3,5 @@ add_government_reform = feudalism_reform
 technology_group = chinese
 religion = animism
 primary_culture = ainu
-religion = tengri
+religion = tengri_pagan_reformed
 capital = 1847 #Shiribeshi

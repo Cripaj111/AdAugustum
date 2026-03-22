@@ -1028,7 +1028,7 @@ western_slavic = {
 			Wjaclaw Wylem
 		}
 		female_names = {
-			Bogna Benedikta Hanka Inga Irmgard Jewa Lubina Ludmila Marja Marta Marjana Pawlina R za Sofija
+			Bogna Benedikta Hanka Inga Irmgard Jewa Lubina Ludmila Marja Marta Marjana Pawlina Roza Sofija
 		}
 		dynasty_names = {
 			Brosk "z Barenstamma" Buk Bronisz Czornak Cyzh Dejka "z Friedenfelsa"
@@ -1056,7 +1056,20 @@ western_slavic = {
     }
     polan = {
 		primary = H24
-    }
+
+		dynasty_names = {
+			Kopaniewski Kuras
+		}
+
+		male_names = {
+			Iktor
+		}
+	}
+	belarusian = {
+
+	}
+	
+    
     czech = {
 		primary = H20
 		dynasty_names = {
@@ -1065,7 +1078,7 @@ western_slavic = {
 		Premyslovci Podebrad 
 		# CKII
 		"Jankovsk  z Vladimi" Chotek Lichnowsky Szwejk
-		"Kounic" "Votkovec" "Zerot n" "Czernin" "von Harrach"
+		"Kounic" "Votkovec" "Zeroten" "Czernin" "von Harrach"
 		}
 		male_names = {
 		# BOHEMIAN 
@@ -1303,6 +1316,23 @@ eastern_slavic = {
 		Veleslava Verkhoslava Vasilisa
 		Vseslava Viacheslava Yaroslava Zabava Zvenislava 
 	}
+
+	pskovian = {
+
+	}
+
+
+	moscovitian = {
+
+	}
+
+	suzdalan = {
+
+	}
+
+	novogrodian = {
+
+	}
 }
 carpathian = {
 	graphical_culture = easterngfx
@@ -1430,9 +1460,11 @@ norman = {
 		}
     }
     swedish = {
-		primary =
+		primary = P17
     }
     norvegian = {
+
+		primary = P16
 		male_names = {
 				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjorn Arngrimr Arni Arne Arnfast 
 				Asbj rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjorn Beorn Boi Borkvard 
@@ -1475,7 +1507,7 @@ norman = {
 			"Vedel" "Bjelke" "Galle" "Griis"
 		}
     }
-    icelandic = {
+    scotoicelandic = {
 		male_names = {
 			Andreas Arnaldur Arnmundur Ari Axel Baldur Bjargmundur Bernhard Benedikt Brynjar Carl Cecil Christian Christopher Cyrus 
 			Daggeir Daniel Dvalinn Draupnir Dufgus Egill Erlendur Esra Eymundur Eyvindur Fenrir 
@@ -1570,10 +1602,93 @@ ugric = {
 
     }
 
-	dynast_names = {
+	dynasty_names = {
 		Silmäkulmassa Klamydia "Af Hallstorm" "De la Motte" Kurck Vasaborg Baalaatics Noueva Hadoga Ranta
 
 	}
+}
+
+slavonorman = {
+	graphical_culture = esterngfx
+	male_names = {
+			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj rn Arngrimr Arni Arne Arnfast 
+			Asbj rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjorn Beorn Bo Borkvard 
+			Botulfr Bragi Brage Bu li Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik 
+			Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke 
+			Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Gu mundr 
+			Gudmund Gudred Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming 
+			Holmger Hrafn Hrolfr Rolf Hrane H steinn Hjalmar Hysing 
+			Ingolfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund 
+			Kjartan Klas Knut Kol Kolbjurn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr 
+			Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rignvaldr 
+			Ragnvald Skuli Skule Snorri Sigbjorn Sigtrygg Sigurer Sigurd Starkad Steinn Sten 
+			Sturla Styrbj rn Styrkar Somerled Suni Sune Sveinn Sven Sverker Smunder Simund 
+			Slavi Salve Surkver Tjudmund Toke Tolir  Torbjorn Torbjern  Gorfinn Torfinn  Torbrandr Torbrand 
+			Fiordr Tord  Oorgil Torkel  orsteinn Torsten  Aorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf 
+			Vagn Valdemar Vladimir Ike Yngvar Ingvar Ervar Orvar  ysteinn Eysteinn Hakon Harkon Olav 
+			Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjern Daniel Edvard Eilert Elias Esben 
+			Kasper Kennet Knut Ludvig Mikael Njald Njord Oddmund Peder Rikard Simon Seren Tollak
+		}
+	female_names = {
+			Torhild Aleta Alfhildr Alfhild Alfridh Alver Anna Asa Osa Aslaug Asta Astrid Beata 
+			Birgitta Brigid Bjorg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja 	
+			Grima Gunnhildr Gunhild Gurli Gudrun Gyla Gytha Hafrid Halla Helena 
+			Helen Holmfrid Iliana Inga Ingfrid Ingibjerg Ingeborg Ingjerer Ingegerd Ingrid Karin 
+			Katarina Catherine Kraka Kristina Christina Linda Maer Malmfri  Malmfrid Margareta Margaret 
+			Maria Rikissa Regnfrid Ragnfrid Rognhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia 
+			Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa Tora Thora  Nordis Thordis Fyra 
+			Thyra
+		}
+	dynasty_names = {
+			"Horfagre tta" "Bielke" "Bildt" "Galte" "Paus" "Smor" "Benkestok" "Kane" "Bonde"
+			"Drake" "av Hafrsfjord" "Ytra" "av Ask " "Koss" "av Rera" "av Nordland" "Hylling"
+			"Alfr" "Herja" "Vans " "Flod" "af Vendel" "av Alfheim" Vidfamne "Bille"
+			"Iuel" "Kaas" "Rosenkrantz" "Urne" "Adeler" "Blixenskiold" "Gyldenpalm" "Holberg"
+			"Rosenheim" "Schouboe" "Tordenskiold" "Wessel" "Westervick" "Falsen" "Knagenhjelm"
+			"Galtung" "Heubsch" "Klucker" "Levenskiold" "Rosenvinge" "Werenskiold" "Kruckow"
+			"Mowat" "Romer" "Handingmann" "Skaktavl" "Tordenstierne" Roos 
+			# CKII
+			"Skanke" "Bolt" "Giske" "Brockenhuus" "Adelswerd" "Kane" "Blixen" "Levendal" "Balke"
+			"Vedel" "Bjelke" "Galle" "Griis"
+		}
+
+	pruthenionorman = {
+
+
+	}	
+
+	latvionorman = {
+
+	}
+
+	samogitionorman = {
+
+	}
+
+	kievonorman = {
+
+	}
+
+	lendianonorman = {
+
+	}
+
+	polockonorman = {
+
+	}
+
+	moscovitonorman = {
+
+	}
+
+	suzdalonorman = {
+
+	}
+
+	novogrodonorman = {
+
+	}
+
 }
 baltic = {
 	graphical_culture = easterngfx
@@ -2337,7 +2452,7 @@ mountain_people = {
 	}
 	basque = {
 		dynasty_names = {
-			"de Navarra" "de Beaumont" "de Ler�n" "de Monteagudo" Escors 
+			"de Navarra" "de Beaumont" "de Ler n" "de Monteagudo" Escors 
 			"de Haro"
 		}
 		male_names = {
@@ -2347,7 +2462,7 @@ mountain_people = {
 			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
 			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
 			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
-			Lope Lupo Luis Louis Manrike Amalric Martin Martin Munio Munio Nuio Nuno Obeko Obeko Ordo�o 
+			Lope Lupo Luis Louis Manrike Amalric Martin Martin Munio Munio Nuio Nuno Obeko Obeko Ordo o 
 			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
 			Zentulo Centule Ladron Ferdinand Bernart
 		}

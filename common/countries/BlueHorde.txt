@@ -1,5 +1,5 @@
 #BlueHorde
-graphical_culture = nomadgfx
+graphical_culture = asiangfx
 
 color = { 116 173 209 }
 

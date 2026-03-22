@@ -1,0 +1,19 @@
+#4141 - Ditmarschen
+
+owner = I20
+controller = I20
+add_core = I20
+culture = westphalian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+capital = "Meldorf"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+

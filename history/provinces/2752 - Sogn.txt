@@ -1,0 +1,18 @@
+#Romsdal
+
+owner = P16
+controller = P16
+add_core = P16
+culture = norvegian
+religion = cnorse_pagan_reformed
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+is_city = yes
+capital = "Molde"
+discovered_by = western
+discovered_by = eastern
+
+

@@ -1,0 +1,19 @@
+# 93 Li�ge - Principal cities: Li�ge & Namur
+
+owner = I43
+controller = I43
+capital = "Li�ge"
+is_city = yes
+culture = austrasian
+religion = catholic
+hre = yes
+base_tax = 6 
+base_production = 6
+trade_goods = glass
+base_manpower = 3
+add_core = I43
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

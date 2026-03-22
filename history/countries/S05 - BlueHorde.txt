@@ -3,5 +3,5 @@ add_government_reform = steppe_horde
 technology_group = nomad_group
 religion = tengri_pagan_reformed
 primary_culture = uzbehk
-religion = tengri
+religion = tengri_pagan_reformed
 capital = 465 #nogai

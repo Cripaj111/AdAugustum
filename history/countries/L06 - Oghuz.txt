@@ -2,8 +2,8 @@ government = tribal
 government_rank = 1
 add_government_reform = tribal_federation
 technology_group = nomad_group
-culture = oghuz
-religion = tengri
+primary_culture = oghuz
+religion = tengri_pagan_reformed
 capital = 4299 #Shamakhi
 
 1444.1.1 = {

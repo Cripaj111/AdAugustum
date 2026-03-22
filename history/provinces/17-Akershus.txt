@@ -1,0 +1,19 @@
+#Akershus, incl. Oslo (Christiania), Tönsberg
+ 
+owner = P16
+controller = P16
+add_core = P16
+culture = norvegian
+religion = norse_pagan_reformed
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Oslo"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+extra_cost = 8
+center_of_trade = 1
+

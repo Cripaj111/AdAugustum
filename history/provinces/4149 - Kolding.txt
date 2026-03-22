@@ -1,0 +1,20 @@
+#Eastern Jutland, incl. Vejle, Skanderborg, Kolding, and Fredericia.
+
+owner = P15
+controller = P15
+add_core = P15
+culture = danish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 3
+capital = "Kolding"
+is_city = yes
+fort_15th = yes
+discovered_by = western
+discovered_by = eastern
+
+
+

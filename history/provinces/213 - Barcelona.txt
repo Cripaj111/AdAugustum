@@ -3,8 +3,7 @@
 owner = H12
 controller = H12
 add_core = H12
-add_core = CAT
-culture = catalan
+culture = catalonian
 religion = catholic
 hre = no
 base_tax = 6 

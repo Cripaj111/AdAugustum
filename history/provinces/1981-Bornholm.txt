@@ -1,0 +1,19 @@
+#Bornholm
+
+add_core = P14
+owner = P14
+controller = P14
+culture = danish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 2
+trade_goods = fish
+base_manpower = 2
+capital = "Ronne"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+
+
+

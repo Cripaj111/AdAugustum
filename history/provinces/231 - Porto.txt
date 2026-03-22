@@ -1,17 +1,17 @@
 #231 - Porto
 
-owner = H08
-controller = H08
-culture = portuguese
+owner = H07
+controller = H07
+culture = asturian
 religion = catholic
 capital = "Porto"
 trade_goods = wine
 hre = no
-base_tax = 7 
-base_production = 7
+base_tax = 6
+base_production = 8
 base_manpower = 5
 is_city = yes
-add_core = H08
+add_core = H07
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
@@ -22,5 +22,3 @@ center_of_trade = 1
 add_permanent_province_modifier = {
 	name = douro_estuary_modifier
 	duration = -1
-}
-

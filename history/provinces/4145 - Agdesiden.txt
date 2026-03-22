@@ -1,0 +1,17 @@
+#Agdesiden (incl Lister Len, Mandals Len, Nedenes len and Råbyggelaget len)
+
+owner = P16
+controller = P16
+add_core = P16
+culture = norvegian
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1
+base_production = 2
+trade_goods = iron
+base_manpower = 1
+capital = "Mandal"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+

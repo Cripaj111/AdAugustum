@@ -3,7 +3,7 @@
 owner = L06
 controller = L06
 culture = oghuz
-religion = tengri
+religion = tengri_pagan_reformed
 capital = "Shamakhi"
 trade_goods = wool
 hre = no

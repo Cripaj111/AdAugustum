@@ -1,0 +1,19 @@
+#139 - Hum
+
+owner = J03
+controller = J03
+culture = illyrian
+religion = catholic
+capital = "Mostar"	
+trade_goods = wool
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = J03
+add_core = J02
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,0 +1,6 @@
+government = republic
+add_government_reform = pirate_republic_reform
+technology_group = eastern
+primary_culture = sardinian
+religion = catholic
+capital = 333 #Maiorca

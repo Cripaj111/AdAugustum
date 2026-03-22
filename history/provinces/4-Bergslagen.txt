@@ -1,0 +1,18 @@
+#Bergslagen, contains Falun, Västerås etc.
+
+add_core = P17
+owner = P17
+controller = P17
+culture = swedish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 2 
+base_production = 3
+trade_goods = iron
+base_manpower = 2
+capital = "Västerås"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+
+

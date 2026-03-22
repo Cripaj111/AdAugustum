@@ -1,0 +1,6 @@
+government = republic
+add_government_reform = peasants_republic
+technology_group = eastern
+primary_culture = romagnan
+religion = catholic
+capital = 119 #ancona

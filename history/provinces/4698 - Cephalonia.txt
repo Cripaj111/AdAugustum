@@ -1,0 +1,18 @@
+owner = L01
+controller = L01
+culture = albanian
+religion = orthodox
+capital = "Agios Georgios"
+trade_goods = wine
+hre = no
+base_tax = 2 
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core = L01
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

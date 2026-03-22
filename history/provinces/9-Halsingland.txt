@@ -1,0 +1,18 @@
+#Hälsingland-Gästrikland-Medelpad, from Gävle to Näs
+
+add_core = P17
+owner = P17
+controller = P17
+culture = swedish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 2 
+base_production = 2
+trade_goods = fish
+base_manpower = 1
+capital = "Gävle"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+
+

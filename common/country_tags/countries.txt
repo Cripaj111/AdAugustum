@@ -6,6 +6,7 @@ A02 = "countries/Carthage.txt"
 A03 = "countries/Rizzan.txt"
 A04 = "countries/Aegyptus.txt"
 A05 = "countries/Cyreneica.txt"
+A06 = "countries/Baleares.txt"
 
 ################################
 ##     MIDDLE EAST            ##
@@ -16,7 +17,6 @@ L03 = "countries/Armeniakon.txt"
 L04 = "countries/Georgia.txt"
 L05 = "countries/Cyprus.txt"
 L06 = "countries/Oghuz.txt"
-
 L07 = "countries/Fadl.txt"
 L08 = "countries/Ghassanids.txt"
 L09 = "countries/Gerrha.txt"
@@ -34,6 +34,8 @@ H04 = "countries/Transalpinia.txt"
 H05 = "countries/Longobard.txt"    
 H06 = "countries/Pisa.txt"
 H32 = "countries/Aquitaine.txt"
+H33 = "countries/RomanCommune.txt"
+H34 = "countries/Piedmont.txt"
 
 ################################
 ##        IBERIA              ##
@@ -136,6 +138,7 @@ I58 = "countries/Baden.txt"
 I59 = "countries/Ulm.txt"
 I60 = "countries/Bern.txt"
 I61 = "countries/Mullhouse.txt"
+I62 = "countries/Artois.txt"
 
 ###################################
 ##  BRITISH ISLES & NORMANS      ##

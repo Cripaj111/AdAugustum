@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 technology_group = eastern
 primary_culture = cyreneic
-religion = orthodox
+religion = catholic
 capital = 2326 #Bardiyah
 
 1444.1.1 = {

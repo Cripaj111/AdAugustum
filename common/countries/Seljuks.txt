@@ -1,5 +1,5 @@
 #Seljuks
-graphical_culture = nomadgfx
+graphical_culture = asiangfx
 
 color = { 70 47 152 }
 

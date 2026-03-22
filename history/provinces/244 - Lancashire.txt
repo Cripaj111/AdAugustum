@@ -1,0 +1,21 @@
+#244 - Lancashire
+
+owner = P08
+controller = P08
+culture = pictish
+religion = celtic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 3
+capital = "Lancaster"
+is_city = yes
+add_core = P08
+seat_in_parliament = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+

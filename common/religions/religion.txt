@@ -850,12 +850,191 @@ christian = {
 			trade_efficiency = 0.05
 		}
 		on_convert = {
-			add_prestige = conversion_zeal
+			add_prestige = -50
 			duration = 360
 		}
 		misguided_heretic = yes
 		heretic = { MIAPHYSITES MONOPHISTES }
 
+		has_patriarchs = yes
+		
+		orthodox_icons = {
+			icon_narsai = {
+
+				technology_cost = -0.05
+				idea_cost = -0.05
+				
+				allow = {
+					always = yes
+				}
+
+				visible = {
+					always = yes
+				}
+
+				ai_will_do = {
+					factor = 0.05
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+			
+			icon_shirin = {
+				global_monthly_devastation = -0.06
+				manpower_recovery_speed = 0.1
+				
+				allow = {
+					always = yes
+				}
+
+				visible = {
+					always = yes
+				}
+
+				ai_will_do = {
+					factor = 0.05
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+
+			icon_augin = {
+				global_missionary_strength = 0.02
+				prestige = 1
+				
+				allow = {
+					always = yes
+				}
+
+				visible = {
+					always = yes
+				}
+
+				ai_will_do = {
+					factor = 0.05
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+
+			icon_yohannah = {
+				caravan_power = 0.2
+				trade_efficiency = 0.1
+				
+				allow = {
+					always = yes
+				}
+
+				visible = {
+					always = yes
+				}
+
+				ai_will_do = {
+					factor = 0.05
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+
+			icon_sergius = {
+				development_cost = -0.1
+				build_cost = -0.1
+				
+				allow = {
+					always = yes
+				}
+
+				visible = {
+					always = yes
+				}
+
+				ai_will_do = {
+					factor = 0.05
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+
+			icon_alopen = {
+				improve_relation_modifier = 0.2
+				institution_spread_from_true_faith = 0.3
+				
+				allow = {
+					always = yes
+				}
+
+				visible = {
+					always = yes
+				}
+
+				ai_will_do = {
+					factor = 0.05
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+
+			icon_qadisha = {
+				global_unrest = -2
+				stability_cost_modifier = -0.2
+				
+				allow = {
+					always = yes
+				}
+
+				visible = {
+					always = yes
+				}
+
+				ai_will_do = {
+					factor = 0.05
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+		}
 
 	}
 	harmonized_modifier = harmonized_christian
@@ -2276,6 +2455,43 @@ pagan = {
 		
 		heretic = { SNAKE_CLAN }
 	}
+
+	celtic = {
+		color = { 9 59 10 }
+		icon = 31
+		country = {
+			land_morale = 0.1
+			loot_amount = 0.5
+		}
+		country_as_secondary = {
+			land_morale = 0.05
+			loot_amount = 0.25
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		
+		heretic = { MAGULON }
+	}
+
+	slavic = {
+		color = { 136 186 227 }
+		icon = 32
+		country = {
+			tolerance_own = 1
+			production_efficiency = 0.2
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			production_efficiency = 0.1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		
+		heretic = { MAKUMBA }
+	}
+
 	shamanism = { #Fetishism, tag kept to avoid breaking saves.
 		color = { 127 76 76 }
 		icon = 12

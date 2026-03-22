@@ -1,0 +1,19 @@
+#15 - Western Jutland, incl. Ribe and Ringkøbing
+
+owner = P15
+controller = P15
+add_core = P15
+culture = danish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = livestock
+base_manpower = 1
+capital = "Ribe"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+
+
+

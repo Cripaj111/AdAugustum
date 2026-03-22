@@ -1,0 +1,18 @@
+# 1742 - Upper Guelders
+
+owner = I23
+controller = I23
+add_core = I23
+is_city = yes
+capital = "Roermond"
+culture = austrasian
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = cloth
+base_manpower = 4
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,5 +1,5 @@
 #VolgaBulgars
-graphical_culture = nomadgfx
+graphical_culture = asiangfx
 
 color = { 140 107 177 }
 

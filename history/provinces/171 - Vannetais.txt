@@ -1,0 +1,18 @@
+# 171 - Vannetais
+
+owner = I01
+controller = I01 
+capital = "Vannes"
+is_city = yes
+culture = breton
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 5
+trade_goods = fish
+base_manpower = 4
+add_core = I01
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

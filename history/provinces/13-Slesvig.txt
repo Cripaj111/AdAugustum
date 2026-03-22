@@ -1,0 +1,18 @@
+#Sönderjylland-Slesvig, incl. Slesvig, Haderslev and Flensborg
+
+add_core = P15
+owner = P15
+controller = P15
+culture = danish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = livestock
+base_manpower = 3
+capital = "Slesvig"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+
+
