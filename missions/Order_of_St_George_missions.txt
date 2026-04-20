@@ -1,0 +1,330 @@
+P13_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		 tag = P13
+	}
+
+	P13_sword_of_christianity = {
+		icon = mission_livonian_knights
+		position = 1
+		required_missions = {  }
+		trigger = {
+			religious_unity = 1
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "P13_english_order_war_preparations"
+				duration = 5475 #15 years
+			}
+
+			northern_england_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			
+		}
+	}
+	P13_walian_claims = {
+		icon = mission_rb_rein_in_the_highland_clans
+		position = 2
+		required_missions = { P13_sword_of_christianity }
+	
+		trigger = {
+			northern_england_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			custom_trigger_tooltip = {
+        		tooltip = P13_walian_claims_tooltip
+        		calc_true_if = {
+           			any_ally = {
+                		AND = {
+                    	religion = catholic
+                    	capital_scope = {
+                    		region = britain_region
+                    		}
+                		}
+            		}
+        		}
+			}
+    	}		
+	
+
+		effect = {
+			wales_area = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+			}
+			240 = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+			}
+
+		}
+	}
+
+	P13_pagans_of_the_nort = {
+		icon = defenestrate_the_heretics
+		position = 3
+		required_missions = { P13_walian_claims }
+		provinces_to_highlight = {
+			area = wales_area
+			NOT = {
+				every_province = {
+				limit = {
+					area = wales_area
+					owner = {
+						religion = catholic
+						religious_unity = 0.75
+						}
+					}
+				}
+			}
+		}
+		trigger = {
+			every_province = {
+				limit = {
+					area = wales_area
+					owner = {
+						religion = catholic
+						religious_unity = 0.75
+							}
+						}
+					}
+		}
+		
+		effect = {
+			lowlands_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			250 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			4365 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+
+		}
+	}
+
+	P13_irish_pagans = {
+		icon = mission_rb_rule_britannia_irish_version
+		position = 4
+		required_missions = { P13_pagans_of_the_nort }
+		provinces_to_highlight = {
+			area = lowlands_area
+			province_id = 4365
+			province_id = 250
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			lowlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			250 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4365 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			ulster_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			leinster_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			connacht_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			munster_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+
+	P13_irish_lesson = {
+		icon = mission_have_two_subjects
+		position = 5
+		required_missions = { P13_irish_pagans }
+		provinces_to_highlight = {
+			area = ulster_area
+			area = munster_area
+			area = leinster_area
+			area = connacht_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		trigger = {
+			ulster_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			munster_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			leinster_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			connacht_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			country_event ={
+				id = P13_irish_lesson
+			}
+			
+		}
+		}
+	
+	}
+
+	
+}
+
+P13_2 ={
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		 tag = P13
+	}
+
+	P13_faund_the_academy = {
+		icon = bibliotheca_corviana 
+		position = 4
+		required_missions = { P13_generals_of_the_order P13_pagans_of_the_nort }
+		trigger = {
+			owns_core_province = 4365
+			4365 = { has_manpower_building_trigger = yes
+			development = 10
+			military_development = 5
+			}
+
+		}
+		effect = {
+			add_country_modifier = {
+				name = "P13_Military_Academy_basic_campus"
+			}
+			
+		}
+	}
+
+}
+
+
+P13_3 ={
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		 tag = P13
+	}
+
+	P13_generals_of_the_order = {
+		icon = mission_marines
+		position = 1
+		required_missions = {  }
+		trigger = {
+			num_of_generals = 2	
+			has_mil_advisor_2 = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = "P13_orders_generals"
+				duration = 7300 #20 years
+			}
+
+			add_army_tradition = { 
+				amount = 20 }
+			
+		}
+	}
+}
+

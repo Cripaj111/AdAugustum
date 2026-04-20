@@ -1,0 +1,20 @@
+#366 - The Canarias
+
+
+owner = A07
+controller = A07
+add_core = A07
+culture = moorish
+religion = catholic
+capital = "Las Palmas"
+trade_goods = clothes
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 0
+discovered_by = western
+
+

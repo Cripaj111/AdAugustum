@@ -6,7 +6,7 @@ A01_ideas = {
         years_of_nationalism = -10
     }
     bonus = {
-        discpline = 0.05
+        discipline = 0.05
     }
     trigger = {
         tag = A01

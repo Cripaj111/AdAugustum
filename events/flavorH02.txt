@@ -1,0 +1,83 @@
+country_event = {
+    id = flavor_h02.1
+    title = flavor_h02.1.t
+    desc = flavor_h02.1.d
+    picture = HRE_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = flavor_h02.1.a
+        hidden_effect = {
+            H02 = {
+                inherit = H01
+            }
+            every_owned_province = {
+                remove_core = H01
+            }
+        }
+        customtooltip = h02_relocate_the_papacy
+        118 = {
+            add_core = H01
+        }
+        release = H01
+        vassalize = H01
+    }
+
+}
+
+country_event = {
+    id = flavor_h02.2
+    title = flavor_h02.2.t
+    desc = flavor_h02.2.d
+    picture = ANGRY_MOB_eventPicture
+
+    is_triggered_only = yes
+    option = {
+        name = flavor_h02.2.a
+        every_owned_province = {
+            limit = {
+                culture = longobard
+            }
+            add_province_modifier = {
+                name = H02_old_grudge
+                duration = -1
+            }
+        }
+    }
+}
+
+country_event = {
+    id = flavor_h02.3
+    title = flavor_h02.3.t
+    desc = flavor_h02.3.d
+    picture = COURT_eventPicture
+    
+    is_triggered_only = yes
+     
+    option = {
+        name = flavor_h02.3.a
+        add_country_modifier = {
+            name = h02_legacy_fulfilled 
+            duration = -1
+        }
+    }
+
+}
+
+country_event = {
+    id = flavor_h02.4
+    title = flavor_h02.4.t 
+    desc = flavor_h02.4.d
+    picture = CONQUEST_eventPicture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = flavor_h02.4.a
+        add_country_modifier = {
+            name = h02_italian_shipyards
+            duration = -1
+        } 
+    }
+}

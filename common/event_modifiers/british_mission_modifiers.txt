@@ -1,0 +1,13 @@
+P13_english_order_war_preparations = {
+	land_morale = 0.05
+}
+
+P13_orders_generals = {
+	army_tradition_decay = -0.01
+}
+
+P13_Military_Academy_basic_campus = {
+	mil_tech_cost_modifier = -0.05
+	army_tradition_decay = -0.01
+}
+

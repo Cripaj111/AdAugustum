@@ -7,6 +7,7 @@ A03 = "countries/Rizzan.txt"
 A04 = "countries/Aegyptus.txt"
 A05 = "countries/Cyreneica.txt"
 A06 = "countries/Baleares.txt"
+A07 = "countries/CanarianPirates.txt"
 
 ################################
 ##     MIDDLE EAST            ##

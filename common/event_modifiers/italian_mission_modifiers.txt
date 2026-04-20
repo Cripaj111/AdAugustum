@@ -1,0 +1,42 @@
+###### BENEVENT ##########
+
+H02_settler_influx = {
+    development_cost = -0.1
+    build_cost = -0.1
+    production_efficiency = 0.1
+}
+H02_sword_for_barbarians = {
+    siege_ability = 0.1
+    land_morale = 0.1
+}
+
+H02_old_grudge = {
+    culture_conversion_cost = -0.5
+    culture_conversion_time = -0.25
+}
+
+h02_legacy_fulfilled = {
+    province_warscore_cost = -0.1
+    global_unrest = -1
+    years_of_nationalism = -5
+}
+
+h02_alpine_security = {
+    local_fort_maintenance_modifier = 0.2
+    local_defensiveness = 0.2
+}
+
+h02_gothic_navy = {
+    galley_power = 0.15
+    naval_morale = 0.1
+}
+
+h02_sardinian_judges = {
+    global_unrest = -1
+    global_tax_modifier = 0.1
+}
+
+h02_italian_shipyards = {
+    naval_tradition_from_battle = 0.1
+    global_ship_cost = 0.2
+}

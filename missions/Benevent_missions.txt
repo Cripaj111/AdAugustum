@@ -1,0 +1,484 @@
+ostrogoth_renesaince = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = H02
+	}
+
+	H02_embrace_reneisance = {
+		icon = bibliotheca_corviana
+		position = 2
+		required_missions = {  }
+		trigger = {
+			has_institution = renaissance 
+		}
+		effect = {
+			define_advisor = {
+				type = artist
+				cost_multiplier = 0.5
+				skill = 2
+			}
+
+		}
+	}
+	
+	H02_repopulate_the_countryside = {
+		icon = prosperity_for_all
+		position = 3
+		required_missions = { H02_embrace_reneisance }
+		provinces_to_highlight = { 
+
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = H02_developed_provinces_at_least_50_times
+				check_variable = {
+					which = num_of_times_developed
+					value = 50
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+                    name = H02_settler_influx
+                    duration = 10950
+            }
+		}
+	}
+}
+
+italian_conquest = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = H02
+	}
+
+	H02_subjugate_the_republic = {
+		icon = a_place_among_the_great_powers
+		position = 1
+		required_missions = {  }
+		highlighted_provinces = { 
+			OR = {
+			province_id = 119 
+			province_id = 2976
+			}
+		}
+		trigger = {
+			OR = {
+				AND = {
+					119 = {
+						owned_by = ROOT
+					}
+					2976 = {
+						owned_by = ROOT
+					}
+				}
+
+				H33 = {
+					overlord = {
+						tag = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			tuscany_area = {
+				limit = {
+					NOT = { is_core = ROOT}
+					NOT = {is_permanent_claim = ROOT}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	H02_conquer_etrturia = {
+		icon = conquer_tuscany
+		position = 2
+		required_missions = { H02_subjugate_the_republic }
+		provinces_to_highlight = {
+			area = tuscany_area
+		}
+		trigger = {
+			tuscany_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			
+		}
+		effect = {
+			tuscany_area = {
+				add_nationalism = -10
+			}
+			tooltip = {
+				add_casus_beli = {
+					type = cb_vassalize_mission
+					months = 240
+					target = H01
+				}
+			}
+		}
+	}
+	H02_Encircle_the_Pope = {
+		icon = answer_the_roman_question
+		position = 3
+		required_missions = { H02_conquer_etrturia }
+		trigger = {
+			war_with = H01
+			war_score_against = {
+				who = H01
+				value = 75
+			}
+		}
+		effect = {
+			country_event = {id = flavor_h02.1}
+			venetia_area = {
+				limit = {
+					NOT = { is_core = ROOT}
+					NOT = {is_permanent_claim = ROOT}
+				}
+				add_permanent_claim = ROOT
+			}
+			po_valley_area = {
+				limit = {
+					NOT = { is_core = ROOT}
+					NOT = {is_permanent_claim = ROOT}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	H02_Touch_the_alpes = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { H02_Encircle_the_Pope }
+		provinces_to_highlight = {
+			AND = {
+				area = venetia_area
+				area = po_valley_area
+			}
+		}
+		trigger = {
+			venetia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			
+			po_valley_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			
+		}
+		effect = {
+			add_country_modifier = {
+				name = H02_sword_for_barbarians
+				duration = 5475
+			}
+			if = {
+				limit = {
+					exists = H05
+				}
+				every_province = {
+					limit = {
+						owned_by = H05
+						region = italy_region
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			else = {
+				lombardy_area = {
+					limit = {
+						NOT = { is_core = ROOT}
+						NOT = {is_permanent_claim = ROOT}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	H02_drive_out_barbarians = {
+		icon = mission_fire_of_london
+		position = 5
+		required_missions = { H02_Touch_the_alpes }
+		provinces_to_highlight = {
+			area = lombardy_area
+		}
+		trigger = {
+			if = {
+				limit = {
+					exists = H05
+				}
+				NOT = {
+					italy_region = {
+						custom_trigger_tooltip = {
+							tooltip = H02_driven_out_longobards
+							owned_by = H05
+						}
+					}
+				}
+			}
+			else = {
+				lombardy_area = {
+					country_or_non_sovereign_subject_holds = ROOT
+					type = all
+				}
+			}
+		}
+		effect = {			
+			country_event = { id = flavor_h02.2 }
+			piedmont_area = {
+				 limit = {
+					NOT = { is_core = ROOT}
+					NOT = {is_permanent_claim = ROOT}
+				}
+				add_permanent_claim = ROOT
+			}
+			liguria_area = {
+				limit = {
+					NOT = { is_core = ROOT}
+					NOT = {is_permanent_claim = ROOT}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	H02_Conquest_of_piedmont = {
+		icon = alpine_fortifications
+		position = 6
+		required_missions = { H02_drive_out_barbarians }
+		provinces_to_highlight = {
+			AND = {
+				area = piedmont_area
+				area = liguria_area 
+			}
+		}
+		trigger = {
+			piedmont_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			liguria_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+				
+		}
+		 
+		effect = {
+			102 = {
+				add_province_modifier = {
+					name = h02_alpine_security
+					duration = -1
+				}
+			}
+			1875 = {
+				add_province_modifier = {
+					name = h02_alpine_security
+					duration = -1
+				}
+			}
+		 }
+	}
+	H02_Theodorics_Legacy = {
+		icon = mission_rule_italy
+		position = 7
+		required_missions = { H02_new_capital H02_conquer_sicily H02_Conquest_of_piedmont }
+		provinces_to_highlight = {
+			region = italy_region
+		}
+		trigger = { 
+			italy_region = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			
+		}
+		effect = { 
+			set_country_flag = H02_gothia_rebuild
+			country_event = {id = flavor_h02.3}
+		}
+	}
+}
+
+islander_conquest = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = H02
+	}
+
+	H02_build_up_navy = {
+		icon = overshadow_venice
+		position = 3
+		required_missions = {  }
+		trigger = {
+			AND {
+				navy_size_percentage = 1
+				num_of_galleys = 10
+				num_of_admirals = 1
+				A02 = {
+					NOT = {
+						navy_size = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			corsica_sardinia_area = {
+				limit = {
+					NOT = { is_core = ROOT}
+					NOT = {is_permanent_claim = ROOT}
+				}
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = h02_gothic_navy
+				duration = 7300
+			}
+		}
+	}
+	H02_conquest_of_judges = {
+		icon = seize_sardinia
+		position = 4
+		required_missions = { H02_build_up_navy }
+		provinces_to_highlight = {
+			area = corsica_sardinia_area
+		}
+		trigger = {
+			corsica_sardinia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h02_sardinian_judges
+				duration = -1
+			}
+			custom_tooltip = h02_griko_claims
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture = griko
+						region = italy_region
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	H02_drive_out_hellenes = {
+		icon = byz_greek_fire
+		position = 5
+		required_missions = { H02_conquest_of_judges }
+		provinces_to_highlight = {
+			culture = griko
+			region = italy_region
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = h02_driven_out_hellenes
+				NOT = {
+						any_province = {
+							culture = griko
+							region = italy_region
+							NOT = { country_or_non_sovereign_subject_holds = ROOT }
+						}
+					}
+
+				}
+			}
+		effect = {
+			add_accepted_culture_or_dip_power = { 
+				culture = griko 
+				free = yes 
+			}
+			sicily_area = {
+				limit = {
+					NOT = { is_core = ROOT}
+					NOT = {is_permanent_claim = ROOT}
+				}
+				add_permanent_claim = ROOT
+			}
+			western_sicily_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = {is_permanent_claim = ROOT}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	H02_conquer_sicily = {
+		icon = arb_sicily
+		position = 6
+		required_missions = { H02_drive_out_hellenes }
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			AND = {
+				sicily_area = {
+					country_or_non_sovereign_subject_holds = ROOT
+					type = all
+				}
+				western_sicily_area = {
+					country_or_non_sovereign_subject_holds = ROOT
+					type = all
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = flavor_h02.4
+			}
+		}
+	}
+}
+
+Theodoric_legacy = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = H02
+	}
+
+	H02_new_capital = {
+		icon = mission_early_game_buildings
+		position = 4
+		required_missions = { H02_repopulate_the_countryside H02_Encircle_the_Pope }
+		provinces_to_highlight = {
+			id = 114
+		}
+		trigger = {
+			114 = {
+				development = 30
+				has_building = church
+				has_building = workshop
+			}
+		}
+		effect = {
+			set_capital = 114
+			114 = {
+				remove_building = church
+				add_building = cathedral
+			}
+			
+		}
+	}
+}
+
+H02_generic_replacer = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = H02
+	}
+}
