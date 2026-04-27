@@ -1,0 +1,15 @@
+#2444 - Bashgird
+
+owner = S05
+controller = S05
+culture = kalmyk
+religion = tengri_pagan_reformed
+capital = "Bashgird"
+trade_goods = gold
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+add_core = S05
+

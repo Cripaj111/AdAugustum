@@ -3,7 +3,7 @@
 owner = H22
 controller = H22
 add_core = H22
-culture = pommeranian
+culture = pomeranian
 religion = norse_pagan_reformed
 trade_goods = naval_supplies
 hre = no

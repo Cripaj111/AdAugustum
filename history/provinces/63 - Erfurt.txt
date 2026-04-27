@@ -2,7 +2,7 @@
 
 owner = I40
 controller = I40
-culture = saxon
+culture = ostphalian
 religion = catholic
 capital = "Erfurt"
 trade_goods = dyes #Woad, also a center for glassmaking

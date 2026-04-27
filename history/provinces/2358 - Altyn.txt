@@ -1,0 +1,21 @@
+# 2358 - Altyn
+
+owner = S05
+controller = S05
+culture = uzbehk
+religion = tengri_pagan_reformed
+capital = "Altyn"
+trade_goods = livestock
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+add_core = S05
+discovered_by = KZH
+discovered_by = KAZ
+discovered_by = KAS
+discovered_by = nomad_group
+discovered_by = ottoman
+discovered_by = muslim
+

@@ -1036,10 +1036,64 @@ christian = {
 			}
 		}
 
-	}
+	
 	harmonized_modifier = harmonized_christian
 	
 	crusade_name = CRUSADE
+	}
+
+	wulfic = {
+		color = { 170 66 245 }
+		icon = 33
+		allowed_conversion = {
+			catholic
+			slavic 
+			norse_pagan_reformed
+		}
+
+		will_get_center = { #Refered to even for initial CoR Spawn
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = protestant
+				}
+			}
+		}
+	}
+	
+	penitent = {
+		color = { 64 3 0 }
+		icon = 34
+		allowed_conversion = {
+			catholic
+			orthodox
+			wulfic
+		}
+
+		country = {
+			land_morale = 0.1
+			global_unrest = -1
+		}
+
+		will_get_center = { #Refered to even for initial CoR Spawn
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = protestant
+				}
+			}
+		}
+
+		country_as_secondary = {
+			land_morale = -0.05
+		}
+
+			uses_anglican_power = yes
+			aspects = {
+	
+			}
+
+		aspects_name = PENITENT_ASPECTS
+
+	}
 }
 
 muslim = {

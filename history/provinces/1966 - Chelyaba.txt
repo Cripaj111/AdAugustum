@@ -1,0 +1,20 @@
+#1966 - Chelyaba
+
+owner = S05
+controller = S05
+capital = "Chelyaba"
+culture = kalmyk
+religion = tengri_pagan_reformed
+trade_goods = fur
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = S05
+
+
+
+discovered_by = nomad_group
+discovered_by = muslim
+

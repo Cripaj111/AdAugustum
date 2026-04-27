@@ -1,0 +1,24 @@
+#370 - Reykjavik
+
+owner = P16
+controller = P16
+culture = scotoicelandic
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+add_local_autonomy = 25
+capital = "Reykjavik"
+is_city = yes 	
+add_core = P16
+
+discovered_by = western
+add_permanent_province_modifier = {
+	name = icelanding_fisher_sea
+	duration = -1
+}
+
+
+

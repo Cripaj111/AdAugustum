@@ -175,3 +175,17 @@ S06 = "countries/Chagatay.txt"
 S07 = "countries/Yuan.txt"
 S08 = "countries/Quocho.txt"
 S09 = "countries/Ainu.txt"
+
+#####################################
+####      Viking Settlements    #####
+#####################################
+V01 = "countries/Gdanskas.txt"
+V02 = "countries/Karlgrad.txt" #Konigsberg
+V03 = "countries/Rigen.txt"
+V04 = "countries/Vilnas.txt"
+V05 = "countries/Holmgard.txt" #Novgorod
+V06 = "countries/Suzdal.txt"
+V07 = "countries/Moskva.txt"
+V08 = "countries/Smolensk.txt"
+V09 = "countries/Kiev.txt"
+V10 = "countries/Lwow.txt"

@@ -4,7 +4,7 @@ add_core = P17
 owner = P17
 controller = P17
 culture = swedish
-religion norse_pagan_reformed
+religion = norse_pagan_reformed
 hre = no
 base_tax = 1
 base_production = 1

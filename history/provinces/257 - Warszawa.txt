@@ -1,0 +1,25 @@
+#257 - Mazovia
+
+owner = H29
+controller = H29
+capital = "Warszawa"
+culture = mazovian
+religion = norse_pagan_reformed
+trade_goods = cloth
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 2
+is_city = yes
+add_core = H29
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 8
+center_of_trade = 1
