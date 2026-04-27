@@ -3,8 +3,9 @@ P13_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		 tag = P13
+		tag = P13
 	}
+	has_country_shield = yes
 
 	P13_sword_of_christianity = {
 		icon = mission_livonian_knights
@@ -14,51 +15,46 @@ P13_1 = {
 			religious_unity = 1
 			army_size_percentage = 1
 		}
+	
 		effect = {
 			add_country_modifier = {
-				name = "P13_english_order_war_preparations"
-				duration = 5475 #15 years
-			}
-
-			northern_england_area = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
+							name = P13_english_order_war_preparations
+							duration = 5475 #15 years
 						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
 			
+			scottish_marches_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
 		}
 	}
+	
 	P13_walian_claims = {
-		icon = mission_rb_rein_in_the_highland_clans
-		position = 2
-		required_missions = { P13_sword_of_christianity }
-	
-		trigger = {
-			northern_england_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			custom_trigger_tooltip = {
-        		tooltip = P13_walian_claims_tooltip
-        		calc_true_if = {
-           			any_ally = {
-                		AND = {
-                    	religion = catholic
-                    	capital_scope = {
-                    		region = britain_region
-                    		}
-                		}
-            		}
-        		}
-			}
-    	}		
-	
+        icon = mission_rb_rein_in_the_highland_clans
+        position = 2
+        required_missions = { P13_sword_of_christianity }
+        provinces_to_highlight = {
+            AND = {
+                area = scottish_marches_area
+                NOT = {
+                    country_or_non_sovereign_subject_holds = ROOT
+                }
+            }
+        }
+		
+        trigger = {
+            scottish_marches_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
 
 		effect = {
 			wales_area = {
@@ -69,7 +65,7 @@ P13_1 = {
 						}
 					}
 					add_permanent_claim = ROOT
-			}
+					}
 			240 = {
 					limit = {
 						NOT = {
@@ -78,9 +74,8 @@ P13_1 = {
 						}
 					}
 					add_permanent_claim = ROOT
+				}
 			}
-
-		}
 	}
 
 	P13_pagans_of_the_nort = {
@@ -88,224 +83,241 @@ P13_1 = {
 		position = 3
 		required_missions = { P13_walian_claims }
 		provinces_to_highlight = {
-			area = wales_area
-			NOT = {
-				every_province = {
-				limit = {
-					area = wales_area
-					owner = {
-						religion = catholic
-						religious_unity = 0.75
-						}
-					}
-				}
-			}
+			AND = {
+                area = wales_area
+                NOT = {
+                    country_or_non_sovereign_subject_holds = ROOT
+                }
+            }
 		}
+
 		trigger = {
-			every_province = {
-				limit = {
-					area = wales_area
-					owner = {
-						religion = catholic
-						religious_unity = 0.75
-							}
-						}
-					}
-		}
-		
+            wales_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+
 		effect = {
 			lowlands_area = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+								add_permanent_claim = ROOT
+							}
 						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			250 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
+						250 = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+								add_permanent_claim = ROOT
+							}
 						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			4365 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
+						4365 = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+								add_permanent_claim = ROOT
+							}
 						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-
 		}
 	}
 
 	P13_irish_pagans = {
 		icon = mission_rb_rule_britannia_irish_version
-		position = 4
+		position = 5
 		required_missions = { P13_pagans_of_the_nort }
-		provinces_to_highlight = {
+		provinces_to_highlight = {	
 			area = lowlands_area
 			province_id = 4365
 			province_id = 250
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+				NOT = {
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+						
 		}
 		trigger = {
 			lowlands_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			250 = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			4365 = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+						250 = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+						4365 = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
 		}
 		effect = {
 			ulster_area = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+								add_permanent_claim = ROOT
+							}
 						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			leinster_area = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
+						leinster_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+								add_permanent_claim = ROOT
+							}
 						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			connacht_area = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
+						connacht_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+								add_permanent_claim = ROOT
+							}
 						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			munster_area = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
+						munster_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+								add_permanent_claim = ROOT
+							}
 						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
 		}
 	}
 
 	P13_irish_lesson = {
 		icon = mission_have_two_subjects
-		position = 5
+		position = 6
 		required_missions = { P13_irish_pagans }
 		provinces_to_highlight = {
-			area = ulster_area
-			area = munster_area
-			area = leinster_area
-			area = connacht_area
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+						area = ulster_area
+						area = munster_area
+						area = leinster_area
+						area = connacht_area
+						NOT = {
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+						
+		}
 		trigger = {
 			ulster_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			munster_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			leinster_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			connacht_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+						munster_area = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+						leinster_area = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+						connacht_area = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
 		}
 		effect = {
-			country_event ={
-				id = P13_irish_lesson
-			}
-			
+			country_event = { id = XXXX}
 		}
-		}
-	
 	}
 
-	
 }
 
-P13_2 ={
+P13_2 = {
 	slot = 2
 	generic = no
 	ai = yes
 	potential = {
-		 tag = P13
+		tag = P13
 	}
+	has_country_shield = yes
 
-	P13_faund_the_academy = {
-		icon = bibliotheca_corviana 
+	P13_vikings_domain = {
+		icon = the_latin_empire
 		position = 4
-		required_missions = { P13_generals_of_the_order P13_pagans_of_the_nort }
-		trigger = {
-			owns_core_province = 4365
-			4365 = { has_manpower_building_trigger = yes
-			development = 10
-			military_development = 5
+		required_missions = { P13_pagans_of_the_nort }
+		provinces_to_highlight = {
+			is_capital = yes
+			owner = {
+				is_neighbor_of = ROOT
+				any_owned_province = { region = britain_region }
+				army_size = root
 			}
-
+		}
+		trigger = {
+			OR = {
+				AND = {
+					num_of_infantry = 30
+					num_of_galley = 15
+				}
+				has_spy_network_in = { who = P10 value = 30 }
+			}
+				
+				}
+		effect = {
+			highlands_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+								add_permanent_claim = ROOT
+							}
+						}
+		}
+	}
+	P13_end_of_nordicism = {
+		icon = fight_bosnian_heresies
+		position = 5
+		required_missions = { P13_vikings_domain }
+		trigger = {
+			highlands_area = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
 		}
 		effect = {
-			add_country_modifier = {
-				name = "P13_Military_Academy_basic_campus"
-			}
-			
+			country_event = { id = XXXX}
 		}
 	}
-
 }
 
-
-P13_3 ={
+P13_3 = {
 	slot = 3
 	generic = no
 	ai = yes
 	potential = {
-		 tag = P13
+		tag = P13
 	}
+	has_country_shield = yes
 
 	P13_generals_of_the_order = {
 		icon = mission_marines
@@ -317,14 +329,265 @@ P13_3 ={
 		}
 		effect = {
 			add_country_modifier = {
-				name = "P13_orders_generals"
-				duration = 7300 #20 years
-			}
+							name = P13_orders_generals
+							duration = 7300 #20 years
+						}
+			
+						
+		}
+	}
 
-			add_army_tradition = { 
-				amount = 20 }
+	P13_faund_the_accademy = {
+		icon = mission_the_sudebnik
+		position = 4
+		required_missions = { P13_pagans_of_the_nort P13_generals_of_the_order }
+		provinces_to_highlight = {
+				AND = {
+							province_id = 4365 
+							OR = {
+							has_manpower_building_trigger = no
+							NOT = {  development = 10}
+							NOT = {military_development = 5}
+						}
+					}
+		}
+		trigger = {
+			owns_core_province = 4365
+						4365 = { has_manpower_building_trigger = yes
+						development = 10
+						military_development = 5
+						}
+		}
+		effect = {
+			add_country_modifier = {
+							name = P13_Military_Academy_basic_campus
+						}
+			add_army_tradition_or_mil_power = { amount = 10 }
+
 			
 		}
 	}
+	
+
+	P13_workshops_of_the_order = {
+		icon = mission_beyond_the_urals
+		position = 10
+		required_missions = { }
+		provinces_to_highlight = {}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_production_building_trigger = yes
+			}
+		}
+
+		effect = {
+			every_owned_province = {
+			add_base_production = 1
+			}
+		}
+	}
+}
+
+P13_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = P13
+	}
+	has_country_shield = yes
+
+	P13_christian_foothold = {
+		icon = mission_land_of_churches
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {
+			
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+							value = 5
+							has_tax_building_trigger = yes
+						}
+		}
+		effect = {
+			add_devotion = 20
+						add_country_modifier = {
+							name = P13_cheaper_missionaries
+							duration = 5475 #15 years
+						}
+		}
+	}
+
+P13_religious_faculty = {
+		icon = shield_of_christendom
+		position = 5
+		required_missions = { P13_faund_the_accademy P13_bastion_of_christianity }
+		provinces_to_highlight = {
+			
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 15
+				has_tax_building_trigger = yes
+				has_manpower_building_trigger = yes
+				religion = catholic
+			}
+		}
+		effect = {
+			add_country_modifier = {
+							name = P13_manpower_in_true_face_province
+						}
+		}
+	}
+
+
+	P13_develop_the_reconquisted_land = {
+		icon = mission_expand_into_the_forest
+		position = 10
+		required_missions = {  }
+		provinces_to_highlight = {					
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+							
+							
+							OR = {
+								num_of_times_improved = 5
+								development = 10
+							}
+							NOT = {province_id = 4367}
+							value = 8 
+						}
+		}
+
+		effect = {
+
+				
+				add_country_modifier = {
+									name = P13_early_prosperity
+									duration = 5475 #15 years
+								}
+				
+
+			
+						add_years_of_income = 1.5
+		}
+	}
+
+	P13_orders_economic_growth = {
+		icon = mission_afghan_frontier
+		position = 11
+		required_missions = {
+			P13_develop_the_reconquisted_land
+			P13_workshops_of_the_order
+		}
+		provinces_to_highlight = {}
+		trigger = {
+			grown_by_development = 100
+			employed_advisor = { 
+				category = adm
+				skill = 2
+			}
+		}
+		effect = {
+			add_country_modifier = {
+									name = P13_cheaper_dev
+									duration = 5475 #15 years
+								}
+			
+		}
+	}
+} 
+
+P13_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = P13
+	}
+	has_country_shield = yes
+
+	P13_papal_relations = {
+		icon = catholic_confraternity 
+		required_missions = {}
+		position = 1
+		trigger = {
+			papal_influence = 25
+			if = { 
+				limit = { 
+					H01 = { exists = yes } 
+				}
+				H01 = {
+					has_opinion = {
+						who = ROOT 
+						value = 125
+					}
+				}
+			}
+		}
+		effect = {
+			random_owned_province = {
+					limit = { has_cardinal = no } 
+					add_cardinal = yes 
+					add_base_tax = 1
+				}
+			
+		}
+	}
+	
+	P13_bastion_of_christianity = {
+		icon = mission_religious
+		required_missions = {P13_papal_relations P13_christian_foothold}
+		position = 2
+		provinces_to_highlight = {}
+		trigger = {
+			check_variable = {
+					which = num_converted_religion
+					value = 10
+				}
+		}
+		effect = {
+			define_advisor = {
+				type = inquisitor
+				cost_multiplier = 0.3
+				skill = 2
+				culture = ROOT
+				religion = ROOT
+				name = "John French"
+			}
+
+		}
+	}
+
+	P13_religous_focuse = {
+		icon = holy_state
+		required_missions = {P13_bastion_of_christianity}
+		position = 3
+		provinces_to_highlight = {}
+		trigger = {
+			OR = {
+				full_idea_group = religious_ideas
+				full_idea_group = theocracy_gov_ideas
+				AND = {
+					is_defender_of_faith = yes
+					NOT = { current_age = age_of_discovery }
+				}
+			}
+		}
+
+		effect = {
+
+			add_country_modifier = {
+									name = P13_british_rel_fame
+									duration = 18250 #50 years
+								}
+			add_prestige_or_monarch_power = {amount = 80}
+			
+		}
+	}
+
 }
 
