@@ -8,6 +8,12 @@ A04 = "countries/Aegyptus.txt"
 A05 = "countries/Cyreneica.txt"
 A06 = "countries/Baleares.txt"
 A07 = "countries/CanarianPirates.txt"
+A08 = "countries/Saffi.txt"
+A09 = "countries/Sus.txt"
+A10 = "countries/Sahari.txt"
+A11 = "countries/Algieri.txt"
+A12 = "countries/RegnoSudale.txt"
+A13 = "countries/Mzabbi.txt"
 
 ################################
 ##     MIDDLE EAST            ##
@@ -25,6 +31,10 @@ L10 = "countries/Masquat.txt"
 L11 = "countries/Qurays.txt"
 L12 = "countries/Jemen.txt"
 
+L13 = "countries/Persia.txt"
+L14 = "countries/Tajikistan.txt"
+
+
 ################################
 ##      ITALY  $ SOUTH        ##
 ################################
@@ -37,6 +47,10 @@ H06 = "countries/Pisa.txt"
 H32 = "countries/Aquitaine.txt"
 H33 = "countries/RomanCommune.txt"
 H34 = "countries/Piedmont.txt"
+H35 = "countries/Saintonge.txt"
+H36 = "countries/Quercy.txt"
+H37 = "countries/Dauphine.txt"
+H38 = "countries/Toulon.txt"
 
 ################################
 ##        IBERIA              ##
@@ -189,3 +203,19 @@ V07 = "countries/Moskva.txt"
 V08 = "countries/Smolensk.txt"
 V09 = "countries/Kiev.txt"
 V10 = "countries/Lwow.txt"
+
+#######################################
+####  TUNG TUNG CHINA TUNG TUNG    ####
+#######################################
+X01 = "countries/Tibet.txt"
+X02 = "countries/Song.txt"
+X03 = "countries/Hexi.txt"
+X04 = "countries/Hangzong.txt"
+X05 = "countries/Hongyuan.txt"
+X06 = "countries/Wuchang.txt"
+
+
+######################################
+#####       FORMABLE              ####
+######################################
+F01 = "countries/OrderOfBritain.txt"

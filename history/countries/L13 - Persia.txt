@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = zoroastrian_persian_government_reform
+government_rank = 3
+technology_group = muslim
+primary_culture = persian
+religion = zoroastrian
+capital = 429 #Isfahan
+
+
+1390.12.4 = {
+    monarch = {
+        name = "Kambyzes"
+        dynasty = "Alzarid"
+        adm = 4
+        dip = 3
+        mil = 6
+        birth_date = 1372.9.6
+    }
+}

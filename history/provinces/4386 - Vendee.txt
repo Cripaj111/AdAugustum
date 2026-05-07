@@ -1,0 +1,20 @@
+# 4111 - Vendée
+
+owner = H35
+controller = H35
+capital = "Luçon"
+is_city = yes
+culture = aquitainian
+religion = catholic 
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = salt
+base_manpower = 3
+add_core = H35
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 8
+center_of_trade = 1

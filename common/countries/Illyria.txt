@@ -1,7 +1,7 @@
 #Illyria
 graphical_culture = easterngfx
 
-color = { 116  33  73 }
+color = { 53 71 240 }
 
 revolutionary_colors = { 5  8  5 }
 

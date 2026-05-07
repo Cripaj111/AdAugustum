@@ -1,0 +1,18 @@
+# - Saoura
+
+owner = A10
+controller = A10
+culture = saharian
+religion = catholic
+capital = "Oulad Mhedi"
+trade_goods = livestock
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = A10
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western
+discovered_by = sub_saharan

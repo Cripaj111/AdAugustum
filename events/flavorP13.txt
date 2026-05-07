@@ -1,0 +1,18 @@
+country_event = {
+    id = flavor_P13.2001
+    title = flavor_P13.2001.t
+    desc = flavor_P13.2001.d
+    picture = FORESTS_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = flavor_P13.2001.a
+        accepted_culture = celtic
+        num_accepted_cultures = 1  
+        add_country_modifier = {
+							name = P13_irish_lesson_modifier_global
+						}
+    }
+
+}

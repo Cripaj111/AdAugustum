@@ -1,0 +1,18 @@
+#4195 - Zhending
+
+owner = X05
+controller = X05
+add_core = X05
+culture = chihan
+religion = confucianism
+capital = "Zhending"
+trade_goods = grain
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese
+discovered_by = nomad_group
+

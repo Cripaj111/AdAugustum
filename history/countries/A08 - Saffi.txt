@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+primary_culture = moroccan
+religion = catholic
+capital = 345 #Saffi

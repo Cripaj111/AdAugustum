@@ -1,7 +1,7 @@
 #Serbia
 graphical_culture = easterngfx
 
-color = { 0  112  224 }
+color = { 133  88  49 }
 
 revolutionary_colors = { 5  8  5 }
 

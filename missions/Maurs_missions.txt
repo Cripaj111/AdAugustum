@@ -1,0 +1,96 @@
+A01_1 = {
+
+    slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = A01
+	}
+	has_country_shield = yes
+
+    A01_balearian_claims = {
+        icon = mission_invade_island
+		position = 1
+		required_missions = { }
+        trigger = {
+            OR = {
+                is_year = 1455
+                #ten event ze był
+            }
+        }
+
+        effect = {
+            baleares_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+
+               if{
+                limit = {A06 = { exists = yes } }
+                ROOT = {
+					add_casus_belli = {
+						target = A06
+						type = cb_vassalize_mission
+						months = 300
+
+					}
+				}
+               }
+
+
+
+                       
+        }
+    }
+}
+
+A01_2 = {
+
+    slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = A01
+	}
+	has_country_shield = yes
+}
+
+A01_3 = {
+
+    slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = A01
+	}
+	has_country_shield = yes
+}
+
+A01_4 = {
+
+    slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = A01
+	}
+	has_country_shield = yes
+}
+
+A01_5 = {
+
+    slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = A01
+	}
+	has_country_shield = yes
+}

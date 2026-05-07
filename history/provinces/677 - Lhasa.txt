@@ -1,0 +1,26 @@
+#677 - Qamdo
+
+owner = X01
+controller = X01
+add_core = X01
+culture = tibetan
+religion = vajrayana
+capital = "Lhasa"
+trade_goods = cloth
+hre = no
+base_tax = 4 			
+base_production = 5
+base_manpower = 3
+is_city = yes
+
+
+
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian
+
+
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = vajrayana_lhasa
+center_of_trade = 2
+

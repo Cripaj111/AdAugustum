@@ -898,14 +898,17 @@ berberic = {
 		primary = A01
     	}
     moroccan = {
-
+		primary = A09
     }
     vandal = {
-
+		primary = A13
     }
     kabylian = {
-
+		primary = A11
     }
+	saharian = {
+		primary = A10
+	}
 }
 semitic = {
 	graphical_culture = muslimgfx
@@ -1053,26 +1056,26 @@ western_slavic = {
     }
     pomeranian = {
 		primary = H22
-		male_names = { 
+		male_names += { 
 			Kubus Bodziec 
 		}
 		
-		female_names = {
+		female_names += {
 			Syrena Algida 
 		}
 
-		dynasty_names = {
+		dynasty_names += {
 			Baj Metalowiec Zhuraw Sobieshew
 		}
     }
     polan = {
 		primary = H24
 
-		dynasty_names = {
+		dynasty_names += {
 			Kopaniewski Kuras
 		}
 
-		male_names = {
+		male_names += {
 			Iktor
 		}
 	}
@@ -1138,11 +1141,11 @@ western_slavic = {
     }
     mazovian = {
 		primary = H29
-		male_names = {
+		male_names += {
 			Janusz Miloniusz 
 		}
 
-		dynasty_names = {
+		dynasty_names += {
 			Trojden "z Plocka" "z Mazowsza" Mazowiec 
 		}
     }
@@ -2810,5 +2813,30 @@ thai_group = {
 		female_names = {
 			"Thou Umma" "Thin Bohme"
 		}
+	}
+}
+iranian = {
+	persian = {
+
+	}
+	luri = {
+
+	}
+	median = {
+
+	}
+	parthian = {
+
+	}
+	dari = {
+
+	}
+	pashtun = {
+		
+	}
+	tajik = {
+		
+	}
+	baluchi = {
 	}
 }
