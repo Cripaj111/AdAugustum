@@ -5,3 +5,25 @@ primary_culture = hejazi
 religion = sunni
 capital = 385 #mecca
 religious_school = shafii_school
+
+1444.1.1 = {
+    monarch = {
+        name = "Faruk"
+        dynasty = "Quraysh"
+        birth_date = 1373.6.4
+        death_date = 1448.12.4
+        adm = 4
+        dip = 1
+        mil = 2
+    }
+    heir = {
+        name = "Muhammad"
+        dynasty = "Quraysh"
+        birth_date = 1392.5.6
+        death_date = 1456.2.1
+        adm = 4
+        dip = 6
+        mil = 4
+        claim = 100
+    }
+}

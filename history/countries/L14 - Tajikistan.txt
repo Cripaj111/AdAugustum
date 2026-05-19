@@ -4,3 +4,25 @@ technology_group = muslim
 primary_culture = tajik
 religion = zoroastrian
 capital = 1968
+
+1444.1.1 = {
+    monarch = {
+        name = "Bahrom"
+        dynasty = "Latifi"
+        bith_date = 1420.4.28
+        death_date = 1489.1.23
+        adm = 5
+        dip = 6
+        mil = 1
+    }
+    heir = {
+        name = "Faridun"
+        dynasty = "Latifi"
+        birth_date = 1443.12.31
+        death_date = 1460.1.1
+        adm = 3
+        dip = 0
+        mil = 1
+        claim = 45
+    }
+}

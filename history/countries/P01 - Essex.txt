@@ -5,3 +5,41 @@ elector = yes
 primary_culture = anglosaxon
 religion = catholic
 capital = 238 #essex
+
+1423.10.11 = {
+    monarch = {
+        name = "Æthelstan"
+        dynasty = "Dunstaning"
+        adm = 3
+        dip = 4
+        mil = 3
+        birth_date = 1399.5.9
+        death_date = 1460.1.1
+    }
+}
+
+1443.5.6 = {
+    heir = {
+        name = "Siegmayer"
+        dynasty = "Dunstaning"
+        adm = 6
+        dip = 2
+        mil = 3
+        birth_date = 1443.5.6
+        death_date = 1460.1.1
+    }
+}
+
+1441.11.5 = {
+    queen = {
+        name = "Eremburga"
+        dynasty = "Welf"
+        female = yes
+        country_of_origin = I08
+        adm = 2
+        dip = 6
+        mil = 1
+        birth_date = 1423.4.6
+        death_date = 1460.1.1
+    }
+}

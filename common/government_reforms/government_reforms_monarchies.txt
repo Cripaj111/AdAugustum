@@ -121,6 +121,64 @@ sheperd_kingdom = {
 	}
 }
 
+jarldom = {
+	icon = "war_ship"
+	allow_normal_conversion = yes
+	potential = {
+		religion = norse_pagan_reformed
+	}
+	trigger = {
+		religion = norse_pagan_reformed
+	}
+	modifiers = {
+		infantry_power = 0.05
+		global_sailors_modifier = 0.1
+		may_perform_slave_raid = yes
+	}
+}
+
+irish_kingdom = {
+    icon = "tanistry"
+    allow_normal_conversion = yes
+    potential = {
+		primary_culture = irish
+	}
+
+    rulers_can_be_generals = yes
+    heirs_can_be_generals = yes
+    valid_for_nation_designer = yes
+    nation_designer_cost = 10
+    fixed_rank = 2
+
+    modifiers = {
+        morale_damage_received = -0.2
+	hostile_attrition = 1
+	nobles_loyalty_modifier = 0.05
+    }
+}
+
+great_irish_kingdom = {
+    icon = "irish_highkingdom"
+    allow_normal_conversion = no
+    potential = {
+		primary_culture = irish
+	}
+
+    rulers_can_be_generals = yes
+    heirs_can_be_generals = yes
+    valid_for_nation_designer = yes
+    nation_designer_cost = 10
+    
+    
+
+    modifiers = {
+        morale_damage = 0.3
+	governing_capacity = 200
+	hostile_attrition = 1.5
+	max_hostile_attrition = 1
+    }
+}
+
 
 ####### TIER 1 ########
 

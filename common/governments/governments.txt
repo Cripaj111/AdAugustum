@@ -131,6 +131,9 @@ monarchy = {
 				gothic_monarchy_reform
 				###modded
 				sheperd_kingdom
+				jarldom
+				irish_kingdom
+				great_irish_kingdom
 			}
 		}
 		hereditary_vs_nobility = {
@@ -666,6 +669,9 @@ republic = {
 				egyptian_government_reform
 				city_alliance_reform
 				turkoman_ottoman_institutions
+				##MODDED
+				irish_republic
+				great_irish_republic
 			}
 		}
 		republican_virtues = {
@@ -1265,6 +1271,7 @@ theocracy = {
 				egyptian_government_reform
 				blood_theocracy_reform
 				turkoman_ottoman_institutions
+				british_crusader_order
 			}
 		}
 		internal_vs_external_mission = {

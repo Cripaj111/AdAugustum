@@ -1,9 +1,10 @@
-government = monarchy
-add_government_reform = plutocratic_reform
+government = republic
+add_government_reform = civic_republicanism_government
 technology_group = western
 primary_culture = carthaginian
 religion = catholic
 capital = 341 #Tunis
+historical_rival = A01
 
 1444.1.1 = {
     monarch = {
@@ -13,5 +14,8 @@ capital = 341 #Tunis
         dip = 6
         mil = 3
         birth_date = 1425.10.05
+        death_date = 1487.11.07
+       
     }
+     add_ruler_personality = free_thinker_personality
 }

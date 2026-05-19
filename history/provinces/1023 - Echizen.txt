@@ -1,0 +1,20 @@
+#1023 - Echizen
+
+owner = N18
+controller = N18
+culture = japanese
+religion = shinto
+capital = "Takefu"
+trade_goods = paper
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 2
+is_city = yes
+add_core = N18
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = ANU

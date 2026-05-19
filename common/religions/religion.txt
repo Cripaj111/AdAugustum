@@ -15,6 +15,8 @@ christian = {
 		allowed_conversion = {
 			reformed
 			protestant
+			penitent
+			wulfic
 		}
 		country = {
 			tolerance_own = 1
@@ -1068,6 +1070,11 @@ christian = {
 			orthodox
 			wulfic
 		}
+		allowed_center_conversion = {
+			catholic
+		}
+
+		hre_heretic_religion = yes
 
 		country = {
 			land_morale = 0.1
@@ -1077,7 +1084,7 @@ christian = {
 		will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
 				can_have_center_of_reformation_trigger = {
-					RELIGION = protestant
+					RELIGION = penitent
 				}
 			}
 		}

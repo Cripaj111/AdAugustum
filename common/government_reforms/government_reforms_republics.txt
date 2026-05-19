@@ -1,0 +1,40 @@
+irish_republic = {
+    icon = "tanistry"
+    allow_normal_conversion = yes
+    potential = {
+		primary_culture = irish
+	}
+
+    rulers_can_be_generals = yes
+    valid_for_nation_designer = yes
+    nation_designer_cost = 10
+    fixed_rank = 2
+
+    modifiers = {
+       	max_absolutism = -20
+	burghers_loyalty_modifier = 0.05
+	trade_efficiency = 0.1
+	merchants = 1
+    }
+}
+
+great_irish_republic = {
+    icon = "irish_highkingdom"
+    allow_normal_conversion = no
+    potential = {
+		primary_culture = irish
+	}
+
+    rulers_can_be_generals = yes
+    valid_for_nation_designer = yes
+    nation_designer_cost = 10
+    
+    
+
+    modifiers = {
+        development_cost = -0.2
+	morale_damage = 0.3
+	governing_capacity = 200
+	trade_efficiency = 0.1
+    }
+} 

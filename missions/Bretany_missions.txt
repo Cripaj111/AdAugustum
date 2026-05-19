@@ -1,0 +1,171 @@
+I01_1 = {
+
+    slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = I01
+	}
+	has_country_shield = yes
+
+    I01_secure_our_place_in_here = {
+        position = 1
+        icon = mission_alliances
+        trigger = {
+            if = {
+                limit = {hre_size = 1}
+            calc_true_if = {
+					desc = WOC_secure_the_imperial_crown.tooltip
+					all_elector = {
+						preferred_emperor = ROOT
+						has_opinion = { who = ROOT value = 75 }
+					}
+					amount = 3
+				}}
+        }
+
+        effect = {
+            add_country_modifier = {
+				name = I01_reasons_to_erect
+			}
+
+            define_advisor = {
+				type = diplomat
+				culture = breton
+				skill = 1
+				cost_multiplier = 0.7
+			}
+        }
+    }
+
+    I01_empires_throne = {
+        position = 2
+        icon = the_imperial_border
+        required_missions = {I01_secure_our_place_in_here}
+        trigger = {
+            is_emperor = yes
+        }
+
+        effect = {
+            add_imperial_influence = 15
+        }
+    }
+}
+
+I01_2 = {
+
+    slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = I01
+	}
+	has_country_shield = yes
+    
+}
+
+I01_3 = {
+
+    slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = I01
+	}
+	has_country_shield = yes
+    
+    I01_secure_the_normandy = {
+        position = 1
+        icon = the_hundred_years_war
+        trigger = {
+            army_size_percentage = 1
+            num_of_generals = 1
+        }
+
+        effect = {
+            add_country_modifier = {
+				name = I01_army_boost
+                duration = 5475 #15 years
+			}
+
+            normandy_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+        }
+    }
+
+    I01_across_the_strait = {
+         position = 2
+         icon = defeat_the_english 
+         required_missions = {I01_secure_the_normandy}
+         trigger = {
+                normandy_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+                
+            }
+
+            navy_size = P06
+            num_of_galley = 10
+         }
+
+         effect = {
+            if = {
+					limit = { 
+						P06= { is_subject = no exists = yes } 
+					}
+					add_casus_belli = {
+						target = P06
+						type = cb_vassalize_mission
+						months = 180
+					}
+				}
+            else = { 
+					wessex_area = {
+						limit = {
+							NOT = { owned_by = ROOT }
+							NOT = { is_core = ROOT }
+                            NOT = { owned_by = P05 }
+							is_empty = no
+						}
+						add_permanent_claim = ROOT
+					}
+					
+				}
+
+         }
+    }
+}
+
+I01_4 = {
+
+    slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = I01
+	}
+	has_country_shield = yes
+
+    
+    
+}
+I01_5 = {
+
+    slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = I01
+	}
+	has_country_shield = yes
+    
+}

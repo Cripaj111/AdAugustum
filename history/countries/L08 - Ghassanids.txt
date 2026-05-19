@@ -5,3 +5,26 @@ primary_culture = beduin
 religion = sunni
 capital = 2327 #Maan
 religious_school = shafii_school
+
+1444.1.1 = {
+    monarch = {
+        name = "Ahmad"
+        dynasty = "Ghassanid"
+        birth_date = 1401.3.14
+        death_date = 1501.9.13
+        adm = 6
+        dip = 0
+        mil = 0
+    }
+    add_ruler_personality = scholar_personality
+    heir = {
+        name = "Ali"
+        dynasty = "Ghassanid"
+        bith_date = 1430.2.28
+        death_date = 1489.10.1
+        adm = 1
+        dip = 5
+        mil = 6
+        claim = 100
+    }
+}

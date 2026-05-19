@@ -735,7 +735,9 @@ P13_3 = {
 		}
 
 		effect = {
-			### tutaj wkleić ten opis nieszczęsny
+			
+			custom_tooltip = P13_i_tak_wywalic
+			hidden_effect = {
 			every_owned_province = {
 				limit = { 
 					AND = {
@@ -743,7 +745,7 @@ P13_3 = {
 				has_production_building_trigger = yes
 				} }
 				add_base_production = 1
-			}
+			}}
 		}
 	}
 }
@@ -1072,7 +1074,7 @@ P13_5 = {
 		}
 		
 	P13_academy_of_war_1 = {
-		icon = fight_bosnian_heresies
+		icon = mission_rb_the_education_acts
 		required_missions = {P13_new_academy}
 		position = 18
 		trigger = {
@@ -1090,7 +1092,7 @@ P13_5 = {
 	}	
 
 	P13_academy_of_war_2 = {
-		icon = fight_bosnian_heresies
+		icon = mission_rb_the_education_acts
 		required_missions = {P13_academy_of_war_1}
 		position = 19
 		trigger = {
@@ -1108,7 +1110,7 @@ P13_5 = {
 	}	
 
 	P13_academy_of_war_3 = {
-		icon = fight_bosnian_heresies
+		icon = mission_rb_the_education_acts
 		required_missions = {P13_academy_of_war_2}
 		position = 20
 		trigger = {

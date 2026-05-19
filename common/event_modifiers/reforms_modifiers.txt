@@ -1,3 +1,0 @@
-gov_sheperd_herds = {
-    local_goods_produced = 0.1
-}

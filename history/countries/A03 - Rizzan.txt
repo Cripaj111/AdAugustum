@@ -5,7 +5,7 @@ primary_culture = rizzan
 religion = catholic
 capital = 4567 #Sabha
 
-1444.1.1 = {
+1427.11.16 = {
     monarch = {
         name = "Rizzler"
         dynasty = "Chud"
@@ -13,5 +13,34 @@ capital = 4567 #Sabha
         dip = 6
         mil = 6
         birth_date = 1390.10.05
+        death_date = 1449.01.07
+        
+    }
+    add_ruler_personality = patron_of_arts_personality
+    add_ruler_personality = incorruptible_personality
+}
+
+1442.5.7 = {
+    heir = {
+        name = "Rizzler"
+        dynasty = "Chud"
+        adm = 6
+        dip = 6
+        mil = 6
+        birth_date = 1442.5.7
+        death_date = 1531.04.05
+        claim = 100
+    }
+}
+
+1440.1.1 = {
+    queen = {
+        name = "Gwyndolina"
+        dynasty = "Chud"
+        adm = 6
+        dip = 6
+        mil = 6
+        birth_date = 1420.11.12
+        death_date = 1488.4.5
     }
 }

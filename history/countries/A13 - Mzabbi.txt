@@ -4,3 +4,44 @@ technology_group = western
 primary_culture = moroccan
 religion = catholic
 capital = 352 #Gafsa
+
+1422.4.7 = {
+    monarch = {
+        name = "Rabe"
+        dynasty = "Malgon"
+        adm = 4
+        dip = 3
+        mil = 5
+        birth_date = 1397.9.8
+        clear_scripted_personalities = yes
+        death_date = 1446.7.8
+    }
+    
+}
+
+1420.3.6 = {
+	heir = {
+		name = "Zekis"
+		dynasty = "Malgon"
+		birth_date = 1420.3.6
+		claim = 70
+		adm = 3
+		dip = 3
+		mil = 4
+        death_date = 1507.9.18
+	}
+}
+
+1420.9.9 = {
+        queen = {
+		country_of_origin = A08
+		name = "Ibu"
+		dynasty = "Zirid"
+		birth_date = 1399.3.6
+		female = yes
+		adm = 3
+		dip = 2
+		mil = 2
+        death_date = 1480.4.12
+	}
+}

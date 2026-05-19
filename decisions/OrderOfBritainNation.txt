@@ -28,6 +28,8 @@ country_decisions = {
         effect = {
             change_tag = F01
             add_prestige = 25
+            add_government_reform = british_crusader_order
+
             
         }
     }

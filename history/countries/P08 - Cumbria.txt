@@ -4,3 +4,41 @@ technology_group = western
 primary_culture = pictish
 religion = celtic
 capital = 247 #Cumbria
+
+1413.10.12 = {
+    monarch = {
+        name = "Scully"
+        dynasty = "Dela"
+        adm = 3
+        dip = 4
+        mil = 4
+        birth_date = 1390.5.9
+        death_date = 1460.1.1
+    }
+}
+
+1428.5.6 = {
+    heir = {
+        name = "Rory"
+        dynasty = "Dela"
+        adm = 6
+        dip = 2
+        mil = 3
+        birth_date = 1428.5.6
+        death_date = 1460.1.1
+    }
+}
+
+1426.11.5 = {
+    queen = {
+        name = "Yvon"
+        dynasty = "Ri"
+        female = yes
+        country_of_origin = P07
+        adm = 2
+        dip = 6
+        mil = 1
+        birth_date = 1400.4.6
+        death_date = 1460.1.1
+    }
+}

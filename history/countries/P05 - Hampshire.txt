@@ -1,6 +1,18 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = oligarchy_reform
 technology_group = western
 primary_culture = anglosaxon
 religion = catholic
 capital = 234 #hampshire
+
+1441.4.5 = {
+    monarch = {
+        name = "Oswald"
+        dynasty = "Godwinson"
+        adm = 1
+        dip = 3
+        mil = 2
+        birth_date = 1400.5.9
+        death_date = 1460.1.1
+    }
+}

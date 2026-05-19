@@ -8,11 +8,22 @@ capital = 2312
 
 1444.1.1 = {
     monarch = {
-        name = "Nabonid"
-        dynasty = "Nur-enlil"
+        name = "Ibrahim"
+        dynasty = "Bit-Ahiquar"
         adm = 3
         dip = 2
         mil = 6
-        birthdate = "1411.12.06"
+        birth_date = 1411.12.06
+        death_date = 1460.06.11
+    }
+    heir = {
+        name = "Barnaba"
+        dynasty = "Bit-Ahiquar"
+        adm = 5
+        dip = 4
+        mil = 1
+        birth_date = 1436.7.9
+        death_date = 1500.1.1    
+        claim = 100
     }
 }

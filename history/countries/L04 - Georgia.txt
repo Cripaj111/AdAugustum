@@ -12,6 +12,17 @@ capital = 423 #Tbilsi
         adm = 2
         dip = 1
         mil = 1
-        birthdate = 1380.12.12
+        birth_date = 1380.12.12
+        death_date = 1445.6.13
+    }
+    heir = {
+        name = "Elekre"
+        dynasty = "Bagrationid"
+        adm = 3
+        dip = 5
+        mil = 0
+        birth_date = 1393.8.15
+        death_date = 1460.1.16
+        claim = 20
     }
 }

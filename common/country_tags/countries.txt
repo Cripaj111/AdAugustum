@@ -30,7 +30,6 @@ L09 = "countries/Gerrha.txt"
 L10 = "countries/Masquat.txt"
 L11 = "countries/Qurays.txt"
 L12 = "countries/Jemen.txt"
-
 L13 = "countries/Persia.txt"
 L14 = "countries/Tajikistan.txt"
 
@@ -219,3 +218,35 @@ X06 = "countries/Wuchang.txt"
 #####       FORMABLE              ####
 ######################################
 F01 = "countries/OrderOfBritain.txt"
+
+######################################
+####         JA PAN TY PIES       ####
+######################################
+N01 = "countries/Amago.txt" 
+N02 = "countries/Ando.txt"
+N03 = "countries/Ashikaga.txt"
+N04 = "countries/Chiba.txt"
+N05 = "countries/Hatakeyama.txt"
+N06 = "countries/Hosokawa.txt"
+N07 = "countries/Imagawa.txt"
+N08 = "countries/Isshiki.txt"
+N09 = "countries/Ito.txt"
+N10 = "countries/Kikuchi.txt"
+N11 = "countries/Kitabatake.txt"
+N12 = "countries/Kono.txt"
+N13 = "countries/Oda.txt"
+N14 = "countries/Ogasawara.txt"
+N15 = "countries/Otomo.txt"
+N16 = "countries/Ouchi.txt"
+N17 = "countries/Satake.txt"
+N18 = "countries/Shiba.txt"
+N19 = "countries/Shimazu.txt"
+N20 = "countries/Shoni.txt"    
+N21 = "countries/So.txt"
+N22 = "countries/Takeda.txt"
+N23 = "countries/Toki.txt"
+N24 = "countries/Tokugawa.txt"
+N25 = "countries/Tsutsui.txt"
+N26 = "countries/Uesugi.txt"
+N27 = "countries/Utsunomiya.txt"
+N28 = "countries/Yamana.txt"

@@ -4,3 +4,32 @@ technology_group = western
 primary_culture = moroccan
 religion = catholic
 capital = 348 #Sus
+
+1443.4.7 = {
+    monarch = {
+        name = "Sifaks"
+        dynasty = "Marinid"
+        adm = 5
+        dip = 2
+        mil = 4
+        birth_date = 1427.10.2
+        clear_scripted_personalities = yes
+        death_date = 1479.7.18
+    }
+    
+}
+
+
+1444.9.19 = {
+        queen = {
+		country_of_origin = A10
+		name = "Hra"
+		dynasty = "Tauron"
+		birth_date = 1428.11.6
+		female = yes
+		adm = 3
+		dip = 2
+		mil = 2
+        death_date = 1480.4.12
+	}
+}

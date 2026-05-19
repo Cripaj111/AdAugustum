@@ -1,0 +1,191 @@
+
+# Daimyo Vassals
+
+vassal = { 
+	first = N03
+	second = N01
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+
+vassal = { 
+	first = N03
+	second = N02
+	start_date = 1444.11.11
+	end_date = 1569.10.3 #Annexed
+}
+
+vassal = {
+	first = N03
+	second = N04
+	start_date = 1444.11.11
+	end_date = 1566.11.28 #Annexed
+}
+
+vassal = {
+	first = N03
+	second = N05
+	start_date = 1471.7.1
+	end_date = 1573.7.1 #Annexed
+}
+
+vassal = {
+	first = N03
+	second = N06
+	start_date = 1549.5.9
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N07
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N08
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N09
+	start_date = 1493.1.1
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N10
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N11
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N12
+	start_date = 1444.11.11
+	end_date = 1568.12.1 #Annexed
+}
+
+vassal = {
+	first = N03
+	second = N13
+	start_date = 1525.1.1
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N14
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N15
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N16
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N17
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N18
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N19
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N20
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N21
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N22
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N23
+	start_date = 1468.1.1
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N24
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N25
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N26
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N27
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = N03
+	second = N28
+	start_date = 1444.11.11
+	end_date = 1554.1.1 #Annexed
+}

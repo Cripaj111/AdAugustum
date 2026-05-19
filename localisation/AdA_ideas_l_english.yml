@@ -1,9 +1,28 @@
 ﻿l_english:
 
 ### L02 - Chaldea ###
- L02_codification:0 "Codofication of law"
+ L02_codification:0 "Codification of law"
  L02_exploitation:0 "Exploitation of marshlands"
  L02_seat:0 "Seat of Katolikos"
  L02_heritage:0 "Assyrian Heritage"
  L02_sages:0 "Three Sages' Academy"
  L02_rulers:0 "Rulers of the Four Corners of The World"
+
+### P10 - Albanord ###
+ P10_ideas_start:0 "Albanorman traditions"
+ P10_ideas:0 "Albanorman ideas"
+ P10_home_in_hills:0 "Home in hills"
+ P10_arctic_roots:0 "Arctic roots"
+ P10_king_of_alba:0 "King of Alba"
+ P10_seasoned_seafarers:0 "Seasoned seafarers"
+ P10_white_gold_of_seas:0 "White gold of seas"
+ P10_north_sea_merchants:0 "North sea merchants"
+ P10_laeviathan:0 "Laeviathan"
+
+ P10_home_in_hills_desc:0 "First capital of our country was just a small settlements in the middle of hills. After years, we adopted local techniques of highland agriculture and building and made our home in to a place befitting of a King."
+ P10_arctic_roots_desc:0 "Before we came here, we were just a humble seal hunters in Iceland. Years spent in the far north made us accustomed to harsh living conditions."
+ P10_king_of_alba_desc:0 "Once just a Jarl, now a King of whole Alba, our ruler bases his power on loyal servants and huscarls. They are not just nords, but Picts and anglosaxons too. Everyone is welcome in our court, as long as they stay loyal to only one King."
+ P10_seasoned_seafarers_desc:0 "Among our Sagas, there are many seafarers, who earned their place by amazing voyages, such as Leif Eriksson or Thorfin Karlsenfi."
+ P10_white_gold_of_seas_desc:0 "One of crucial goods in northern trade are products of whale hunting. Be it whale oil or narwhals' tusks, everything we get, from the seabeast can be turned into gold on southern markets."
+ P10_north_sea_merchants_desc:0 "With discovery of Vinland and other lands in New World, North sea became home to many merchants. We can utilise them to strenghten economic base of our country." 
+ P10_laeviathan_desc:0 "When our ships reached european coasts, they were dubbed as 'laeviathans'. After questioning captured monks, it came out that this name means legendary seabests, which fits our mighty ships perfectly."

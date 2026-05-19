@@ -12,25 +12,26 @@ A01_1 = {
         icon = mission_invade_island
 		position = 1
 		required_missions = { }
+		provinces_to_highlight = {
+			 AND = {
+                area = baleares_area
+                NOT = {
+                    country_or_non_sovereign_subject_holds = ROOT
+                }
+            }
+		}
         trigger = {
-            OR = {
+           custom_trigger_tooltip = { 
+			OR = {
                 is_year = 1455
-                #ten event ze był
+                has_global_flag = A06_event_na_papeta
+				}
+				tooltip = A01_baleary_jako_wasal
             }
         }
 
         effect = {
-            baleares_area = {
-							if = {
-								limit = {
-									NOT = {
-										is_permanent_claim = ROOT
-										is_core = ROOT
-									}
-								}
-							}
-							add_permanent_claim = ROOT
-						}
+            
 
                if{
                 limit = {A06 = { exists = yes } }
@@ -43,12 +44,174 @@ A01_1 = {
 					}
 				}
                }
-
+				else = {
+					baleares_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+				}
 
 
                        
         }
     }
+
+	A01_eastern_naval_bases = {
+		icon = mission_rb_a_mighty_fleet
+		position = 2
+		required_missions = {A01_balearian_claims}
+		provinces_to_highlight = {}
+		trigger = {
+			baleares_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+				development = 8
+            }
+
+
+			333 = {
+				base_production = 5
+				has_dock_building_trigger = yes
+			}
+
+			num_of_owned_provinces_with = {
+				value = 10
+				OR = {
+				has_dock_building_trigger = yes
+				has_shipyard_building_trigger = yes
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					333 = {NOT = {has_shipyard_building_trigger = yes}}
+				}
+				333 = {add_or_upgrade_shipyard_building = yes}
+			}
+			else = {
+				add_dip_power = 75
+			}
+
+			create_admiral = { tradition = 75 } 
+
+			333 = {
+			add_unit_construction = {
+				type = galley
+				cost = 0
+				speed = 0
+				amount = 5
+			}
+			}
+		}
+
+	}
+
+	A01_first_naval_blow = {
+		icon = mission_rb_mediterranean_authority
+		position = 3
+		required_missions = { A01_eastern_naval_bases }
+		trigger = {
+			navy_size_percentage = 1
+			num_of_admirals = 1
+			num_of_galley = 20
+		}
+
+		effect = {
+			corsica_sardinia_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+
+			sicily_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+
+			western_sicily_area= {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+		}
+
+	}
+
+	A01_secure_the_islands = {
+		icon = develop_provence
+		position = 4
+		required_missions = {A01_first_naval_blow}
+		trigger = {
+
+			corsica_sardinia_area = {
+				type = all
+                owned_by = ROOT
+				development = 5
+            }
+			sicily_area = {
+				type = all
+                owned_by = ROOT
+				development = 5
+            }
+			western_sicily_area = {
+				type = all
+                owned_by = ROOT
+				development = 5
+            }
+
+		}
+
+		effect = {
+		
+			custom_tooltip = A01_take_sicily_tooltip
+			hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						area = corsica_sardinia_area
+						area = sicily_area
+						area = western_sicily_area
+					}
+				}
+				
+				add_province_modifier = {
+					name = A01_take_sicily_modifier
+					duration = 3650 #10 years
+				}
+				
+			}}
+
+			
+		}
+	}
 }
 
 A01_2 = {
@@ -60,6 +223,305 @@ A01_2 = {
 		tag = A01
 	}
 	has_country_shield = yes
+
+	A01_african_ambitions = {
+		icon = mission_moroccan_ports
+		position = 1
+		required_missions = {}
+		trigger = {
+			num_of_generals = 1
+			army_size_percentage = 0.9
+		}
+
+		effect = {
+			western_morocco_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+
+			marrekesh_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+			
+			southern_morocco_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+
+		}
+		
+	}
+
+	A01_sahari_campaign = {
+		icon = mission_conquer_air
+		position = 2
+		required_missions = { A01_african_ambitions }
+		trigger = {
+			western_morocco_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			marrekesh_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			southern_morocco_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = {
+			sus_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+
+			tafilalt_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+		}
+
+	}
+
+	A01_moves_towards_carthage = {
+		icon = mission_unite_home_region
+		position = 3
+		required_missions = {A01_sahari_campaign}
+		trigger = {
+			
+			sus_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			
+			tafilalt_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+
+
+		}
+		
+		effect = {
+			
+
+			if{
+                limit = {A11 = { exists = yes } }
+                ROOT = {
+					add_casus_belli = {
+						target = A11
+						type = cb_vassalize_mission
+						months = 300
+
+					}
+				}
+               }
+			else = {
+				algiers_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+				barbary_coast_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+				hautes_plaines_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+										province = 2463
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+			}
+
+			if{
+                limit = {A12 = { exists = yes } }
+                ROOT = {
+					add_casus_belli = {
+						target = A12
+						type = cb_vassalize_mission
+						months = 300
+
+					}
+				}
+               }
+			else = {
+				2463 = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+				350 = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+				2457 = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+				351 = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+			}
+		}
+	}
+
+	A01_prepare_the_first_strike = {
+		position = 5
+		icon = mission_combat_barbary_piracy
+		required_missions = {A01_moves_towards_carthage A01_secure_the_islands}
+		trigger = {
+			army_size = A02
+			manpower_percentage = 0.75
+		}
+
+		effect = {
+			add_country_modifier = {
+							name = A01_battle_boost_1
+							duration = 7300 #20 years
+						}
+			kabylia_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+			ouled_nail_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+		}
+	}
+
+	A01_prepare_second_strike = {
+		position = 6
+		icon = dalmatian_conquest
+		required_missions = {A01_prepare_the_first_strike}
+		trigger = {
+			kabylia_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			ouled_nail_area= {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		}
+
+		effect = {
+			if{
+                limit = {A12 = { exists = yes } }
+                ROOT = {
+					add_casus_belli = {
+						target = A12
+						type = cb_vassalize_mission
+						months = 300
+
+					}
+				}
+               }
+			   else = {
+				
+			   }
+		}
+	}
 }
 
 A01_3 = {
@@ -71,6 +533,204 @@ A01_3 = {
 		tag = A01
 	}
 	has_country_shield = yes
+
+	A01_consolidate_rule_in_iberia = {
+		position = 1
+		icon = mission_have_two_subjects
+		trigger = {
+			custom_trigger_tooltip = { 
+			AND = {
+                NOT = {A10 = exist}
+                1748 = {owned_by = ROOT}
+				4547 = {owned_by = ROOT}
+				1750 = {owned_by = ROOT}
+				}
+				tooltip = A01_wasal_dupom_wciagniety
+            }
+
+
+		}
+
+		effect = {
+			if{
+                limit = {H08 = { exists = yes } }
+                ROOT = {
+					add_casus_belli = {
+						target = H08
+						type = cb_vassalize_mission
+						months = 300
+
+					}
+				}
+               }
+			   else {
+					alentejo_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+
+					extremadura_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+
+					beieras_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+										is_core = H07
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					
+					leon_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+										is_core = H07
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+
+			   }
+		}
+	}
+
+	A01_fall_of_the_second_brother = {
+		position = 2
+		icon = moravian_arms
+		required_missions = {A01_consolidate_rule_in_iberia}
+		trigger = {
+			alentejo_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			extremadura_area = {
+				type = all
+                country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			beieras_area = {
+				type = all
+				OR = {
+                country_or_non_sovereign_subject_holds = ROOT
+				is_core = H08
+				}
+			}
+
+			leon_area = {
+				type = all
+				OR = {
+                country_or_non_sovereign_subject_holds = ROOT
+				is_core = H08
+				}
+			}
+
+
+		}
+
+		effect = {
+			if{
+                limit = {H09 = { exists = yes } }
+                ROOT = {
+					add_casus_belli = {
+						target = H09
+						type = cb_vassalize_mission
+						months = 300
+
+					}
+				}
+               }
+			   else = {
+				toledo_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+										is_core = H07
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+				valencia_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+										is_core = H07
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+
+				castille_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+										is_core = H07
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+				aragon_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+										is_core = H11
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+			   }
+		}
+	}
+
+	A01_third_brother_down_fall = {
+		position = 3
+		icon = conquer_states
+		required_missions = {A01_fall_of_the_first_brother}
+		trigger = {
+
+		}
+
+		effect = {
+			
+		}
+	}
+
+
 }
 
 A01_4 = {
@@ -82,6 +742,7 @@ A01_4 = {
 		tag = A01
 	}
 	has_country_shield = yes
+
 }
 
 A01_5 = {

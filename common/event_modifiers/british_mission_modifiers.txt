@@ -27,7 +27,7 @@ P13_manpower_in_true_face_province = {
 
 P13_british_rel_fame = {
 	global_missionary_strength = 0.015
-	misionary = 1
+	missionaries = 1
 }
 
 P13_cheaper_dev = {

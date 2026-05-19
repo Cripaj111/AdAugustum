@@ -1,6 +1,20 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = irish_republic
 technology_group = western
 primary_culture = irish
 religion = celtic
 capital = 4121 #Ulster
+
+1443.10.12 = {
+    monarch = {
+        name = "Mountain"
+        dynasty = "Dew"
+        adm = 3
+        dip = 4
+        mil = 2
+        birth_date = 1394.5.9
+        death_date = 1460.1.1
+    }
+    add_ruler_personality = calm_personality
+    add_ruler_personality = loose_lips_personality
+}

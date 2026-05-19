@@ -9,9 +9,21 @@ capital = 358 #Alexandria
     monarch = {
         name = "Cosmas"
         dynasty = "Focas"
-        adm = 5
-        dip = 4
-        mil = 3
+        adm = 2
+        dip = 2
+        mil = 1
         birth_date = 1380.12.12
+        add_ruler_personality = cruel_personality
     }
 }
+
+1428.12.3 = {
+    heir = {
+        name = "Hektor"
+        dynasty = "Focas"
+        adm = 6
+        dip = 4
+        mil = 3
+        birth_date = 1428.12.3
+        claim = 90
+    }}

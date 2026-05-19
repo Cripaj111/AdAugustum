@@ -2,3 +2,6 @@
  sheperd_kingdom:0 "Sheperd Kingdom"
  sheperd_kingdom_desc:0 "Local communities are centered aroud their herds. Most of the time, ruler is selected by judging size of theirs personal herd."
  big_herds:0 "Increase production of livestock and wool by 10%"
+
+ jarldom:0 "Jarldom"
+ jarldom_desc:0 "Basic political organisation of norman people, uniting few smaller tribes under one Jarl."

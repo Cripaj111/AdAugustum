@@ -1,0 +1,16 @@
+#### SUBJECT MODIFIERS ####
+huscarl_subject_bonus = {
+    coast_raid_range = 2
+    recover_navy_morale_speed = 0.1
+}
+
+huscarl_overlord_bonus = {
+    navy_tradition = 0.5
+    global_sailors = 100
+}
+
+#### REFORM MODIFIERS ####
+
+gov_sheperd_herds = {
+    local_goods_produced = 0.1
+}

@@ -1,0 +1,10 @@
+name = "iberian_inferitance_war"
+war_goal = {
+    type = take_capital_personal_union
+    casus_beli = cb_restore_personal_union
+    tag = H09
+}
+1444.1.1 = {
+    add_attacker = H08
+    add_defender = H09
+}

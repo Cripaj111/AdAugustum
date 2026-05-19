@@ -4,3 +4,41 @@ technology_group = western
 primary_culture = welsh
 religion = celtic
 capital = 242 #Gwynedd
+
+1438.10.11 = {
+    monarch = {
+        name = "Rogan"
+        dynasty = "Ulster"
+        adm = 3
+        dip = 4
+        mil = 3
+        birth_date = 1413.5.9
+        death_date = 1460.1.1
+    }
+}
+
+1443.5.6 = {
+    heir = {
+        name = "Cador"
+        dynasty = "Ulster"
+        adm = 5
+        dip = 3
+        mil = 0
+        birth_date = 1443.5.6
+        death_date = 1460.1.1
+    }
+}
+
+1440.11.5 = {
+    queen = {
+        name = "Nora"
+        dynasty = "Kildare"
+        female = yes
+        country_of_origin = P12
+        adm = 2
+        dip = 4
+        mil = 1
+        birth_date = 1424.4.6
+        death_date = 1460.1.1
+    }
+}

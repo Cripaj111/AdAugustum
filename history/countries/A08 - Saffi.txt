@@ -4,3 +4,44 @@ technology_group = western
 primary_culture = moroccan
 religion = catholic
 capital = 345 #Saffi
+
+1425.4.7 = {
+    monarch = {
+        name = "Azzad"
+        dynasty = "Zirid"
+        adm = 2
+        dip = 2
+        mil = 5
+        birth_date = 1400.1.12
+        clear_scripted_personalities = yes
+        death_date = 1446.7.8
+    }
+    
+}
+
+1437.3.6 = {
+	heir = {
+		name = "Heddi"
+		dynasty = "Airid"
+		birth_date = 1437.3.6
+		claim = 70
+		adm = 3
+		dip = 0
+		mil = 4
+        death_date = 1507.9.18
+	}
+}
+
+1435.9.9 = {
+        queen = {
+		country_of_origin = A13
+		name = "Hra"
+		dynasty = "Malgon"
+		birth_date = 1413.11.26
+		female = yes
+		adm = 5
+		dip = 2
+		mil = 1
+        death_date = 1480.4.12
+	}
+}
