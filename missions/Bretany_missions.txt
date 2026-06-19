@@ -8,86 +8,7 @@ I01_1 = {
 	}
 	has_country_shield = yes
 
-    I01_secure_our_place_in_here = {
-        position = 1
-        icon = mission_alliances
-        trigger = {
-            if = {
-                limit = {hre_size = 1}
-            calc_true_if = {
-					desc = WOC_secure_the_imperial_crown.tooltip
-					all_elector = {
-						preferred_emperor = ROOT
-						has_opinion = { who = ROOT value = 75 }
-					}
-					amount = 3
-				}}
-        }
-
-        effect = {
-            add_country_modifier = {
-				name = I01_reasons_to_erect
-			}
-
-            define_advisor = {
-				type = diplomat
-				culture = breton
-				skill = 1
-				cost_multiplier = 0.7
-			}
-        }
-    }
-
-    I01_empires_throne = {
-        position = 2
-        icon = the_imperial_border
-        required_missions = {I01_secure_our_place_in_here}
-        trigger = {
-            is_emperor = yes
-        }
-
-        effect = {
-            add_imperial_influence = 15
-        }
-    }
-}
-
-I01_2 = {
-
-    slot = 2
-	generic = no
-	ai = yes
-	potential = {
-		tag = I01
-	}
-	has_country_shield = yes
-
-	I01_souther_border = {
-		position = 2
-		required_missions = {I01_secure_our_place_in_here}
-		icon = 
-		trigger = {
-
-		}
-
-		effect = {
-			
-		}
-	}
-    
-}
-
-I01_3 = {
-
-    slot = 3
-	generic = no
-	ai = yes
-	potential = {
-		tag = I01
-	}
-	has_country_shield = yes
-    
-	I01_secure_the_normandy = {
+    I01_secure_the_normandy = {
         position = 1
         icon = the_hundred_years_war
         trigger = {
@@ -147,7 +68,7 @@ I01_3 = {
 	I01_flanders = {
 		required_missions = {I01_picardian_conquest}
 		position = 3
-		icon = develop_provence 
+		icon = ned_in_flanders_fields
 		trigger = {
 			picardy_area = {
                 type = all
@@ -176,13 +97,11 @@ I01_3 = {
 		}
 		
 	}
-
-	
 }
 
-I01_4 = {
+I01_2 = {
 
-    slot = 4
+    slot = 2
 	generic = no
 	ai = yes
 	potential = {
@@ -275,28 +194,24 @@ I01_4 = {
 				}
 		}
    }
-
-	
-
     
 }
-I01_5 = {
 
-    slot = 5
+I01_3 = {
+
+    slot = 3
 	generic = no
 	ai = yes
 	potential = {
 		tag = I01
 	}
 	has_country_shield = yes
-	
-	
-
+    
 	I01_bretanny_port_brest = {
 		position = 1
 		icon = mission_control_the_barbary_coast
 		trigger = {
-			168 = {
+			170 = {
 				is_core = ROOT
 				development = 20
 				base_production = 15
@@ -332,5 +247,139 @@ I01_5 = {
 			add_years_of_income = 1.5
 		}
 	}
+
+	I01_secure_our_place_in_here = {
+        position = 5
+        icon = mission_alliances
+        trigger = {
+            if = {
+                limit = {hre_size = 1}
+            calc_true_if = {
+					desc = WOC_secure_the_imperial_crown.tooltip
+					all_elector = {
+						preferred_emperor = ROOT
+						has_opinion = { who = ROOT value = 75 }
+					}
+					amount = 3
+				}}
+        }
+
+        effect = {
+            add_country_modifier = {
+				name = I01_reasons_to_erect
+			}
+
+            define_advisor = {
+				type = diplomat
+				culture = breton
+				skill = 1
+				cost_multiplier = 0.7
+			}
+        }
+    }
+
+    I01_empires_throne = {
+        position = 6
+        icon = the_imperial_border
+        required_missions = {I01_secure_our_place_in_here}
+        trigger = {
+            is_emperor = yes
+        }
+
+        effect = {
+            add_imperial_influence = 15
+        }
+    }
+	
+}
+
+I01_4 = {
+
+    slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = I01
+	}
+	has_country_shield = yes
+
+	I01_bretanny_development = {
+		position = 1
+		icon = mission_early_game_buildings
+		trigger = {
+				development_in_provinces = {
+					value = 100
+					area = brittany_area
+				}
+			has_adm_advisor = yes
+		}
+
+		effect = {
+			brittany_area = {
+				add_province_modifier = {
+				name = I01_brettany_production_modifier
+				duration = 3650 # 10 lat
+			}
+			add_province_modifier = {
+				name = I01_faster_build
+			}
+			}
+
+		}
+	}
+
+	I01_souther_border = {
+		position = 6
+		required_missions = {I01_secure_our_place_in_here}
+		icon = mission_conquer_50_development
+		trigger = {
+			has_spy_network_in = { who = H32 value = 80 }
+			army_size = H32
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = I01_more_vassals
+				duration = 7300 #20 years
+			}
+			vassalize = H35
+		}
+	}
+
+    
+}
+I01_5 = {
+
+    slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = I01
+	}
+	has_country_shield = yes
+	
+	
+	I01_clothe_industry_valley = {
+		position = 2
+		required_missions = {I01_bretanny_development}
+		icon = austria_prospers
+
+		trigger = {
+			OR = {
+				full_idea_group = trade_ideas
+				full_idea_group = economic_ideas
+				full_idea_group = infrastructure_ideas
+			}
+		}
+
+		effect = {
+			loire_area = {
+				add_province_modifier = {
+				name = I01_clothe_industry_modifier
+			}
+			}
+		}
+	}
+	
    
 }
