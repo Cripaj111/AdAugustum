@@ -1,0 +1,30 @@
+country_decisions = {
+    form_ireland = {
+        major = yes
+        potential = {
+            OR = {tag = P11
+            tag = P12}
+            religion = celtic
+            normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+        }
+
+        provinces_to_highlight = {
+            
+        }
+        allow = {
+           
+           AND = {
+            adm_tech = 10
+            is_free_or_tributary_trigger = yes
+			is_at_war = no
+           mission_completed = mi_form_mega_ireland
+           }
+        }
+
+        effect = {
+            add_prestige = 25
+            change_tag = P98
+        }
+    }
+}

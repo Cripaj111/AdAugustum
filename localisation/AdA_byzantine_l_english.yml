@@ -1,0 +1,10 @@
+﻿l_english: 
+ flavor_l01.1921.t:0 "Darkest of Times"
+ flavor_l01.1921.d:0 "\"-Speak now, what is the situation in provinces? \n- My lord, if I were to shorten it, i would say that Darkest Age has befallen our country…\"\nThat short exchange of words between Basileus Ioannes and his trusted advisor often comes up in chronicles, when it is time to describe the background of Gavrasid Restorion. \n \n\ n After the bloodiest civil war in roman history, Constantine Gavras, father of emperor Ioannes, has seized the royal throne. It came with a lot of troubles for country. Third party of this war - Dukas family - seized the Egypt. This province was most vital to byzantine logistics, due to grain export from nile delta. Imperial countryside is still recovering from the great plague of 1437 and on top of that old fiscal system lies in shambles.\n \nMany were saying, that only God can save the byzantines from this dark times."
+ flavor_l01.1921.a:0 "Only thing remaining is hope."
+ flavor_l01_1921_a:0 "Darkest of times have come over Empire. §RredYou can save country via mission tree.§!"
+
+ l01_lost_granary:0 "Lost the Granary of Empire"
+ l01_poor_coinage:0 "Poor Coinage"
+ l01_plague_aftermath:0 "Plague aftermath"
+

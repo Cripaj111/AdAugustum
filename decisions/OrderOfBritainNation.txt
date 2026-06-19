@@ -18,7 +18,7 @@ country_decisions = {
             owns_core_province = 4367
 
             num_of_owned_provinces_with = {
-                value = 20
+                value = 25
                 region = british_isles_region
                 is_core = ROOT 
                 religion = catholic
@@ -26,11 +26,45 @@ country_decisions = {
         }
 
         effect = {
-            change_tag = F01
+            change_tag = P99
             add_prestige = 25
-            add_government_reform = british_crusader_order
+            add_government_reform = british_crusader_order  
+        }
+    }
 
+    P13_more_fih = {
+        major = no
+        potential = {
+            OR = {
+                tag = P13
+                tag = P99
+            }
+            mission_completed = P13_fish_economy
+
+            any_owned_province = {
+                has_port = yes
+                trade_goods = wool
+                region = british_isles_region
+            }
+        }
+
+        provinces_to_highlight = {
             
+        }
+
+        allow = {
+            
+        }
+
+        effect = {
+            every_owned_province = {
+                limit = {
+                    has_port = yes
+                    trade_goods = wool
+                    region = british_isles_region
+                }
+                change_trade_goods = fish
+            }
         }
     }
 }

@@ -1,0 +1,92 @@
+A07_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		
+		OR = {
+            tag = A07
+            was_tag = A07
+        }
+	}
+	has_country_shield = yes
+
+    
+}
+
+A07_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		
+		OR = {
+            tag = A07
+            was_tag = A07
+        }
+	}
+	has_country_shield = yes
+
+}
+
+A07_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		
+		OR = {
+            tag = A07
+            was_tag = A07
+        }
+	}
+	has_country_shield = yes
+
+    A07_assemble_the_pirates = {
+        icon = mission_vasa_ship
+        required_missions = {}
+        position = 1
+        trigger = {
+            navy_size_percentage = 1
+            num_of_admirals = 1
+        }
+
+        effect = {
+           add_country_modifier = {
+							name = A07_better_navy
+							duration = 5475 #15 years
+						}
+        }
+    }
+
+}
+
+A07_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		
+		OR = {
+            tag = A07
+            was_tag = A07
+        }
+	}
+	has_country_shield = yes
+
+}
+
+A07_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		
+		OR = {
+            tag = A07
+            was_tag = A07
+        }
+	}
+	has_country_shield = yes
+
+}

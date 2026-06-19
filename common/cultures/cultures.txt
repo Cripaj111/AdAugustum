@@ -181,7 +181,7 @@ germanic = {
 		Sophie Stefanie Stella Stephanie Susanna Svenja Swenja Sybille Sylvia Tabea Tamara Tanja Tatjana Teresa Thekla 
 		Theres Theresa Therese Theresia Thirza Tina Tirza Traute Trude Ulrike Ursel Ursula Uta Ute Valentina Valerie Vanessa 
 		Vera Verena Verona Veronika Victoria Viktoria Walburg Walburga Waldtraud Waldtraut Walpurga Walpurgis Waltraud 
-		Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Xenia Yasmin Yvonne Zizilia Zazilie Zoe
+		Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Xenia Yasmin Yvonne Zizilia Zazilie Zoe Ferdydurke
 	}
 	dynasty_names = {
 		"von Oldenburg" "von Mecklenburg" "von Hohenzollern" "von Habsburg"
@@ -558,7 +558,7 @@ byzantine = {
 			"Chamaretos" "Charsianites" "Chasanes" "Chazanes" "Choinides" "Choirosphaktes" "Chomatenos" "Chordolibas" 
 			"Choriates" "Chrouselios" "Chrousos" "Chrysanthos" "Chryselios" "Chrysobalantites" "Chrysoberges" "Chytes" 
 			"Daimones" "Dalessenos" "Dalassenos Doukas" "Dekanos" "Diabatenos" "Dikaios" "Diogenes" "Domestikopouolos" 
-			"Doxapatres" "Drakontopoulos" "Drosinos" "Drosos" "Droulenos" 
+			"Doxapatres" "Drakontopoulos" "Drosinos" "Drosos" "Droulenos" "Domestados"
 			"Elegmites" "Enochos" "Epanokomites" "Ergodotes" "Erotikos" "Eugenianos" "Eugenios" "Eulogios" "Exotrochos" 
 			"Gabalas" "Galaton" "Gelotes" "Gidos" "Glykys" "Goudeles" "Gourzoubathenos" "Granatos" "Gribas" "Grispos" 
 			"Gymnos" "Hagiochrisophorites" "Hagioprokopites" "Hagiotheodorites" "Hagiozacharites" "Hamartolos" 
@@ -663,10 +663,10 @@ visigoth = {
 		}
 		male_names = {
 			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso  lvaro Baltasar 
-			Bernardo Bertr n Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco Garc a Gomez Gonzalo Gutierre Hermenegildo 
+			Bernardo Bertren Hernando
+			Cristobal Diego Domingo Esteban Fadrique Francisco Garcia Gomez Gonzalo Gutierre Hermenegildo 
 			Ignacio Lope Miguel Nuno Oden Ramon Rodrigo Tomes Valeriano
-			Alfonso Alphonse Alonso Alphonse  lvar Oliver  lvaro Oliver Bermudo Vermudo Diego Diaco 
+			Alfonso Alphonse Alonso Alphonse  lvar Oliver Alvaro Oliver Bermudo Vermudo Diego Diaco 
 			Henry Fadrique Frederick Felipe Fruela Froila  Gil 
 			Egidius Guillon Guillermo Juan 
 			Lupo Luis Manrique Marten Martin Munio Ordoio 
@@ -698,10 +698,10 @@ visigoth = {
 		}
 		female_names = {
 			Isabel Juana Maria Catalina
-			Adelaida Adelaide Agn s Agnes Alamanda Arsenda Arsenda Beatriu Beatrice Blanca Blanche 
-			Brunisenda Constan a Constance Dol a Douce Elionor Eleanor Elisenda Ermessenda Ermesinda 
+			Adelaida Adelaide Agnes Agnes Alamanda Arsenda Arsenda Beatriu Beatrice Blanca Blanche 
+			Brunisenda Constan a Constance Dola Douce Elionor Eleanor Elisenda Ermessenda Ermesinda 
 			Estefania Stephania Gueraua Guillelma Guisla Gisela Isabel Elisabeth Margarida Margaret 
-			Maria Marquesa Marquise San a Sancha Sibila Sibylla Teresa Teresa Toda Toda Violant Yolanda
+			Maria Marquesa Marquise Sansa Sancha Sibila Sibylla Teresa Teresa Toda Toda Violant Yolanda
 		}
     }
 }
@@ -759,7 +759,7 @@ celtic = {
 		}
 
     irish = {
-	#dupa - tutaj będzie trzeba ugułem irlandie samą w sobie dać jak się zrobi
+	primary = F02
     }
     welsh = {
 	primary = P07
@@ -892,7 +892,7 @@ berberic = {
 	}
 
 	dynasty_names = {
-		Almoravid Almohad Zirid Hammadid Marinid Barghawata Malgon Tauron
+		Almoravid Almohad Zirid Hammadid Marinid Barghawata Malgon Tauron Sauron
 		}
     moorish = {
 		primary = A01
@@ -1056,27 +1056,96 @@ western_slavic = {
     }
     pomeranian = {
 		primary = H22
-		male_names += { 
+		male_names = { 
 			Kubus Bodziec 
+
+			August Wladyslaw Stanislaw Kazimierz Aleksander Henryk Albert Kazimierz Michal Stefan 
+			August Aleksander Karol Kazimierz Krzysztof Fryderyk Olbracht Jan Karol Patryk
+			Ferdynand Olbracht Albert Aleksy Andrzej Bartlomiej Bogumil Bronislaw Dawid Dominik Emil Eugeniusz 
+			Ferdynand Gustaw Igor Iwan Krystian Lech Lucjusz Ludwik Lukasz Maksym Mariusz Mieszko Miroslaw 
+			Rafal Sylwester Szymon Zygfryd Oskar
+			Aleksander Alexander Andrzej Andrew Bartosz Bartolomeus Bezprym Boguchwal Bogumil Boleslaw 
+			Boleslav Boncza Bonifacius Borzyslaw Bozydar Theodat Borzywoj Borijov Budziwuj Czcibor 
+			Czyrzniech Dalimir Daniel Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk Thierry 
+			Eustachy Eustace Gaudenty Gierolt Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk Henry 
+			Izbor J zef Joseph Jacek Hyacinth Jaksa Jacob Jakub Jacob Jakusz John Janislaw John 
+			John Janusz John Jaroslaw Jaroslav Jerzy George Karol Charles Kazimierz Konrad Konrad 
+			Christian Krzeslaw Lambert Lambert Leszek Ctibor
+			Maciej Matthew Macko Matthew Malowuj Marcin Martin Maslaw Mateusz Matthew Mieszko Mikolaj 
+			Nicholas Milobrat Milosz Milosz Miroslaw Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon 
+			Pawel Paul Pelka Piotr Peter Piskla Prendota Przemyslaw Premysl Przybor Sambor Sedziej 
+			Sieciech Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw Stanislav
+			Stefan Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk Svatopluk Swietoslaw 
+			Szczesny Felix Tomasz Thomas Trojden Twardomir Usciech Waclaw Vaclav Wanko Vaclav 
+			Laurence Wielislaw Wieslaw Wincenty Vincent Wit Guy Witosz Wladyslaw Vladislav Wojciech 
+			Wojuta Wszebor Vsebor Zbigniew Zbynek Zbyszko Zbynek Zegota Ignatius Zelibrat
+			Zygmunt Sigmund Albert Wawrzyniec Sviatoslav Sedzimir Otto Krystyn Janko Imram
+
 		}
 		
-		female_names += {
+		female_names = {
 			Syrena Algida 
+
+			Adelajda Adleta Agnieszka Agnes Aldona Anastazja Anastasia Anna Anna Beata Bozena Danuta 
+			Dobrawa Dobronega Elzbieta Elisabeth Eufemia Euphemia Eufrozyna Gertruda Gertrude 
+			Helena Helen Jadwiga Jolanta Yolanda Judyta Judith Katarzyna Catherine Kazimiera Kenna 
+			Konstancja Constance Krystyna Christina Kunegunda Lucja Lucia Ludmila Magdalena Magdalena 
+			Malgorzata Maria Maria Kinga Grzymislawa Richeza Agafia
+			Matylda Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka 
+			Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
+			Wolislawa Wszebora Wszemila Zofia Sophia Zwinislawa
+
 		}
 
-		dynasty_names += {
+		dynasty_names = {
 			Baj Metalowiec Zhuraw Sobieshew
+
+			Gryf Piast Jagiellon Wisniowiecki Sobieski Leszczynski 
+			Poniatowski Radziwill Zamoyski Potocki Lubomirski 
+			Premyslovci Podebrad 
+			Chodkiewicz Czartoryski Lanckoronski Mielzynski Oginski
+			Ostrogski Ostrorg Pac Sapieha Sanguszko Tarnowski Teczynski
+			Tyszkiewicz Kurnatowski Taczanowski Gosiewski Opalinski
 		}
     }
     polan = {
 		primary = H24
 
-		dynasty_names += {
+		dynasty_names = {
 			Kopaniewski Kuras
+
+			Gryf Piast Jagiellon Wisniowiecki Sobieski Leszczynski 
+			Poniatowski Radziwill Zamoyski Potocki Lubomirski 
+			Premyslovci Podebrad 
+			Chodkiewicz Czartoryski Lanckoronski Mielzynski Oginski
+			Ostrogski Ostrorg Pac Sapieha Sanguszko Tarnowski Teczynski
+			Tyszkiewicz Kurnatowski Taczanowski Gosiewski Opalinski
 		}
 
-		male_names += {
+		male_names = {
 			Iktor
+
+			August Wladyslaw Stanislaw Kazimierz Aleksander Henryk Albert Kazimierz Michal Stefan 
+			August Aleksander Karol Kazimierz Krzysztof Fryderyk Olbracht Jan Karol Patryk
+			Ferdynand Olbracht Albert Aleksy Andrzej Bartlomiej Bogumil Bronislaw Dawid Dominik Emil Eugeniusz 
+			Ferdynand Gustaw Igor Iwan Krystian Lech Lucjusz Ludwik Lukasz Maksym Mariusz Mieszko Miroslaw 
+			Rafal Sylwester Szymon Zygfryd Oskar
+			Aleksander Alexander Andrzej Andrew Bartosz Bartolomeus Bezprym Boguchwal Bogumil Boleslaw 
+			Boleslav Boncza Bonifacius Borzyslaw Bozydar Theodat Borzywoj Borijov Budziwuj Czcibor 
+			Czyrzniech Dalimir Daniel Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk Thierry 
+			Eustachy Eustace Gaudenty Gierolt Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk Henry 
+			Izbor J zef Joseph Jacek Hyacinth Jaksa Jacob Jakub Jacob Jakusz John Janislaw John 
+			John Janusz John Jaroslaw Jaroslav Jerzy George Karol Charles Kazimierz Konrad Konrad 
+			Christian Krzeslaw Lambert Lambert Leszek Ctibor
+			Maciej Matthew Macko Matthew Malowuj Marcin Martin Maslaw Mateusz Matthew Mieszko Mikolaj 
+			Nicholas Milobrat Milosz Milosz Miroslaw Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon 
+			Pawel Paul Pelka Piotr Peter Piskla Prendota Przemyslaw Premysl Przybor Sambor Sedziej 
+			Sieciech Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw Stanislav
+			Stefan Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk Svatopluk Swietoslaw 
+			Szczesny Felix Tomasz Thomas Trojden Twardomir Usciech Waclaw Vaclav Wanko Vaclav 
+			Laurence Wielislaw Wieslaw Wincenty Vincent Wit Guy Witosz Wladyslaw Vladislav Wojciech 
+			Wojuta Wszebor Vsebor Zbigniew Zbynek Zbyszko Zbynek Zegota Ignatius Zelibrat
+			Zygmunt Sigmund Albert Wawrzyniec Sviatoslav Sedzimir Otto Krystyn Janko Imram
 		}
 	}
 	belarusian = {
@@ -1105,7 +1174,7 @@ western_slavic = {
 		Markvart Matous Matthew Mikulus Nicholas Milic Mojmor Ojer Oldrich Ulrich Ondrej Andrew Ota 
 		Otakar Pelhrim Petr Peter Premysl Premysl Prokop Procopius Rajmund Raymond Rostislav Sezima 
 		Slavomir Smil Sobieslav Sobeslaus Spytihnev Strachkvas Svatobor Svatopluk Svatopluk Tobias 
-		V clav Slavibor Otto Jan Benedict
+		Vaclav Slavibor Otto Jan Benedict
 		Vaclav Viktoren Vitek Guy Vanek Vilem William Vladimir Vladimir Vladislav Vladislav Vojtech 
 		Vratislav Vratislav Vsebor Vsebor Zevis Zbynek Zbynek Zduk Zdirad Zikmund Sigmund Albert
 		}
@@ -1113,7 +1182,7 @@ western_slavic = {
 		# BOHEMIAN 
 		Adleta Anezka Anna Anna Barbora Bedriska Blazena Bohuslava Boleslava Bozena Bozislava 
 		Dobromila Dobroslava Domaslava Dorota Dorothy Bretislava
-		Doubravka Drahom ra Drahoslava Eliska Eufemie Euphemia Gertruda Gertrude Guta Hedvika Helena 
+		Doubravka Drahomora Drahoslava Eliska Eufemie Euphemia Gertruda Gertrude Guta Hedvika Helena 
 		Jana Jaroslava Jitka Johanka Judita Judith Justina Katerina Catherine
 		Klara Clara Konstancie Constance Kristyna Christina Kunhuta Libuse Ludmila Marie Maria Marketa 
 		Mlada Olga Perchta Pribyslava Richeza Skonka Stanislava Svatava Helen
@@ -1123,8 +1192,8 @@ western_slavic = {
     slovakian = {
 		male_names = {
 			Matej Jan Lukas Stefan Pavol Peter Juraj Jozef Marek Daniel Moric Samuel Martin Ondrej Anton Karol
-			Hugol n Tomas Ludov t Viliam Mikulas Ignac Jaroslav Jaromir Miroslav Drahoslav Svatopluk Mojmir
-			Dobroslav Radoslav Radom r Kazim r Vlastimil Vitazoslav Blahoslav Svetozar Bonifac Vratislav
+			Hugolon Tomas Ludovit Viliam Mikulas Ignac Jaroslav Jaromir Miroslav Drahoslav Svatopluk Mojmir
+			Dobroslav Radoslav Radomir Kazimir Vlastimil Vitazoslav Blahoslav Svetozar Bonifac Vratislav
 			Vladislav Vladimir Cyril Konstantin Metod Bohuslav Drahomir Prokop Jergus Tichomir Bartolomej
 			Luboslav Lubomir Levoslav Stanislav
 		}
@@ -1141,12 +1210,41 @@ western_slavic = {
     }
     mazovian = {
 		primary = H29
-		male_names += {
+		male_names = {
 			Janusz Miloniusz 
+
+			August Wladyslaw Stanislaw Kazimierz Aleksander Henryk Albert Kazimierz Michal Stefan 
+			August Aleksander Karol Kazimierz Krzysztof Fryderyk Olbracht Jan Karol Patryk
+			Ferdynand Olbracht Albert Aleksy Andrzej Bartlomiej Bogumil Bronislaw Dawid Dominik Emil Eugeniusz 
+			Ferdynand Gustaw Igor Iwan Krystian Lech Lucjusz Ludwik Lukasz Maksym Mariusz Mieszko Miroslaw 
+			Rafal Sylwester Szymon Zygfryd Oskar
+			Aleksander Alexander Andrzej Andrew Bartosz Bartolomeus Bezprym Boguchwal Bogumil Boleslaw 
+			Boleslav Boncza Bonifacius Borzyslaw Bozydar Theodat Borzywoj Borijov Budziwuj Czcibor 
+			Czyrzniech Dalimir Daniel Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk Thierry 
+			Eustachy Eustace Gaudenty Gierolt Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk Henry 
+			Izbor J zef Joseph Jacek Hyacinth Jaksa Jacob Jakub Jacob Jakusz John Janislaw John 
+			John Janusz John Jaroslaw Jaroslav Jerzy George Karol Charles Kazimierz Konrad Konrad 
+			Christian Krzeslaw Lambert Lambert Leszek Ctibor
+			Maciej Matthew Macko Matthew Malowuj Marcin Martin Maslaw Mateusz Matthew Mieszko Mikolaj 
+			Nicholas Milobrat Milosz Milosz Miroslaw Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon 
+			Pawel Paul Pelka Piotr Peter Piskla Prendota Przemyslaw Premysl Przybor Sambor Sedziej 
+			Sieciech Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw Stanislav
+			Stefan Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk Svatopluk Swietoslaw 
+			Szczesny Felix Tomasz Thomas Trojden Twardomir Usciech Waclaw Vaclav Wanko Vaclav 
+			Laurence Wielislaw Wieslaw Wincenty Vincent Wit Guy Witosz Wladyslaw Vladislav Wojciech 
+			Wojuta Wszebor Vsebor Zbigniew Zbynek Zbyszko Zbynek Zegota Ignatius Zelibrat
+			Zygmunt Sigmund Albert Wawrzyniec Sviatoslav Sedzimir Otto Krystyn Janko Imram
 		}
 
-		dynasty_names += {
+		dynasty_names = {
 			Trojden "z Plocka" "z Mazowsza" Mazowiec 
+
+			Gryf Piast Jagiellon Wisniowiecki Sobieski Leszczynski 
+			Poniatowski Radziwill Zamoyski Potocki Lubomirski 
+			Premyslovci Podebrad 
+			Chodkiewicz Czartoryski Lanckoronski Mielzynski Oginski
+			Ostrogski Ostrorog Pac Sapieha Sanguszko Tarnowski Teczynski
+			Tyszkiewicz Kurnatowski Taczanowski Gosiewski Opalinski
 		}
     }
     lendian = {
@@ -1222,7 +1320,7 @@ western_slavic = {
 			Poniatowski Radziwill Zamoyski Potocki Lubomirski 
 			Premyslovci Podebrad 
 			Chodkiewicz Czartoryski Lanckoronski Mielzynski Oginski
-			Ostrogski Ostror g Pac Sapieha Sanguszko Tarnowski Teczynski
+			Ostrogski Ostrorog Pac Sapieha Sanguszko Tarnowski Teczynski
 			Tyszkiewicz Kurnatowski Taczanowski Gosiewski Opalinski
 		}
 }
@@ -2454,7 +2552,7 @@ altaic = {
 			Tolui Toq Uskhal Yes n Ariq Batu Eljigidei Joichi Darayisung T men
 		}
 		female_names = {
-			Tem len B rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
+			Temulen Berte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
 			Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
@@ -2462,9 +2560,9 @@ altaic = {
 		primary = S06
 		male_names = {
 			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligt  Dayan 
-			Delbeg Ejei Elbeg Engke G y k G n Gulichi Irinchibal Jorightu Kublai K ke Ligdan Mark rgis M ngke 
-			Manduulun  ljei  r g Oyiradai  g dei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Tem r Toghun 
-			Tolui Toq Uskhal Yes n Ariq Batu Eljigidei Joichi Darayisung T men
+			Delbeg Ejei Elbeg Engke Giyak Gen Gulichi Irinchibal Jorightu Kublai K ke Ligdan Mark Orgis Mongke 
+			Manduulun  Eljei  Oreg Oyiradai Ugedei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temir Toghun 
+			Tolui Toq Uskhal Yes n Ariq Batu Eljigidei Joichi Darayisung Tumen
 		}
 		female_names = {
 			Tem len B rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun 
@@ -2474,12 +2572,12 @@ altaic = {
 	oirats = {
 		primary = S07
 		male_names = {
-			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen G shi Lha-bzang Khara Khula Kho Sengge Tseten 
+			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Geshi Lha-bzang Khara Khula Kho Sengge Tseten 
 			Tsewang Kundelung Lobzang Sutai Tsobasa Ubasi Quduqa Toghto Altai B ki Bayan Dayan Hami Molon Oori 
-			Sechen Radi Talman Todo Tumen Tumu Ubashi Ulan Wehe Yelu Zaya Orl k
+			Sechen Radi Talman Todo Tumen Tumu Ubashi Ulan Wehe Yelu Zaya Orlok
 		}
 		female_names = {
-			Hoelun Tam l n Sorghaghtani Tem len B rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
+			Hoelun Tamulen Sorghaghtani Temalen Berte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
 		}
 	}
 	uzbehk = {
@@ -2571,7 +2669,7 @@ mountain_people = {
 			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
 			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
 			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
-			Lope Lupo Luis Louis Manrike Amalric Martin Martin Munio Munio Nuio Nuno Obeko Obeko Ordo o 
+			Lope Lupo Luis Louis Manrike Amalric Martin Martin Munio Munio Nuio Nuno Obeko Obeko Ordoao 
 			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
 			Zentulo Centule Ladron Ferdinand Bernart
 		}
@@ -2590,7 +2688,7 @@ mountain_people = {
 		}
 
 		dynasty_names = {
-			Janosik 
+			Janosik Kockodan
 		}
 
 	}
@@ -2735,13 +2833,13 @@ thai_group = {
 		primary = AYU
 		dynasty_names = { 
 			Ayutthaya Sukhothai Thonburi Phitsanulok "Phra Bang" Ratchaburi Phetchaburi "U Thong" "Nakhon Pathom" 
-			Phimai "Sri Thep" "Nakhon Sawan" Lavapura "Chiang Mai" "Chiang Rai" "Chet Ton" Lampang Lamphun
+			Phimai "Sri Thep" "Nakhon Sawan" Lavapura "Chiang Mai" "Chiang Rai" "Chet Ton" Lampang Lamphun "Bai Hon Xin" "Jaya Raya"
 		}
 		male_names = {
 			"Ramaracha" "Intha Racha" "Borommaracha" "Trailokanat" "Ramathibodi" "Ratsada" "Chairacha" "Keo Fa" 
 			"Bun Si" "Chakkraphat" "Mahin" "Thammaracha" "Naresuen" "Ekathotsarot" "Si Saowaphak" "Songtham" "Chettha" 
 			"Athittayawong" "Prasat Thong" "Chao Fa Jai" "Narai" "Si Suthammaracha" "Phetracha" "Phrachao Suea" "Thai Sa" "Boromakot" "Uthumphon" "Taksin" "Rama"
-			"K  Na" "Saenmuenagma" "Samfangkaen" "Tilokaracha" "Yotchiangrai" "Kaeo" "Ket" "Saikham" "Setthathirat" 
+			"Ka Na" "Saenmuenagma" "Samfangkaen" "Tilokaracha" "Yotchiangrai" "Kaeo" "Ket" "Saikham" "Setthathirat" 
 			"Mekuti" "Nawrahta Minsaw" "Phra Choi" "Phra Chaiyathip" "Sisongmueang" "Luangthipphanet" "Phra Saenmueang" 
 			"Phrae" "Ingsemang" "Cheputarai" "Mangraenara" "Ong Kham" "Ong Chan" "Khihut" "Po Aphaikhamini" "Po Mayunguan" "Phraya Chaban" "Thammalangka" "Kawila"
 		}
@@ -2779,7 +2877,7 @@ thai_group = {
 			"Sotika Koumane" "Anurutha" "Manthaturat"
 		}
 		female_names = {
-			"Ch u" "Nang Keo Phimpha" "Manora" "Souphutta" "Anousa" "Nokasat"
+			"Chu" "Nang Keo Phimpha" "Manora" "Souphutta" "Anousa" "Nokasat"
 		}	
 	}
 	shan = {
@@ -2850,14 +2948,14 @@ japanese_g = {
 		primary = JAP
 		dynasty_names = { 
 			Yamato Arisugawa Asaka Fushimi "Kan'in" Katsura Kaya Kitashirakawa 
-			Kuni Nashimoto Takeda Yamashina
+			Kuni Nashimoto Takeda Yamashina Nabosaka Omate Imaha Mitahata Mazaki Czua Arasaka
 		}
 		male_names = {
 			Motohito Mihito Hikohito Fusahito Katsuhito Tomohito Michihito Kazuhito Kotohito Okiko Tsuguhito Nagahito 
 			Satohito Asahito Toshiko Yasuhito Teruhito Hidehito Morohito Ayahito Takauji Yoshiakira Yoshimitsu 
 			Yoshimochi Yoshikazu Yoshinori Yoshikatsu Yoshimasa Yoshihisa Yoshitane Yoshizumi Yoshiharu Yoshiteru 
 			Yoshihide Yoshiaki Nobutada Hidenobu Hideyoshi Hideyori Ieyasu Hidetada Iemitsu Ietsuna Tsunayoshi Ienobu 
-			Ietsugu Yoshimune Ieshige Ieharu Ienari Ieyoshi Iesada Iemochi Yoshinobu
+			Ietsugu Yoshimune Ieshige Ieharu Ienari Ieyoshi Iesada Iemochi Yoshinobu Gonisuki Yayami Makiya Nahui Kosi
 		}
 		female_names = {
 			Toku Sen Tama Aya Ina Kumiko Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka 
@@ -2869,7 +2967,7 @@ japanese_g = {
 			Noa Noriko Ran Rei Ren Riko Rin Rina Rio Sachiko Saki Sakura Sakurako Satomi Sayuri Setsuko Shinju Shinobu 
 			Shiori Shizuka Shun Sora Sumiko Suzu Suzume Takako Takara Tamiko Tomiko Tomoko Tomomi Tsubaki Tsubame Tsubasa 
 			Tsukiko Ume Umeko Wakana Yasu Yoko Yoshi Yoshiko Youko Yua Yui Yuina Yuki Yukiko Yuko Yumi Yumiko Yuri Yuu 
-			Yuuka Yuuki Yuuko Yuuna Yuzuki
+			Yuuka Yuuki Yuuko Yuuna Yuzuki Joto
 		}
 	}
 	japanese = { #Saigoku / Western Japanese
@@ -2877,14 +2975,14 @@ japanese_g = {
 		primary = MRI
 		dynasty_names = { 
 			Yamato Arisugawa Asaka Fushimi "Kan'in" Katsura Kaya Kitashirakawa 
-			Kuni Nashimoto Takeda Yamashina
+			Kuni Nashimoto Takeda Yamashina Nabosaka Omate Imaha Mitahata Mazaki Czua Arasaka
 		}
 		male_names = {
 			Motohito Mihito Hikohito Fusahito Katsuhito Tomohito Michihito Kazuhito Kotohito Okiko Tsuguhito Nagahito 
 			Satohito Asahito Toshiko Yasuhito Teruhito Hidehito Morohito Ayahito Takauji Yoshiakira Yoshimitsu 
 			Yoshimochi Yoshikazu Yoshinori Yoshikatsu Yoshimasa Yoshihisa Yoshitane Yoshizumi Yoshiharu Yoshiteru 
 			Yoshihide Yoshiaki Nobutada Hidenobu Hideyoshi Hideyori Ieyasu Hidetada Iemitsu Ietsuna Tsunayoshi Ienobu 
-			Ietsugu Yoshimune Ieshige Ieharu Ienari Ieyoshi Iesada Iemochi Yoshinobu
+			Ietsugu Yoshimune Ieshige Ieharu Ienari Ieyoshi Iesada Iemochi Yoshinobu Gonisuki Yayami Makiya Nahui Kosi
 		}
 		female_names = {
 			Toku Sen Tama Aya Ina Kumiko Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka 
@@ -2896,7 +2994,7 @@ japanese_g = {
 			Noa Noriko Ran Rei Ren Riko Rin Rina Rio Sachiko Saki Sakura Sakurako Satomi Sayuri Setsuko Shinju Shinobu 
 			Shiori Shizuka Shun Sora Sumiko Suzu Suzume Takako Takara Tamiko Tomiko Tomoko Tomomi Tsubaki Tsubame Tsubasa 
 			Tsukiko Ume Umeko Wakana Yasu Yoko Yoshi Yoshiko Youko Yua Yui Yuina Yuki Yukiko Yuko Yumi Yumiko Yuri Yuu 
-			Yuuka Yuuki Yuuko Yuuna Yuzuki
+			Yuuka Yuuki Yuuko Yuuna Yuzuki Joto
 		}
 	}
 	kyushuan = { #Kyushu culture
@@ -2904,14 +3002,14 @@ japanese_g = {
 		primary = OTM
 		dynasty_names = { 
 			Yamato Arisugawa Asaka Fushimi "Kan'in" Katsura Kaya Kitashirakawa 
-			Kuni Nashimoto Takeda Yamashina
+			Kuni Nashimoto Takeda Yamashina Nabosaka Omate Imaha Mitahata Mazaki Czua Arasaka
 		}
 		male_names = {
 			Motohito Mihito Hikohito Fusahito Katsuhito Tomohito Michihito Kazuhito Kotohito Okiko Tsuguhito Nagahito 
 			Satohito Asahito Toshiko Yasuhito Teruhito Hidehito Morohito Ayahito Takauji Yoshiakira Yoshimitsu 
 			Yoshimochi Yoshikazu Yoshinori Yoshikatsu Yoshimasa Yoshihisa Yoshitane Yoshizumi Yoshiharu Yoshiteru 
 			Yoshihide Yoshiaki Nobutada Hidenobu Hideyoshi Hideyori Ieyasu Hidetada Iemitsu Ietsuna Tsunayoshi Ienobu 
-			Ietsugu Yoshimune Ieshige Ieharu Ienari Ieyoshi Iesada Iemochi Yoshinobu
+			Ietsugu Yoshimune Ieshige Ieharu Ienari Ieyoshi Iesada Iemochi Yoshinobu Gonisuki Yayami Makiya Nahui Kosi
 		}
 		female_names = {
 			Toku Sen Tama Aya Ina Kumiko Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka 
@@ -2923,7 +3021,7 @@ japanese_g = {
 			Noa Noriko Ran Rei Ren Riko Rin Rina Rio Sachiko Saki Sakura Sakurako Satomi Sayuri Setsuko Shinju Shinobu 
 			Shiori Shizuka Shun Sora Sumiko Suzu Suzume Takako Takara Tamiko Tomiko Tomoko Tomomi Tsubaki Tsubame Tsubasa 
 			Tsukiko Ume Umeko Wakana Yasu Yoko Yoshi Yoshiko Youko Yua Yui Yuina Yuki Yukiko Yuko Yumi Yumiko Yuri Yuu 
-			Yuuka Yuuki Yuuko Yuuna Yuzuki
+			Yuuka Yuuki Yuuko Yuuna Yuzuki Joto
 		}
 	}
 }

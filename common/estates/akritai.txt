@@ -1,0 +1,51 @@
+akritai_estate = {
+    icon = 12
+
+    trigger = {
+        tag = L01
+    }
+
+    country_modifier_happy = {
+		fort_maintenance_modifier = -0.2
+        defensiveness = 0.15
+	}
+	country_modifier_neutral = {
+		fort_maintenance_modifier = -0.1
+	}	
+	country_modifier_angry = {
+		fort_maintenance_modifier = 0.2
+        defensiveness = -0.15
+	}
+	land_ownership_modifier = {
+		akritai_loyalty_modifier = 0.2
+	}
+
+    base_influence = 0
+    influence_modifier = {
+		desc = akritai_armenian_provinces
+		trigger = {
+			any_owned_province = {
+				culture = armenian
+			}
+			num_of_cities = 10
+		}
+		influence = 10
+	}
+    influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = akritai_cossacks }
+		}
+		influence = -40
+	}
+
+    privileges = {
+
+    }
+    agendas = {
+
+    }
+
+    color = { 235 97 52 }
+}

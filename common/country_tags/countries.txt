@@ -214,10 +214,12 @@ X05 = "countries/Hongyuan.txt"
 X06 = "countries/Wuchang.txt"
 
 
+
 ######################################
 #####       FORMABLE              ####
 ######################################
-F01 = "countries/OrderOfBritain.txt"
+P99 = "countries/OrderOfBritain.txt"
+P98 = "countries/Ireland.txt"
 
 ######################################
 ####         JA PAN TY PIES       ####

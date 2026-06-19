@@ -139,7 +139,7 @@ jarldom = {
 
 irish_kingdom = {
     icon = "tanistry"
-    allow_normal_conversion = yes
+    allow_normal_conversion = no
     potential = {
 		primary_culture = irish
 	}
@@ -179,6 +179,26 @@ great_irish_kingdom = {
     }
 }
 
+bretonian_kingdom = {
+	icon = "burgundian_state"
+	allow_normal_conversion = no
+	potential = {tag = I01}
+
+	rulers_can_be_generals = yes 
+	heirs_can_be_generals = yes
+	valid_for_nation_designer = yes
+    nation_designer_cost = 10
+	has_parliament = yes
+
+	modifiers = {
+		max_absolutism = -30
+		nobles_influence_modifier = -0.1
+		diplomatic_upkeep = 1
+		advisor_pool = 1
+	}
+
+	
+}
 
 ####### TIER 1 ########
 

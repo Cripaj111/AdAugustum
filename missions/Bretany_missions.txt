@@ -61,6 +61,19 @@ I01_2 = {
 		tag = I01
 	}
 	has_country_shield = yes
+
+	I01_souther_border = {
+		position = 2
+		required_missions = {I01_secure_our_place_in_here}
+		icon = 
+		trigger = {
+
+		}
+
+		effect = {
+			
+		}
+	}
     
 }
 
@@ -74,7 +87,7 @@ I01_3 = {
 	}
 	has_country_shield = yes
     
-    I01_secure_the_normandy = {
+	I01_secure_the_normandy = {
         position = 1
         icon = the_hundred_years_war
         trigger = {
@@ -102,7 +115,82 @@ I01_3 = {
         }
     }
 
-    I01_across_the_strait = {
+	
+	I01_picardian_conquest = {
+		position = 2
+		icon = develop_provence 
+		required_missions = {I01_secure_the_normandy}
+		trigger = {
+			normandy_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+
+			army_size = 20
+		}
+
+		effect = {
+			picardy_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+		}
+	}
+
+	I01_flanders = {
+		required_missions = {I01_picardian_conquest}
+		position = 3
+		icon = develop_provence 
+		trigger = {
+			picardy_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+
+			87 = {
+				province_has_center_of_trade_of_level = 2
+				base_production = 10
+				has_trade_building_trigger = yes
+			}
+		}
+
+		effect = {
+			flanders_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+		}
+		
+	}
+
+	
+}
+
+I01_4 = {
+
+    slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = I01
+	}
+	has_country_shield = yes
+
+	I01_across_the_strait = {
          position = 2
          icon = defeat_the_english 
          required_missions = {I01_secure_the_normandy}
@@ -110,7 +198,6 @@ I01_3 = {
                 normandy_area = {
                 type = all
                 country_or_non_sovereign_subject_holds = ROOT
-                
             }
 
             navy_size = P06
@@ -143,19 +230,54 @@ I01_3 = {
 
          }
     }
-}
+	 
+    I01_sussex_conquest = {
+		position = 3
+		icon = defeat_the_english
+		required_missions = {I01_across_the_strait I01_picardian_conquest}
+		trigger = {
+		OR = {
+			normandy_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            } 
+			P06 = { is_subject_of = ROOT } 
+		}
+		picardy_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+		army_size = P03
+		navy_size = P03
+		}
 
-I01_4 = {
+		effect = {
+		if = {
+					limit = { 
+						P03= { is_subject = no exists = yes } 
+					}
+					add_casus_belli = {
+						target = P03
+						type = cb_vassalize_mission
+						months = 180
+					}
+				}
+            else = { 
+					sussex_area = {
+						limit = {
+							NOT = { owned_by = ROOT }
+							NOT = { is_core = ROOT }
+							is_empty = no
+						}
+						add_permanent_claim = ROOT
+					}
+					
+				}
+		}
+   }
 
-    slot = 4
-	generic = no
-	ai = yes
-	potential = {
-		tag = I01
-	}
-	has_country_shield = yes
+	
 
-    
     
 }
 I01_5 = {
@@ -167,5 +289,48 @@ I01_5 = {
 		tag = I01
 	}
 	has_country_shield = yes
-    
+	
+	
+
+	I01_bretanny_port_brest = {
+		position = 1
+		icon = mission_control_the_barbary_coast
+		trigger = {
+			168 = {
+				is_core = ROOT
+				development = 20
+				base_production = 15
+				has_trade_building_trigger = yes
+			}
+		}
+
+		effect = {
+			170 = {
+				add_province_modifier = {
+								name = I01_cheaper_monument
+							}
+			}
+
+			add_prestige_or_monarch_power = {amount = 20}
+		}
+   }
+
+	I01_trade_investements = {
+		position = 3
+		required_missions = {I01_bretanny_port_brest I01_across_the_strait}
+		icon = mission_war_chest
+		trigger = {
+			num_ships_protecting_trade = 15
+			num_of_centers_of_trade = 3
+		}
+
+		effect = {
+			add_country_modifier = {
+							name = I01_trade_power_midifier
+							duration = 7300 #20 years
+						}
+			add_years_of_income = 1.5
+		}
+	}
+   
 }

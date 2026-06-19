@@ -1,0 +1,5 @@
+on_startup = {
+    events = {
+        flavor_l01.1921
+    }
+}

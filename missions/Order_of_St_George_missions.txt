@@ -6,7 +6,7 @@ P13_1 = {
 		
 		OR = {
 		tag = P13
-		tag = F01
+		tag = P99
 		}
 	}
 	has_country_shield = yes
@@ -236,7 +236,7 @@ P13_1 = {
 						
 		}
 		trigger = {
-			ulster_area = {
+						ulster_area = {
 							type = all
 							country_or_non_sovereign_subject_holds = ROOT
 						}
@@ -410,6 +410,115 @@ P13_1 = {
 						}
 			}
 		}
+
+
+		P13_develop_the_reconquisted_land = {
+        icon = mission_expand_into_the_forest
+        position = 22
+        required_missions = {  }
+        provinces_to_highlight = {
+        }
+        trigger = {
+            num_of_owned_provinces_with = {
+
+
+                            OR = {
+                                num_of_times_improved = 5
+                                development = 10
+                            }
+                            NOT = {province_id = 4367}
+                            value = 8 
+                        }
+        }
+
+        effect = {
+
+
+                add_country_modifier = {
+                                    name = P13_early_prosperity
+                                    duration = 5475 #15 years
+                                }
+
+
+
+                add_years_of_income = 1.5
+        }
+    }
+
+	P13_early_industrialization = {
+		icon = mission_rb_prospect_for_coal
+		position = 24
+		required_missions = {P13_develop_the_reconquisted_land}
+		trigger = {
+			calc_true_if = {
+				desc = build_manufactories_mission_tooltip
+				all_owned_province = {
+					region = british_isles_region
+					OR = {
+						has_building = mills
+						has_building = farm_estate
+						has_building = tradecompany
+						has_building = plantations
+						has_building = textile
+						has_building = weapons
+						has_building = wharf
+						has_building = furnace
+					}
+				}
+				amount = 5
+			}
+
+		}
+
+		effect = {
+				every_owned_province = {
+					limit = {
+					region = british_isles_region
+					OR = {
+						has_building = mills
+						has_building = farm_estate
+						has_building = tradecompany
+						has_building = plantations
+						has_building = textile
+						has_building = weapons
+						has_building = wharf
+						has_building = furnace
+					}
+					}
+					add_province_modifier = {
+						name = P13_early_industrialization_modifier
+						duration = 3650 #10 lat
+					}
+				}
+
+		}
+	}
+
+	P13_fish_economy = {
+		icon =mission_rb_cod_wars
+		position = 25
+		required_missions = {P13_early_industrialization}
+		trigger = {
+			
+			num_of_owned_provinces_with = {
+                region = british_isles_region
+                value = 5
+                has_production_building_trigger = yes
+				trade_goods = fish
+            }
+			
+		}
+
+		effect = {
+
+			change_price = {
+						trade_goods = fish
+						key = P13_orders_fishes
+						value = 0.25
+						duration = -1
+			}
+		}
+	}
 }
 
 P13_2 = {
@@ -419,7 +528,7 @@ P13_2 = {
 	potential = {
 		OR = {
 		tag = P13
-		tag = F01
+		tag = P99
 		}
 	}
 	has_country_shield = yes
@@ -432,7 +541,7 @@ P13_2 = {
 			is_capital = yes
 			owner = {
 				is_neighbor_of = ROOT
-				any_owned_province = { region = britain_region }
+				any_owned_province = { region = british_isles_region }
 				army_size = root
 			}
 		}
@@ -488,7 +597,7 @@ P13_2 = {
 			P13_officer_corpse
 		}
 		trigger = {
-			tag = F01
+			tag = P99
 		}
 
 		effect = {
@@ -538,6 +647,35 @@ P13_2 = {
 						}
 			}
 		}
+
+		P13_orders_development = {
+			 icon = mission_beyond_the_urals
+        position = 23
+        required_missions = {P13_develop_the_reconquisted_land P13_order_stability }
+        provinces_to_highlight = {}
+        trigger = {
+            num_of_owned_provinces_with = {
+                region = british_isles_region
+                value = 10
+                has_production_building_trigger = yes
+            }
+        dip_power_cost = 150
+        }
+
+        effect = {
+
+            custom_tooltip = P13_dodawanie_produkcji
+            hidden_effect = {
+            every_owned_province = {
+                limit = { 
+                    AND = {
+                region = british_isles_region 
+                has_production_building_trigger = yes
+                } }
+                add_base_production = 1
+            }}
+        }
+		}
 }
 
 P13_3 = {
@@ -547,7 +685,7 @@ P13_3 = {
 	potential = {
 		OR = {
 		tag = P13
-		tag = F01
+		tag = P99
 		}
 	}
 	has_country_shield = yes
@@ -579,7 +717,7 @@ P13_3 = {
 							OR = {
 							has_manpower_building_trigger = no
 							NOT = {  development = 10}
-							NOT = {military_development = 5}
+							NOT = {base_manpower = 5}
 						}
 					}
 		}
@@ -717,37 +855,23 @@ P13_3 = {
 		}
 	}	
 
-
-
-
-	P13_workshops_of_the_order = {
-		icon = mission_beyond_the_urals
-		position = 20
-		required_missions = { }
-		provinces_to_highlight = {}
+	P13_cultures_of_land = {
+		icon = king_of_the_franks
+		position = 24
+		required_missions = {P13_orders_development P13_control_of_power}
 		trigger = {
-			num_of_owned_provinces_with = {
-				region = british_isles_region
-				value = 10
-				has_production_building_trigger = yes
-			}
-		dip_power_cost = 150	
+			crown_land_share = 60
+			adm_tech = 8
 		}
 
 		effect = {
-			
-			custom_tooltip = P13_i_tak_wywalic
-			hidden_effect = {
-			every_owned_province = {
-				limit = { 
-					AND = {
-				region = british_isles_region 
-				has_production_building_trigger = yes
-				} }
-				add_base_production = 1
-			}}
+			add_country_modifier = {
+							name = P13_cultures_change
+						}
 		}
 	}
+
+	
 }
 
 P13_4 = {
@@ -757,7 +881,7 @@ P13_4 = {
 	potential = {
 		OR = {
 		tag = P13
-		tag = F01
+		tag = P99
 		}
 	}
 	has_country_shield = yes
@@ -785,7 +909,7 @@ P13_4 = {
 		}
 	}
 
-P13_religious_faculty = {
+	P13_religious_faculty = {
 		icon = shield_of_christendom
 		position = 5
 		required_missions = { P13_faund_the_accademy P13_christian_foothold }
@@ -876,62 +1000,79 @@ P13_religious_faculty = {
 			}
 		}
 
-	P13_develop_the_reconquisted_land = {
-		icon = mission_expand_into_the_forest
-		position = 20
-		required_missions = {  }
-		provinces_to_highlight = {					
-		}
+	P13_order_stability = {
+		icon = mission_alliances
+		position = 22
+		required_missions = {}
 		trigger = {
-			num_of_owned_provinces_with = {
-							
-							
-							OR = {
-								num_of_times_improved = 5
-								development = 10
-							}
-							NOT = {province_id = 4367}
-							value = 8 
-						}
+			stability = 1
 		}
 
 		effect = {
-
-				
-				add_country_modifier = {
-									name = P13_early_prosperity
-									duration = 5475 #15 years
-								}
-				
-
-			
-						add_years_of_income = 1.5
+			add_stability = 1
+			change_government_reform_progress = 50
 		}
 	}
 
-	P13_orders_economic_growth = {
-		icon = mission_afghan_frontier
-		position = 21
-		required_missions = {
-			P13_develop_the_reconquisted_land
-			P13_workshops_of_the_order
-		}
-		provinces_to_highlight = {}
-		trigger = {
-			grown_by_development = 100
-			employed_advisor = { 
-				category = adm
-				skill = 2
+	P13_control_of_power = {
+			icon = balance_the_estates
+			position = 23
+			required_missions = { P13_order_stability	}
+			trigger = {
+				if = {
+				limit = {
+					has_estate = estate_nobles
+				}
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 60
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_burghers
+				}
+				estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 60
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_church
+				}
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 60
+				}
+			}
+			}
+
+			effect = {
+				add_country_modifier = {
+							name = P13_cheaper_advisors
+							duration = 5475 #15 years
+						}
 			}
 		}
-		effect = {
-			add_country_modifier = {
-									name = P13_cheaper_dev
-									duration = 5475 #15 years
-								}
-			
+
+		P13_great_empire = {
+			icon = hungarian_union
+			position = 25
+			required_missions = {P13_control_of_power}
+			trigger = {
+				development_in_provinces = {
+				value = 1000
+				}
+				num_of_provinces_in_states = 100
+			}
+
+			effect = {
+				add_country_modifier = {
+							name = P13_great_empire_modifier
+						}
+			}
 		}
-	}
 } 
 
 P13_5 = {
@@ -941,7 +1082,7 @@ P13_5 = {
 	potential = {
 		OR = {
 		tag = P13
-		tag = F01
+		tag = P99
 		}
 	}
 	has_country_shield = yes

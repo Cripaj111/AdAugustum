@@ -142,3 +142,34 @@ P13_new_academy_modifer = {
 	army_tradition = 0.3
 	mil_tech_cost_modifier = -0.1
 }
+
+P13_cheaper_advisors = {
+	advisor_cost = -0.1
+	global_autonomy = -0.01
+}
+
+P13_great_empire_modifier = {
+	governing_capacity_modifier = 0.2
+}
+
+P13_cultures_change = {
+		culture_conversion_cost = -0.2
+		culture_conversion_time = -0.3
+}
+
+P13_early_industrialization_modifier = {
+		local_prosperity_growth = 0.1
+		local_production_efficiency = 0.1
+}
+
+P13_fih = {
+	trade_goods_size_modifier = 0.2
+}
+
+mi_irish_income = {
+	global_tax_income = 24
+}
+
+mi_better_autonomy = {
+	global_autonomy = -0.05
+}

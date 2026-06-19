@@ -1,0 +1,9 @@
+I01_cheaper_monument = {
+    local_great_project_upgrade_cost = -0.25
+    local_great_project_upgrade_time = -0.15
+}
+
+I01_trade_power_midifier = {
+    ship_power_propagation = 0.15
+    	trade_steering = 0.15
+}

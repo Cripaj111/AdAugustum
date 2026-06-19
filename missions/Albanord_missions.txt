@@ -1,0 +1,135 @@
+P10_1 {
+    slot = 1
+    generic = no
+    potential = {
+        tag = P10
+    }
+    has_country_shield = yes
+
+}
+P10_2 {
+    slot = 2
+    generic = no
+    potential = {
+        tag = P10
+    }
+    has_country_shield = yes
+
+    p10_rally_the_clansman = {
+        icon = mission_modernized_vikings
+        position = 1
+        required_missions = {  }
+		trigger = {
+			army_size_percentage = 0.9
+            is_heir_leader = yes
+		}
+        effect = {
+            add_country_modifier = {
+                name = "p10_invasion_force"
+                duration = 5475
+            }
+            250 = {
+                if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+            }
+            4365 = {
+                if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+            }
+            lowlands_area = {
+                if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+            }
+            
+        }
+
+    }
+
+    p10_expand_the_realm = {
+        icon = mission_modernized_vikings
+        position = 1
+        required_missions = { p10_rally_the_clansman }
+        provinces_to_highlight = {
+            OR = {
+                area = lowlands_area
+                AND = {
+                    area = kingdom_of_the_isles_area
+                    NOT = {
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                }
+                AND = {
+                    area = highlands_area
+                    NOT = {
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                }
+            }
+        }
+        trigger = {
+            lowlands_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            highlands_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            kingdom_of_the_isles_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        effect = {
+            country_event = {
+                id = 
+            }
+        }
+    }
+}
+P10_3 {
+    slot = 3
+    generic = no
+    potential = {
+        tag = P10
+    }
+    has_country_shield = yes
+}
+P10_4 {
+    slot = 4
+    generic = no
+    potential = {
+        tag = P10
+    }
+    has_country_shield = yes
+}
+P10_5 {
+    slot = 5
+    generic = no
+    potential = {
+        tag = P10
+    }
+    has_country_shield = yes
+
+}

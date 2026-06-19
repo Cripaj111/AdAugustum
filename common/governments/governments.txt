@@ -134,6 +134,7 @@ monarchy = {
 				jarldom
 				irish_kingdom
 				great_irish_kingdom
+				bretonian_kingdom
 			}
 		}
 		hereditary_vs_nobility = {

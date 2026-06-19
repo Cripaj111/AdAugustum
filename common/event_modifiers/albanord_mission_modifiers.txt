@@ -1,0 +1,4 @@
+p10_invasion_force = {
+    discipline = 0.025
+    infantry_cost = -0.1
+}

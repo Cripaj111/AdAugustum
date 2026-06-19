@@ -358,5 +358,7 @@ X06_ADJ: "Wuchang"
 
 
 #######FORMABLE#############
-F01: "Order of Britain"
-F01_ADJ: "Britanus"
+P99: "Order of Britain"
+P99_ADJ: "Britanus"
+P98: "Ireland"
+P98_ADJ: "Irish"

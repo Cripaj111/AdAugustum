@@ -1,0 +1,4 @@
+A07_better_navy = {
+    naval_tradition_from_battle = 0.3
+    naval_morale = 0.1
+}

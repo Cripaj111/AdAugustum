@@ -1,0 +1,206 @@
+mi_1 = {
+
+    slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+            tag = P11
+            tag = P12
+        }
+	}
+	has_country_shield = yes
+}
+
+mi_2 = {
+
+    slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+            tag = P11
+            tag = P12
+        }
+	}
+	has_country_shield = yes
+
+    mi_assemble_army = {
+        position = 2 
+        icon = mission_rb_unite_the_clans
+        required_missions = {mi_first_step}
+        trigger = {
+            	army_size_percentage = 1
+                num_of_infantry = 12
+        }
+
+        effect = {
+            if = {
+                limit = {tag = P11}
+                ROOT = {
+					add_casus_belli = {
+						target = P12
+						type = cb_vassalize_mission
+						months = 600
+					}
+				}
+            }
+            else_if = {
+                limit = {tag = P12}
+                ROOT = {
+					add_casus_belli = {
+						target = P11
+						type = cb_vassalize_mission
+						months = 600
+					}
+				}
+            }
+        }
+    }
+
+    mi_irland_taken = {
+        position = 3
+        icon = mission_rb_conquer_the_highlands
+        required_missions = {mi_assemble_army}
+        trigger = {
+            ulster_area = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+			munster_area = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+			leinster_area = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+			connacht_area = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+        }
+
+        effect = {
+            add_prestige = 50
+        }
+    }
+}
+
+mi_3 = {
+
+    slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+            tag = P11
+            tag = P12
+        }
+	}
+	has_country_shield = yes
+
+    mi_first_step = {
+        position = 1
+        icon = mission_humiliate_lubeck
+        trigger = {
+            stability = 1
+        }
+
+        effect = {
+            add_prestige = 20
+        }
+    }
+
+    mi_form_mega_ireland = {
+        position = 4
+        icon = mission_rb_rule_britannia_irish_version
+        required_missions = {mi_first_economy mi_irland_taken}
+        trigger = {
+            adm_power = 100
+            dip_power = 100
+            mil_power = 100
+        }
+
+        effect = {
+            dip_tech = 4
+            add_adm_power = -100
+	        add_dip_power = -100
+	        add_mil_power = -100
+            
+            if = {
+                limit = {tag = P11}
+                ROOT = {
+					inherit = P12
+				}
+            }
+            else_if = {
+                limit = {tag = P12}
+                ROOT = {
+					inherit = P11
+				}
+            }
+        }
+    }
+}
+
+mi_4 = {
+
+    slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+            tag = P11
+            tag = P12
+        }
+	}
+	has_country_shield = yes
+
+    mi_country_ahhh = {
+        position = 2
+        required_missions = {mi_first_step}
+        icon = law_of_the_pious
+        trigger = {
+            reform_level = 2
+        }
+
+        effect = {
+            add_country_modifier = {
+							name = mi_better_autonomy
+							duration = 3650 #10 years
+						}
+        }
+    }
+
+    mi_first_economy = {
+        position = 3
+        icon = dominant_economy
+        required_missions = {mi_country_ahhh}
+        trigger = {
+            development_in_provinces = {
+	        value = 55
+            }
+        }
+        effect = {
+            add_country_modifier = {
+							name = mi_irish_income
+							duration = 18250 #50 years
+						}
+        }
+    }
+}
+
+mi_5 = {
+
+    slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+            tag = P11
+            tag = P12
+        }
+	}
+	has_country_shield = yes
+}

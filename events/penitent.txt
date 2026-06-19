@@ -1,7 +1,7 @@
 ﻿namespace = penitnent_reform_start
 
 country_event = {
-    id = penitent_reform_start.1
+    id = penitent_reform_start.10500
     title = "PENITENT01"
     desc = "PENITENTDESC01"
     picture = {	
