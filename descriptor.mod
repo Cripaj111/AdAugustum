@@ -19,5 +19,6 @@ replace_path = "common/religions"
 replace_path = "common/province_names"
 replace_path = "common/cultures"
 replace_path = "common/scripted_effects"
+replace_path = "events/Protestant.txt"
 
 supported_version="v1.37.5.0"

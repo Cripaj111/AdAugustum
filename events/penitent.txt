@@ -1,7 +1,7 @@
 ﻿namespace = penitnent_reform_start
 
 country_event = {
-    id = penitent_reform_start.10500
+    id = penitent_reform_start.22222
     title = "PENITENT01"
     desc = "PENITENTDESC01"
     picture = {	
@@ -144,7 +144,7 @@ country_event = {
             change_religion = penitent
 			add_reform_center = penitent
 			add_permanent_province_modifier = {
-				name = "religious_zeal_at_conv"
+				name = religious_zeal_at_conv
 				duration = 9000
 			}
 			if = {
@@ -155,7 +155,7 @@ country_event = {
 					capital_scope = {
 						change_religion = penitent
 						add_permanent_province_modifier = {
-							name = "religious_zeal_at_conv"
+							name = religious_zeal_at_conv
 							duration = 9000
 						}
 					}

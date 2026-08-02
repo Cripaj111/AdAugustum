@@ -1,7 +1,7 @@
 government = monarchy
 government_rank = 3
 add_government_reform = byzantine_autocracy_reform
-technology_group = eastern
+technology_group = byzantine
 primary_culture = greek
 religion = orthodox
 capital = 151 #Constantinople

@@ -1,0 +1,54 @@
+country_event = {
+    id = flavor_a06.0001
+    title = "flavor_a06.0001.t"
+    desc = "flavor_a06.0001.d"
+    picture = "SEJM_eventPicture"
+
+    fire_only_once = yes
+    
+
+    trigger = {
+        tag = A06 
+        is_year = 1450
+        NOT = {is_year = 1500}
+        A06 = {
+            is_at_war = no
+            is_subject = no
+        }
+    }
+
+    mean_time_to_happen = {
+		months = 12
+	}
+
+    immediate = {hidden_effect = {
+        set_global_flag = A06_event_na_papeta
+    }}
+
+    option = {
+        name = flavor_p13.2001.a
+        ai_chance = {
+			factor = 70
+		}
+        A01 = {vassalize = A06}
+        add_truce_with = A01
+    }
+
+    option = {
+        name = flavor_p13.2001.b
+        ai_chance = {
+			factor = 20
+		}
+        A02 = {vassalize = A06}
+        add_truce_with = A02
+    }
+
+    option = {
+        name = flavor_p13.2001.c
+        ai_chance = {
+			factor = 10
+		}
+        add_prestige_or_monarch_power = {amount = 50}
+        
+    }
+}

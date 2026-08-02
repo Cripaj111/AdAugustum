@@ -1,0 +1,15 @@
+flagellant_proccession_aspect = {
+    cost = 100
+    sprite = "GFX_dissolve_monasteries_icon"
+    trigger = {
+		manpower_percentage = 0.6
+	}
+    effect = {
+        add_yearly_manpower = -0.5
+        add_country_modifier = {
+            name = PENITENT_flagellants
+            duration = 3650
+        }
+    }
+}
+

@@ -539,16 +539,16 @@ A01_3 = {
 		icon = mission_have_two_subjects
 		trigger = {
 			custom_trigger_tooltip = { 
-			AND = {
-                NOT = {A10 = exist}
-                1748 = {owned_by = ROOT}
-				4547 = {owned_by = ROOT}
-				1750 = {owned_by = ROOT}
-				}
-				tooltip = A01_wasal_dupom_wciagniety
+			tooltip = A01_wasal_dupom_wciagniety
+            H10 = {exist = no}
+            1748 = {owned_by = ROOT}
+			4547 = {owned_by = ROOT}
+			1750 = {owned_by = ROOT}	
             }
 
-
+			army_size = H08
+			army_size = H09
+			
 		}
 
 		effect = {
@@ -557,13 +557,11 @@ A01_3 = {
                 ROOT = {
 					add_casus_belli = {
 						target = H08
-						type = cb_vassalize_mission
-						months = 300
-
+						type = cb_iberian_unification
 					}
 				}
                }
-			   else {
+				else = {
 					alentejo_area = {
 							if = {
 								limit = {
@@ -575,7 +573,6 @@ A01_3 = {
 							}
 							add_permanent_claim = ROOT
 						}
-
 					extremadura_area = {
 							if = {
 								limit = {
@@ -587,146 +584,196 @@ A01_3 = {
 							}
 							add_permanent_claim = ROOT
 						}
-
-					beieras_area = {
+					beieras_area_area = {
 							if = {
 								limit = {
 									NOT = {
 										is_permanent_claim = ROOT
 										is_core = ROOT
-										is_core = H07
 									}
 								}
 							}
 							add_permanent_claim = ROOT
 						}
-					
 					leon_area = {
 							if = {
 								limit = {
 									NOT = {
 										is_permanent_claim = ROOT
 										is_core = ROOT
-										is_core = H07
 									}
 								}
 							}
 							add_permanent_claim = ROOT
 						}
-
-			   }
-		}
-	}
-
-	A01_fall_of_the_second_brother = {
-		position = 2
-		icon = moravian_arms
-		required_missions = {A01_consolidate_rule_in_iberia}
-		trigger = {
-			alentejo_area = {
-                type = all
-                country_or_non_sovereign_subject_holds = ROOT
-            }
-			extremadura_area = {
-				type = all
-                country_or_non_sovereign_subject_holds = ROOT
-			}
-
-			beieras_area = {
-				type = all
-				OR = {
-                country_or_non_sovereign_subject_holds = ROOT
-				is_core = H08
 				}
-			}
 
-			leon_area = {
-				type = all
-				OR = {
-                country_or_non_sovereign_subject_holds = ROOT
-				is_core = H08
-				}
-			}
-
-
-		}
-
-		effect = {
 			if{
                 limit = {H09 = { exists = yes } }
                 ROOT = {
 					add_casus_belli = {
 						target = H09
-						type = cb_vassalize_mission
-						months = 300
-
+						type = cb_iberian_unification
 					}
 				}
                }
-			   else = {
-				toledo_area = {
+				else = {
+					toledo_area = {
 							if = {
 								limit = {
 									NOT = {
 										is_permanent_claim = ROOT
 										is_core = ROOT
-										is_core = H07
 									}
 								}
 							}
 							add_permanent_claim = ROOT
 						}
-				valencia_area = {
+					valencia_area = {
 							if = {
 								limit = {
 									NOT = {
 										is_permanent_claim = ROOT
 										is_core = ROOT
-										is_core = H07
 									}
 								}
 							}
 							add_permanent_claim = ROOT
 						}
+					castille_area_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					aragon_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+				}
 
-				castille_area = {
-							if = {
-								limit = {
-									NOT = {
-										is_permanent_claim = ROOT
-										is_core = ROOT
-										is_core = H07
-									}
-								}
-							}
-							add_permanent_claim = ROOT
-						}
-				aragon_area = {
-							if = {
-								limit = {
-									NOT = {
-										is_permanent_claim = ROOT
-										is_core = ROOT
-										is_core = H11
-									}
-								}
-							}
-							add_permanent_claim = ROOT
-						}
-			   }
 		}
 	}
 
-	A01_third_brother_down_fall = {
-		position = 3
-		icon = conquer_states
-		required_missions = {A01_fall_of_the_first_brother}
-		trigger = {
 
+
+	A01_fall_of_the_first_brother = { #unleash the portugeeese
+		position = 2
+		icon = moravian_arms
+		required_missions = {A01_consolidate_rule_in_iberia}
+		trigger = {
+			war_with = H08
+			war_score_against = {
+				who = H08
+				value = 75
+			}
 		}
 
 		effect = {
-			
+			country_event = { id = flavor_a01.0010 }
+
+			if = {
+				limit = {
+				NOT = {mission_completed = A01_second_brother_down_fall}
+				}
+
+				if{
+                limit = {H07 = { exists = yes } }
+                ROOT = {
+					add_casus_belli = {
+						target = H07
+						type = cb_iberian_unification
+					}
+				}
+               }
+				else = {
+					beieras_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					leon_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					castille_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					galicia_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					asturias_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+				}
+
+			}
+		}
+	}
+
+	A01_fall_of_the_third_brother = {
+		position = 3
+		icon = mission_build_up_to_force_limit
+		required_missions = {A01_fall_of_the_first_brother A01_second_brother_down_fall}
+		trigger = {
+			war_with = H07
+			war_score_against = {
+				who = H07
+				value = 75
+			}
+		}
+
+		effect = { 
+			country_event = { id = flavor_a01.0012 }
 		}
 	}
 
@@ -743,6 +790,96 @@ A01_4 = {
 	}
 	has_country_shield = yes
 
+	A01_second_brother_down_fall = { 
+		position = 2
+		icon = moravian_arms
+		required_missions = {A01_consolidate_rule_in_iberia}
+		trigger = {
+			war_with = H09
+			war_score_against = {
+				who = H09
+				value = 75
+			}
+		}
+
+		effect = {
+			country_event = { id = flavor_a01.0011 }
+
+			if = {
+				limit = {
+				NOT = {mission_completed = A01_fall_of_the_first_brother}
+				}
+
+				if{
+                limit = {H07 = { exists = yes } }
+                ROOT = {
+					add_casus_belli = {
+						target = H07
+						type = cb_iberian_unification
+					}
+				}
+               }
+				else = {
+					beieras_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					leon_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					castille_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					galicia_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					asturias_area = {
+							if = {
+								limit = {
+									NOT = {
+										is_permanent_claim = ROOT
+										is_core = ROOT
+									}
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+				}
+
+			}
+		}
+	}
 }
 
 A01_5 = {

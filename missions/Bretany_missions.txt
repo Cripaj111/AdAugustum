@@ -231,12 +231,15 @@ I01_3 = {
    }
 
 	I01_trade_investements = {
-		position = 3
-		required_missions = {I01_bretanny_port_brest I01_across_the_strait}
+		position = 2
+		required_missions = {I01_bretanny_port_brest I01_bretanny_development}
 		icon = mission_war_chest
 		trigger = {
 			num_ships_protecting_trade = 15
-			num_of_centers_of_trade = 3
+			num_of_owned_provinces_with = {
+                            has_trade_building_trigger = yes
+                            value = 5 
+                        }
 		}
 
 		effect = {
@@ -245,6 +248,96 @@ I01_3 = {
 							duration = 7300 #20 years
 						}
 			add_years_of_income = 1.5
+		}
+	}
+
+	I01_ports_of_bretanny = {
+		position = 3
+		required_missions = {I01_trade_investements}
+		icon = mission_galleys_in_port
+		trigger = {
+			4386 = {
+				is_core = ROOT
+				has_trade_building_trigger = yes
+				province_has_center_of_trade_of_level = 2
+			}
+			87 = {
+				is_core = ROOT
+				has_trade_building_trigger = yes
+				province_has_center_of_trade_of_level = 2
+			}
+			90 = {
+				is_core = ROOT
+				has_trade_building_trigger = yes
+				province_has_center_of_trade_of_level = 2
+			}
+
+			236 = {
+				OR = {
+				AND = {is_core = ROOT
+				has_trade_building_trigger = yes
+				province_has_center_of_trade_of_level = 2}
+				AND = {
+				type = all
+                country_or_non_sovereign_subject_holds = ROOT
+				owner = {has_divert_trade = yes}}}
+			}
+		}
+
+		effect = {
+			4386 = {
+				add_unit_construction = {
+				type = light_ship
+				cost = 0
+				speed = 0
+				amount = 2
+				}
+				add_province_modifier = {
+					name = I01_ports_of_bretanny_modifier
+				}
+			}
+			87 = {
+				add_unit_construction = {
+				type = light_ship
+				cost = 0
+				speed = 0
+				amount = 2
+				}
+				add_province_modifier = {
+					name = I01_ports_of_bretanny_modifier
+				}
+			}
+			90 = {
+				add_unit_construction = {
+				type = light_ship
+				cost = 0
+				speed = 0
+				amount = 2
+				}
+				add_province_modifier = {
+					name = I01_ports_of_bretanny_modifier
+				}
+			}
+			236 = {
+				add_unit_construction = {
+				type = light_ship
+				cost = 0
+				speed = 0
+				amount = 2
+				}
+				add_province_modifier = {
+					name = I01_ports_of_bretanny_modifier
+				}
+			}
+			
+			define_advisor = {
+				type = trader
+				cost_multiplier = 0.25
+				skill = 2
+				culture = ROOT
+				religion = ROOT
+				name = "Luis Le Clerck"
+			}
 		}
 	}
 
@@ -369,6 +462,10 @@ I01_5 = {
 				full_idea_group = trade_ideas
 				full_idea_group = economic_ideas
 				full_idea_group = infrastructure_ideas
+			}
+			development_in_provinces = {
+					value = 50
+					area = loire_area
 			}
 		}
 

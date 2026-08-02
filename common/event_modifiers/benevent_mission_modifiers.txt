@@ -1,0 +1,5 @@
+H02_settler_influx = {
+    development_cost = -0.1
+    build_cost = -0.1
+    production_efficiency = 0.1
+}

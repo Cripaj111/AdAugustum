@@ -1,0 +1,4 @@
+PENITENT_flagellants = {
+    discipline = 0.05
+    manpower_recovery_speed = -0.05
+}

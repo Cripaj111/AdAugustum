@@ -30,3 +30,149 @@ country_event = {
         custom_tooltip = "flavor_l01_1921_a"
     }
 }
+
+#### SHADOW OVER CRESCENT DISASTER ####
+country_event = {
+    id = crescent_l01.5551
+    title = crescent_l01.5551.t
+    desc = crescent_l01.5551.d
+    picture = "FARMING_WIFE_eventPicture"
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    is_triggered_only = yes
+    trigger = {
+        has_disaster_progress = {
+            disaster = shadow_over_crescent
+            value = 50
+        }
+    }
+
+    immediate = {
+        hidden_effect = {
+            every_owned_province = {
+                limit = {
+                    culture = phoenician
+                }
+            add_core = L16
+            }
+        }
+    }
+    option = {
+        name = "crescent_l01.5001.a"
+    }
+}
+
+country_event = {
+    id = crescent_l01.5552
+    title = crescent_l01.5552.t
+    desc = crescent_l01.5552.d
+    picture = "FARMING_WIFE_eventPicture"
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    trigger = {
+            has_disaster_progress = {
+                disaster = shadow_over_crescent
+                value = 50
+            }
+    }
+
+    immediate = {
+        hidden_effect = {
+            every_owned_province = {
+                limit = {
+                    culture = arameic
+                }
+                add_core = L15
+            }
+        }
+    }
+    option = {
+        name = "crescent_l01.5002.a"
+    }
+}
+
+country_event = {
+    id = crescent_l01.5553
+    title = crescent_l01.5553.t
+    title = crescent_l01.5553.d
+    picture = "FARMING_WIFE_eventPicture"
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        has_disaster_progress = {
+            disaster = shadow_over_crescent
+            value = 100
+        }
+    }
+
+    immediate = {
+        release = L15
+        release = L16
+        L16 = {
+            add_aliance = L15
+        }
+    }
+    option = {
+        name = crescent_l01.5003.a
+        
+        convert_ruler_to_general = 70
+        add_country_modifier = {
+            name = l01_gladius_romanorum
+            duration = 3650
+        }
+        hidden_effect = {
+            L15 = {
+                declare_war_with_cb = {
+                    who = L01
+                    casus_beli = cb_independence_war
+                }
+            }
+        }
+    }
+    option = {
+        name = crescent_l01.5003.b
+        add_country_modifier = {
+            name = l01_imperial_expedition
+            duration = 3650
+        }
+        hidden_effect = {
+            L15 = {
+                declare_war_with_cb = {
+                    who = L01
+                    casus_beli = cb_independence_war
+                }
+            }
+        }
+        
+    }
+    option = {
+        name = crescent_l01.5003.c
+        play_as = L15
+        hidden_effect = {
+            L15 = {
+                declare_war_with_cb = {
+                    who = L01
+                    casus_beli = cb_independence_war
+                }
+            }
+        }
+    }
+    option = {
+        name = crescent_l01.5003.d
+        play_as = L16
+        hidden_effect = {
+            L15 = {
+                declare_war_with_cb = {
+                    who = L01
+                    casus_beli = cb_independence_war
+                }
+            }
+        }
+    }
+}

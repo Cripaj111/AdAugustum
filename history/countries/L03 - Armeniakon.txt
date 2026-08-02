@@ -1,7 +1,7 @@
 government = monarchy
 government_rank = 1
 add_government_reform = margraviate_reform
-technology_group = eastern
+technology_group = byzantine
 primary_culture = armenian
 religion = coptic
 capital = 416

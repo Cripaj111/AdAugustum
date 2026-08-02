@@ -1,0 +1,20 @@
+H02_settler_influx = {
+    development_cost = -0.1
+    build_cost = -0.1
+    production_efficiency = 0.1
+}
+H02_sword_for_barbarians = {
+    siege_ability = 0.1
+    land_morale = 0.1
+}
+
+H02_old_grudge = {
+    culture_conversion_cost = -0.5
+    culture_conversion_time = -0.25
+}
+
+h02_legacy_fulfilled = {
+    province_warscore_cost = -0.1
+    global_unrest = -1
+    years_of_nationalism = -5
+}

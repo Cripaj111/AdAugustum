@@ -1,0 +1,189 @@
+country_event = {
+    id = flavor_a01.0005
+    title = "flavor_a01.0005.t"
+    desc = "flavor_a01.0005.d"
+    picture = "muslimgfx_COUNTRY_COLLAPSE_eventPicture"
+
+    fire_only_once = yes
+    
+
+    trigger = {
+        
+        tag = A01
+        iberia_region = {
+            type = all
+            country_or_non_sovereign_subject_holds = A01
+        }
+        
+    }
+
+    mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+        name = flavor_a01.0005.a
+        ai_chance = {
+			factor = 1
+		}
+        add_country_modifier = {
+							name = A01_iberia_conquested
+
+						}
+    }
+
+}
+
+country_event = {
+    id = flavor_a01.0006
+    title = "flavor_a01.0006.t"
+    desc = "flavor_a01.0006.d"
+    picture = "muslimgfx_COUNTRY_COLLAPSE_eventPicture"
+
+    fire_only_once = yes
+    
+    
+
+    trigger = {
+        
+        tag = A01
+        maghreb_region = {
+            type = all
+            country_or_non_sovereign_subject_holds = A01
+        }
+        
+    }
+
+    mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+        name = flavor_a01.0006.a
+        ai_chance = {
+			factor = 1
+		}
+        add_country_modifier = {
+							name = A01_maghreb_conquested
+
+						}
+    }
+
+}
+
+country_event = {
+    id = flavor_a01.0007
+    title = "flavor_a01.0007.t"
+    desc = "flavor_a01.0007.d"
+    picture = "muslimgfx_COUNTRY_COLLAPSE_eventPicture"
+
+    fire_only_once = yes
+    
+
+    trigger = {
+        
+        tag = A01
+        maghreb_region = {
+            type = all
+            country_or_non_sovereign_subject_holds = A01
+        }
+        
+    }
+
+    mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+        name = flavor_a01.0007.a
+        ai_chance = {
+			factor = 1
+		}
+        add_country_modifier = {
+							name = A01_italy_conquested
+
+						}
+    }
+
+}
+
+country_event = {
+    id = flavor_a01.0010
+    title = "flavor_a01.0010.t"
+    desc = "flavor_a01.0010.d"
+    picture = "WESTERNISATION_eventPicturee"
+
+    is_triggered_only = yes
+
+    option = {
+        name = flavor_a01.0010.a
+        hidden_effect = {
+            A01 = {
+                inherit = H08
+            }
+            every_owned_province = {
+                remove_core = H08
+            }
+        }
+        customtooltip = unleash_the_portugeuesse
+        alentejo_area = {
+            add_core = H08
+        }
+        release = H08
+        vassalize = H08
+    }
+}
+
+country_event = {
+    id = flavor_a01.0011
+    title = "flavor_a01.0011.t"
+    desc = "flavor_a01.0011.d"
+    picture = "WESTERNISATION_eventPicturee"
+
+    is_triggered_only = yes
+
+    option = {
+        name = flavor_a01.0011.a
+        hidden_effect = {
+            A01 = {
+                inherit = H09
+            }
+            every_owned_province = {
+                remove_core = H09
+            }
+        }
+        customtooltip = unleash_the_valencians
+        valencia_area = {
+            add_core = H09
+        }
+        release = H09
+        vassalize = H09
+    }
+}
+
+country_event = {
+    id = flavor_a01.0012
+    title = "flavor_a01.0012.t"
+    desc = "flavor_a01.0012.d"
+    picture = "WESTERNISATION_eventPicturee"
+
+    is_triggered_only = yes
+
+    option = {
+        name = flavor_a01.0012.a
+        hidden_effect = {
+            A01 = {
+                inherit = H07
+            }
+            every_owned_province = {
+                remove_core = H07
+            }
+        }
+        customtooltip = unleash_the_valencians
+        galicia_area = {
+            add_core = H07
+        }
+        release = H07
+        vassalize = H07
+    }
+}

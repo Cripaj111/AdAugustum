@@ -2,3 +2,21 @@ A07_better_navy = {
     naval_tradition_from_battle = 0.3
     naval_morale = 0.1
 }
+
+A01_iberia_conquested = {
+    global_colonial_growth = 10
+    colony_cost_modifier = -0.1
+    colonist_placement_chance = 0.1
+}
+
+A01_maghreb_conquested = {
+    morale_damage = 0.05
+    cavalry_power = 0.10
+    cav_to_inf_ratio = 0.25
+}
+
+A01_italy_conquested = {
+    trade_steering = 0.15
+    caravan_power = 0.1
+    trade_range_modifier = 0.25
+}

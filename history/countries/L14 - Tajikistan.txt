@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = sheperd_kingdom
-technology_group = muslim
+technology_group = oriental
 primary_culture = tajik
 religion = zoroastrian
 capital = 1968

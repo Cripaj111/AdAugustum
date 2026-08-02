@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = jarldom
-technology_group = eastern
+technology_group = byzantine
 primary_culture = greek
 religion = norse_pagan_reformed
 capital = 321

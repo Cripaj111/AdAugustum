@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = zoroastrian_persian_government_reform
 government_rank = 3
-technology_group = muslim
+technology_group = oriental
 primary_culture = persian
 religion = zoroastrian
 capital = 429 #Isfahan

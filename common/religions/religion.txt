@@ -48,7 +48,7 @@ christian = {
 		heretic = { BOGOMILIST WALDENSIAN FRATICELLI LOLLARD SOCINIAN }
 		
 		papacy = {
-			papal_tag = E01
+			papal_tag = H01
 			election_cost = 5
 			seat_of_papacy = 114 #Romagna
 			
@@ -1095,7 +1095,7 @@ christian = {
 
 			uses_anglican_power = yes
 			aspects = {
-	
+				flagellant_proccession_aspect
 			}
 
 		aspects_name = PENITENT_ASPECTS

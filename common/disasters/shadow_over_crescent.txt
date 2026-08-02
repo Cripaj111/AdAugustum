@@ -1,0 +1,64 @@
+shadow_over_crescent = {
+    potential = {
+        tag = L01
+        current_age = age_of_discovery
+        NOT = {
+            has_country_flag = byzantium_shadow_fallen
+        }
+    }
+
+    can_start = {
+        has_any_disaster = no
+    }
+    can_stop = { 
+		has_any_disaster = yes
+	}
+    can_end = {
+        has_global_flag = new_soon_risen
+    }
+
+    progress = {
+        modifier = {
+            factor = 1
+            has_country_modifier = l01_lost_granary
+        }
+        modifier = {
+            factor = 1
+            NOT = {
+                stability = 2
+            }
+        }
+        modifier = {
+            factor = 2
+            war_exhaustion = 2
+        }
+    }
+
+    on_progress_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = shadow_over_crescent_progress
+                    value = 50
+                }
+            }
+            country_event = {
+                id = crescent_l01.5551
+            }
+        }
+        if = {
+            limit = {
+                check_variable = {
+                    which = shadow_over_crescent_progress
+                    value = 75
+                }
+            }
+            country_event = {
+                id = crescent_l01.5552
+            }
+        }
+    }
+
+    on_start = crescent_l01.5553
+    
+}

@@ -1,6 +1,6 @@
 government = republic
 add_government_reform = oligarchic_republic
-technology_group = eastern
+technology_group = north_african
 primary_culture = sardinian
 religion = catholic
 capital = 333 #Maiorca

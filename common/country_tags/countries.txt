@@ -32,6 +32,8 @@ L11 = "countries/Qurays.txt"
 L12 = "countries/Jemen.txt"
 L13 = "countries/Persia.txt"
 L14 = "countries/Tajikistan.txt"
+L15 = "countries/Damascus.txt"
+L16 = "countries/Seafarers.txt"
 
 
 ################################
