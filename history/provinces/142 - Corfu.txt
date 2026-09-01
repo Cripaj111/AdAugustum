@@ -2,7 +2,6 @@
 
 owner = L01
 controller = L01
-add_core = L01
 culture = greek
 religion = orthodox
 capital = "Corfu"
@@ -13,7 +12,8 @@ base_production = 1
 base_manpower = 3
 is_city = yes
 fort_15th = no
-
+add_core = L01
+add_core = L19
 
 
 

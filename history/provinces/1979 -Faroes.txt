@@ -16,3 +16,6 @@ add_core = P16
 
 
 discovered_by = western
+discovered_by = norman
+discovered_by = byzantine
+

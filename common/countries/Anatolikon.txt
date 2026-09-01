@@ -1,0 +1,7 @@
+#Anatolikon
+
+graphical_culture = easterngfx
+
+color = { 149 222 100 }
+
+revolutionary_colors = { 1  0  10 }

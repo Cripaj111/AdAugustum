@@ -1,4 +1,4 @@
-#2302 - I�el
+#2302 - I el
 
 owner = L01
 controller = L01
@@ -13,6 +13,7 @@ base_manpower = 2
 is_city = yes
 fort_15th = yes
 add_core = L01
+add_core = L18
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -1,7 +1,6 @@
 #Ume, Åsele, Piteå Lappmarks
 
 capital = "Arvidsjaur"
-add_core = 
 culture = swedish
 religion = norse_pagan_reformed
 hre = no
@@ -12,7 +11,6 @@ base_manpower = 1
 native_hostileness = 1
 native_size = 3
 native_ferocity = 2
-discovered_by = eastern
-discovered_by = western
+discovered_by = norman
 
 

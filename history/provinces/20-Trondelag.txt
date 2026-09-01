@@ -12,8 +12,8 @@ trade_goods = fish
 base_manpower = 2
 capital = "Trondheim"
 is_city = yes
-discovered_by = eastern
-discovered_by = western
+
+discovered_by = norman
 fort_15th = yes
 extra_cost = 8
 center_of_trade = 1

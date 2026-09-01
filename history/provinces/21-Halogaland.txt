@@ -13,7 +13,7 @@ base_manpower = 1
 capital = "Steig"
 add_local_autonomy = 25
 is_city = yes
-discovered_by = western
-discovered_by = eastern
+
+discovered_by = norman
 
 

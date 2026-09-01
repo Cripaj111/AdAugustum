@@ -11,7 +11,7 @@ irish_republic = {
     fixed_rank = 2
 
     modifiers = {
-       	max_absolutism = -20
+    max_absolutism = -20
 	burghers_loyalty_modifier = 0.05
 	trade_efficiency = 0.1
 	merchants = 1
@@ -38,3 +38,41 @@ great_irish_republic = {
 	trade_efficiency = 0.1
     }
 } 
+
+vikings_opm_republic_smol = {
+    icon = "paper_with_seal"
+    allow_normal_conversion = no
+    potential = {
+		culture_group = slavonorman
+	}
+
+    rulers_can_be_generals = yes
+    valid_for_nation_designer = yes
+    nation_designer_cost = 10
+
+    modifiers = {
+    colonists = -10
+    merchants = 1
+    trade_steering = 0.15
+    morale_damage = 0.05
+    }
+}
+
+vikings_opm_republic_big = {
+    icon = "trading_city"
+    allow_normal_conversion = no
+    potential = {
+		culture_group = slavonorman
+	}
+
+    rulers_can_be_generals = yes
+    valid_for_nation_designer = yes
+    nation_designer_cost = 10
+
+    modifiers = {
+    may_establish_frontier = yes
+    merchants = 1
+    development_cost_in_primary_culture = -0.15
+    trade_efficiency = 0.15
+    }
+}

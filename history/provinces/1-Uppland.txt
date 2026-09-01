@@ -1,4 +1,4 @@
-#Uppland, contains Stockholm, Uppsala & Nyk�ping.
+#Uppland, contains Stockholm, Uppsala & Nyk ping.
 
 add_core = P17
 owner = P17
@@ -12,9 +12,13 @@ trade_goods = grain
 base_manpower = 3
 capital = "Stockholm"
 is_city = yes
-discovered_by = eastern
+
+
 discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = slavic
+
+
 extra_cost = 16
 center_of_trade = 2

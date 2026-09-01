@@ -14,6 +14,9 @@ capital = "Kalmar"
 is_city = yes
 fort_15th = yes # Kalmar Slott
 discovered_by = western
-discovered_by = eastern
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = slavic
+
 
 

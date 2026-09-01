@@ -12,8 +12,10 @@ trade_goods = fish
 base_manpower = 2
 capital = "Ronne"
 is_city = yes
-discovered_by = eastern
 discovered_by = western
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = slavic
 
 
 

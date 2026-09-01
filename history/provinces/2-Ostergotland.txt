@@ -13,4 +13,6 @@ base_manpower = 2
 capital = "Linköping"
 is_city = yes # Estimated
 discovered_by = western
-discovered_by = eastern
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = slavic

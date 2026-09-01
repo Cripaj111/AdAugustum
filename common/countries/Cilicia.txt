@@ -1,0 +1,6 @@
+#Cilicia 
+graphical_culture = easterngfx
+
+color = { 232 93 109 }
+
+revolutionary_colors = { 1  0  10 }

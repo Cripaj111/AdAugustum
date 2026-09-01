@@ -12,4 +12,8 @@ trade_goods = iron
 base_manpower = 2
 capital = "Örebro"
 is_city = yes
-discovered_by = eastern
+discovered_by = western
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = slavic
+

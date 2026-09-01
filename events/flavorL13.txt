@@ -1,0 +1,14 @@
+country_event = {
+    id = flavor_l13.10100
+    title = flavor_l13.10100.t
+    desc = flavor_l13.10100.d
+    picture = KING_SICK_IN_BED_eventPicture
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = flavor_l13.10100.a
+        custom_tooltip = flavor_l13.10100_a
+    }
+}

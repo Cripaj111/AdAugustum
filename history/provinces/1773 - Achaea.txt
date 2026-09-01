@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 1
 is_city = yes
 add_core = L01
-
+add_core = L20
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

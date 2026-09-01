@@ -1161,7 +1161,7 @@ P13_5 = {
 									name = P13_british_rel_fame
 									duration = 18250 #50 years
 								}
-			add_prestige_or_monarch_power = {amount = 80}
+			add_prestige_or_monarch_power = 80
 			
 		}
 	}

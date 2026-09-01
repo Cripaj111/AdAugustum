@@ -17,7 +17,8 @@ capital = "Chester"
 is_city = yes
 add_core = P08
 discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
-discovered_by = eastern
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = slavic
+
 

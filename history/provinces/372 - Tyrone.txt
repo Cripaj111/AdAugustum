@@ -13,7 +13,5 @@ capital = "Dungannon"
 is_city = yes
 add_core = P12
 discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
-discovered_by = eastern
-
+discovered_by = norman
+discovered_by = byzantine

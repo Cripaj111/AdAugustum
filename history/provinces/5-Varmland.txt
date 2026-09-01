@@ -13,7 +13,7 @@ base_manpower = 1
 capital = "Karlstad"
 is_city = yes
 
-
-
-discovered_by = eastern
 discovered_by = western
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = slavic

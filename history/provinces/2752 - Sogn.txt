@@ -13,6 +13,9 @@ base_manpower = 1
 is_city = yes
 capital = "Molde"
 discovered_by = western
-discovered_by = eastern
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = slavic
+
 
 

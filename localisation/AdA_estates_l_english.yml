@@ -1,3 +1,12 @@
 ﻿l_english:
  akritai_estate: "Akritai"
  akritai_estate_desc: "Akritai were soldiers guarding empire's eastern frontier against persian and muslim attacks. They consisted of light infantry recruited from Byzantine and Armenian population. After Gavras dynasty seized Imperial throne, Akritai secured many new privileges and evloved into warrior-nobility estate, which is now main force in the frontier."
+
+ beduini_estate: "Beduins"
+ beduini_estate_desc: "Beduins, raiders of the sand. Tribes living on a deserts, mostly under their own rulers. Force that everyone had to count in."
+ estates_beduins_sand_routes: "Beduins' sand routes."
+ estates_beduins_sand_routes_desc: "Who but them knows the sand and their routes?"
+ estates_beduin_cavalry_formations: "Beduins' cavalry formations"
+ estates_beduin_cavalry_formations: "Gojholder"
+
+ estate_higlanders: "Higlanders" 

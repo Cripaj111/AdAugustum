@@ -135,6 +135,7 @@ monarchy = {
 				irish_kingdom
 				great_irish_kingdom
 				bretonian_kingdom
+				slavic_spawning_countries
 			}
 		}
 		hereditary_vs_nobility = {
@@ -673,6 +674,8 @@ republic = {
 				##MODDED
 				irish_republic
 				great_irish_republic
+				vikings_opm_republic_smol
+				vikings_opm_republic_big
 			}
 		}
 		republican_virtues = {

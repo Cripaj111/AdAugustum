@@ -12,8 +12,11 @@ trade_goods = livestock
 base_manpower = 3
 capital = "Gladsax"
 is_city = yes
-discovered_by = eastern
 discovered_by = western
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = slavic
+
 
 
 

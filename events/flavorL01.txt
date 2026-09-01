@@ -1,7 +1,7 @@
 country_event = {
     id = flavor_l01.1921
-    title = "flavor_l01.1921.t"
-    desc = "flavor_l01.1921.d"
+    title = flavor_l01.1921.t
+    desc = flavor_l01.1921.d
     picture = "FARMING_WIFE_eventPicture"
 
     fire_only_once = yes
@@ -26,8 +26,8 @@ country_event = {
         }
     }
     option = {
-        name = "flavor_l01.1921.a"
-        custom_tooltip = "flavor_l01_1921_a"
+        name = flavor_l01.1921.a
+        custom_tooltip = flavor_l01_1921_a
     }
 }
 

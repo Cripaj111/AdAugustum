@@ -1,11 +1,11 @@
-#53 - L�neburg
+#53 - L neburg
 
 owner = I20
 controller = I20
 add_core = I20
 culture = ostphalian
 religion = catholic
-capital = "L�neburg"
+capital = "L neburg"
 trade_goods = salt
 hre = yes
 base_tax = 3
@@ -13,9 +13,6 @@ base_production = 3
 base_manpower = 2
 is_city = yes
 
-
-
-discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
+discovered_by = slavic
+discovered_by = norman

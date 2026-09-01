@@ -12,7 +12,8 @@ trade_goods = livestock
 base_manpower = 3
 capital = "Slesvig"
 is_city = yes
-discovered_by = eastern
 discovered_by = western
+discovered_by = slavic
+discovered_by = norman
 
 

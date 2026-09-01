@@ -1,0 +1,9 @@
+#High Atlas
+
+discovered_by = western
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = north_african
+discovered_by = oriental
+discovered_by = east_african
+discovered_by = sub_saharan

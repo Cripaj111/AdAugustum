@@ -1,0 +1,17 @@
+#Finnish Lappland - Rovaniemi
+
+
+culture = finish #Probably also a large Sami population.
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fur
+base_manpower = 1
+capital = "Rovaniemi"
+native_hostileness = 1
+native_size = 3
+native_ferocity = 2
+
+discovered_by = norman
+

@@ -20,3 +20,8 @@ A01_italy_conquested = {
     caravan_power = 0.1
     trade_range_modifier = 0.25
 }
+
+beduin_sand_routes_modifier = {
+    local_development_cost = -0.1
+    trade_value = 0.1
+}

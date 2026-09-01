@@ -1,0 +1,18 @@
+#Västerbotten-Ångermanland, from Sundsvall/Härnösand over Umeå to Torneå
+
+
+culture = swedish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Umeå"
+is_city = yes
+native_hostileness = 1
+native_size = 3
+native_ferocity = 2
+
+
+discovered_by = norman

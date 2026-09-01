@@ -1,0 +1,48 @@
+beduini_estate = {
+    icon = 4
+
+    trigger = {
+        
+        OR = {
+            technology_group = north_africa
+            
+            capital_scope = {
+                
+                OR = { 
+                  region = maghreb_region
+                  region = arabia_region
+                  region = sahel_region  
+                }
+        }
+        }
+
+    }
+
+    country_modifier_happy = {
+		caravan_power = 0.2
+        cavalry_flanking = 0.10
+	}
+	country_modifier_neutral = {
+		caravan_power = 0.05
+	}	
+	country_modifier_angry = {
+		caravan_power = -0.2
+        cavalry_flanking = -0.10
+	}
+
+    base_influence = 5
+
+    privileges = {
+        estates_beduins_sand_routes
+        estates_beduin_cavalry_formations
+        
+    }
+    agendas = {
+        estate_beduin_hire_advisor
+        estate_beduini_two_privileges 
+    }
+
+
+
+    color = { 135 7 2 }
+}

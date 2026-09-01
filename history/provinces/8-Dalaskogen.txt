@@ -12,8 +12,11 @@ trade_goods = copper
 base_manpower = 2
 capital = "Mora"
 is_city = yes
-discovered_by = eastern
 discovered_by = western
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = slavic
+
 extra_cost = 10
 
 add_province_triggered_modifier = stora_kopparberget_modifier

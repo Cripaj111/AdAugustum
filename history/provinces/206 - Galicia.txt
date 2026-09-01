@@ -13,9 +13,9 @@ base_manpower = 2
 capital = "Corunna" 
 is_city = yes
  # Santiago de Compostela pilgrimage
-discovered_by = eastern
+discovered_by = norman
 discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
+discovered_by = byzantine
+discovered_by = north_african
 
 

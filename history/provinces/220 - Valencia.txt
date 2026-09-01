@@ -1,4 +1,4 @@
-#220 - Val�ncia
+#220 - Val ncia
 
 owner = H09
 controller = H09
@@ -11,11 +11,14 @@ base_production = 5
 trade_goods = cloth
 base_manpower = 4
 fort_15th = yes
-capital = "Val�ncia" 
+capital = "Val ncia" 
 is_city = yes
+discovered_by = norman
 discovered_by = western
-discovered_by = eastern
-discovered_by = muslim
-discovered_by = ottoman
+discovered_by = byzantine
+discovered_by = north_african
+discovered_by = sub_saharan
+discovered_by = east_african
+discovered_by = oriental
 extra_cost = 16
 center_of_trade = 2

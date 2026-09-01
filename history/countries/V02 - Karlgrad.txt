@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = vikings_opm_republic_smol
 technology_group = slavic
 religion = norse_pagan_reformed
 primary_culture = pruthenionorman

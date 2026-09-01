@@ -3,3 +3,14 @@ on_startup = {
         flavor_l01.1921
     }
 }
+
+on_new_monarch = {
+    if = {
+        limit = {
+                tag = L13
+        }
+    }
+    events = {
+        flavor_l13.10100
+    }
+}

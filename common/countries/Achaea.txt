@@ -1,0 +1,7 @@
+#Achaea
+
+graphical_culture = easterngfx
+
+color = { 235 164 52 }
+
+revolutionary_colors = { 1  0  10 }

@@ -1,0 +1,17 @@
+#4123 - Birkaland
+
+
+culture = finish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fur
+base_manpower = 1
+capital = "Messukylä"
+
+discovered_by = norman
+
+native_hostileness = 1
+native_size = 2
+native_ferocity = 2

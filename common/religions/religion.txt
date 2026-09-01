@@ -45,7 +45,7 @@ christian = {
 		
 		}
 		
-		heretic = { BOGOMILIST WALDENSIAN FRATICELLI LOLLARD SOCINIAN }
+		heretic = { BOGOMILIST FRATICELLI LOLLARD SOCINIAN }
 		
 		papacy = {
 			papal_tag = H01
@@ -1102,6 +1102,46 @@ christian = {
 
 		date = 1510.10.5
 	}
+
+	waldensian = {
+		color = {14 67 42}
+		icon = 35
+		allowed_conversion = {
+			catholic
+			coptic
+			nestorian
+		}
+
+		hre_heretic_religion = yes
+		misguided_heretic = yes
+
+		country = {
+			manpower_in_true_faith_provinces= 0.10
+			build_time = -0.25
+		}
+
+		country_as_secondary = {
+			claim_duration = 0.3
+		}
+
+		heretic = {SAHELIANS AQUATANIANS}
+
+		uses_karma = yes
+
+		on_convert = {
+			change_religion = waldensian
+			add_prestige = -100
+			add_stability = -2
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		
+		}
+
+	}
+	
 }
 
 muslim = {

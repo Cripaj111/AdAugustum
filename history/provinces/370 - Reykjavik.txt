@@ -15,6 +15,9 @@ is_city = yes
 add_core = P16
 
 discovered_by = western
+discovered_by = norman
+
+
 add_permanent_province_modifier = {
 	name = icelanding_fisher_sea
 	duration = -1

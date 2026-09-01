@@ -1,9 +1,9 @@
-# 4387 Angoul�me
+# 4387 Angoul me
 
 owner = H32
 controller = H32
 add_core = H32
-capital = "Angoul�me"
+capital = "Angoul me"
 is_city = yes
 culture = aquitainian
 religion = catholic 
@@ -12,9 +12,8 @@ base_tax = 3
 base_production = 3
 trade_goods = livestock
 base_manpower = 2
-discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
-
+discovered_by = norman
+discovered_by = north_african
+discovered_by = byzantine
 

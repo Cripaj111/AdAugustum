@@ -1,0 +1,7 @@
+#Macedonia
+
+graphical_culture = easterngfx
+
+color = { 84 185 240 }
+
+revolutionary_colors = { 1  0  10 }

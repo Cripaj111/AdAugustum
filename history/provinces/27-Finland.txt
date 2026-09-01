@@ -14,6 +14,8 @@ capital = "Åbo"
 is_city = yes
 fort_15th = yes
 discovered_by = western
-discovered_by = eastern
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = slavic
 
 

@@ -1,4 +1,4 @@
-# 176 B�arn - Principal cities: Pau
+# 176 B arn - Principal cities: Pau
 
 owner = H32
 controller = H32
@@ -13,8 +13,7 @@ trade_goods = wool
 base_manpower = 4
 add_core = H32
 
-
-discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
+discovered_by = norman
+discovered_by = north_african
+discovered_by = byzantine

@@ -16,7 +16,6 @@ add_core = P17
 
 
 
-discovered_by = eastern
-discovered_by = western
+discovered_by = norman
 
 

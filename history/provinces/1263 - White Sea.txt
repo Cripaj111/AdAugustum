@@ -1,0 +1,6 @@
+# Barents Sea
+
+
+
+discovered_by = norman
+

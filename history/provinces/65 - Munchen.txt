@@ -1,4 +1,4 @@
-# 65 - M�nchen
+# 65 - M nchen
 owner = I54
 controller = I54
 add_core = I54
@@ -8,12 +8,10 @@ base_tax = 6
 base_production = 5
 trade_goods = grain
 base_manpower = 4
-capital = "M�nchen"
+capital = "M nchen"
 is_city = yes
 hre = yes
 fort_15th = yes
-discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
-
+discovered_by = slavic
+discovered_by = norman

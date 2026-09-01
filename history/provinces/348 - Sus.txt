@@ -13,3 +13,7 @@ base_manpower = 2
 is_city = yes
 add_core = A09
 
+discovered_by = western
+discovered_by = north_african
+discovered_by = byzantine
+discovered_by = sub_saharan
