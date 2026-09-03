@@ -13,6 +13,7 @@ base_manpower = 2
 is_city = yes
 fort_15th = yes
 add_core = L01
+add_core = L24
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = indian

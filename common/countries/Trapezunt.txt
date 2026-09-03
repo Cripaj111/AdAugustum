@@ -1,0 +1,7 @@
+#Trapezunt
+
+graphical_culture = easterngfx
+
+color = { 21 153 129 }
+
+revolutionary_colors = { 1  0  10 }

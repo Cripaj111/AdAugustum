@@ -1,4 +1,4 @@
-# 4745 - R�gen
+# 4745 - R gen
 
 owner = H21
 controller = H21
@@ -15,7 +15,7 @@ capital = "Arkona"
 is_city = yes
 
 
-discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
+discovered_by = slavic
+discovered_by = norman
+discovered_by = byzantine

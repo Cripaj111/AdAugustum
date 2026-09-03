@@ -1,0 +1,10 @@
+name = "Byzantino-Bulgarian war of hegemony"
+war_goal = {
+    type = byzantine_hegemony_wargoal
+    casus_beli = cb_byzantine_hegemony
+    who = J01
+}
+1444.1.1 = {
+    add_attacker = L01
+    add_defender = J01
+}

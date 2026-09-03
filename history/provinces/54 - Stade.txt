@@ -13,8 +13,7 @@ base_manpower = 2
 is_city = yes
 add_core = I20
 
-
-
 discovered_by = western
 discovered_by = slavic
 discovered_by = norman
+discovered_by = byzantine

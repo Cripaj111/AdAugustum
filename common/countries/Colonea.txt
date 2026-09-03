@@ -1,0 +1,7 @@
+#Colonea
+
+graphical_culture = easterngfx
+
+color = { 191 109 10 }
+
+revolutionary_colors = { 1  0  10 }

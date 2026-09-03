@@ -1,6 +1,6 @@
-# 4767 - Zweibr�cken
+# 4767 - Zweibr cken
 
-capital = "Zweibr�cken"
+capital = "Zweibr cken"
 culture = franconian
 religion = catholic
 trade_goods = cloth
@@ -12,9 +12,10 @@ is_city = yes
 controller = I50
 add_core = I50
 hre = yes
-discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
+discovered_by = slavic
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = north_african
 
 

@@ -16,4 +16,5 @@ add_core = I19
 discovered_by = western
 discovered_by = slavic
 discovered_by = norman
+discovered_by = byzantine
 

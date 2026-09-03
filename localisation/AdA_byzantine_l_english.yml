@@ -8,3 +8,26 @@
  l01_poor_coinage:0 "Poor Coinage"
  l01_plague_aftermath:0 "Plague aftermath"
 
+ hyppodromus_triumphs_ability:0 "Allows hosting Triumphs in capital."
+
+ byzantobulgarianwar:0 "Byzantino-Bulgarian war of Hegemony"
+ cb_byzantine_hegemony:0 "Byzantine Hegemony"
+ cb_byzantine_hegemony_desc:0 "Our neighbourghs think too highly of themselves. We need to show them where is their place."
+ byzantine_hegemony_war:0 "§Y[Root.GetAdjective]§! war of hegemony"
+ PEACE_force_byzantine_hegemony:0 "Force Hegemony"
+ force_byzantine_hegemony_desc:0 "§Y[From.GetName]§! will accept out hegemony and abandon their Imperial title."
+
+ crescent_l01.5551.t:0 "Phoenician declaration"
+ crescent_l01.5551.d:0 "\"To the Emperor [Root.Monarch.GetName], \n I write to your imperial highness, not only as your loyal subject, but also as representative of my people. To improve our bureaucratic capability in reconstruction efforts and strengthen protection of our interests, we decided to form a league of merchant bases around phoenician and Syrian coast. \n We will operate on a basis similar to saxon trade leagues, but our main goal is to serve the country and people. We’ve already established trade contacts with Chaldeans and begun importing critical resources.\n Signed: Milkiram of Sidon, leader of the Seafarers’ League\""
+ crescent_l01.5551.a:0 "hmpf, They're out of our league."
+
+ crescent_l01.5552.t:0 "Arameic Trouble"
+ crescent_l01.5552.d:0 " \"My Emperor,\n Akrites report that something is awry in the land of Syria. Some Nestorian lunatic is calling himself a "King of all Arameans" and gathering followers. If we don’t silence him it can lead to rebellion. On top of that, our border patrols noticed illegal caravans crossing the border from Chaldea. We suspect that they’re supplying this usurper.\" "
+ crescent_l01.5552.a:0 "Last time we silenced semitic pretender, it ended with a new religion."
+
+ crescent_l01.5553.t:0 "Shadow over Crescent"
+ crescent_l01.5553.d:0 "This night was unusually calm. Constantinople slowly drifted into slumber as Emperor [Root.Monarch.GetName] sat upon his terrace, contemplating the past, the present, and the uncertain future. As always, his most trusted advisor remained by his side. They spoke of reconstruction, new horizons of expansion, the advisor's family, and countless other matters.\n\nThen, upon the distant horizon, a single point of light began to glow. It was the first beacon of its kind since the Great Civil War had ended nearly a century ago.\n\n'Impossible,' the advisor gasped. 'The Great Vizier would never declare war while his own realm is falling apart.'\n\nBut the Emperor understood at once. This was not another Persian war, nor was it the beginning of another civil conflict.\n\n'Tonight is the night,' replied [Root.Monarch.GetName]. 'It was always destined to come. They are our people—wearied by generations of neglect and oppression imposed by my predecessors.'\n\nThe advisor looked upon his sovereign with admiration, knowing that Emperor [Root.Monarch.GetName] might be remembered among the greatest rulers in history.\n\n'Then what shall we do, my liege?' asked the young advisor.\n\nThe imperial command came without hesitation: 'Rally the armies. Prepare the fleet.'\n\nAfter a brief silence, the advisor quietly asked one final question:\n\n'And what of you, Your Majesty?'"
+ crescent_l01.5553.a:0 "I will lead punitive campaign myself!"
+ crescent_l01.5553.b:0 "I lead from behind the lines."
+ crescent_l01.5553.c:0 "I will watch moon's reflection in sea a bit longer"
+ crescent_l01.5553.e:0 "I will wait for the sunset."

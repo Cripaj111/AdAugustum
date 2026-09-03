@@ -14,10 +14,10 @@ is_city = yes
 hre = no
 
 
-
-discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
+discovered_by = slavic
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = north_african
 
 

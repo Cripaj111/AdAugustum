@@ -14,3 +14,5 @@ is_city = yes
 add_core = H34
 discovered_by = western
 discovered_by = norman
+discovered_by = byzantine
+discovered_by = north_african

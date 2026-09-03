@@ -15,5 +15,6 @@ is_city = yes
 discovered_by = western
 discovered_by = slavic
 discovered_by = norman
+discovered_by = byzantine
 extra_cost = 8
 center_of_trade = 1

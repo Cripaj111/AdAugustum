@@ -1,10 +1,10 @@
-#322 - K�thaya
+#322 - K thaya
 
 owner = L01
 controller = L01
 culture = greek
 religion = orthodox
-capital = "K�tahya"
+capital = "K tahya"
 trade_goods = cloth
 hre = no
 base_tax = 3
@@ -12,6 +12,7 @@ base_production = 3
 base_manpower = 2
 is_city = yes
 add_core = L01
+add_core = L21
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

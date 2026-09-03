@@ -34,11 +34,15 @@ L13 = "countries/Persia.txt"
 L14 = "countries/Tajikistan.txt"
 L15 = "countries/Damascus.txt"
 L16 = "countries/Seafarers.txt"
-
 L17 = "countries/Anatolikon.txt"
 L18 = "countries/Cilicia.txt"
 L19 = "countries/Macedonia.txt"
 L20 = "countries/Achaea.txt"
+
+L21 = "countries/Opsikon.txt"
+L22 = "countries/Trapezunt.txt"
+L23 = "countries/Cappadocia.txt"
+L24 = "countries/Colonea.txt"
 
 
 ################################

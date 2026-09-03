@@ -3372,3 +3372,35 @@ iberian_conquest_war_goal = {
 
 	war_name = A01_iberian_conquest
 }
+
+byzantine_hegemony_wargoal = {
+	type = superiority
+
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 1.5
+		peace_cost_factor = 1
+		peace_options = {
+			force_byzantine_hegemony
+		}
+		allowed_provinces = {
+			always = no
+		}
+	}
+
+	defender = {
+		badboy_factor = 1
+		prestige_factor = 1.5
+		peace_cost_factor = 1
+		allowed_provinces = {
+			always = no
+		}
+	}
+
+	
+	war_name = byzantine_hegemony_war
+}
+
+shadow_over_crescent_wargoal = {
+
+}

@@ -1,10 +1,10 @@
-#1318 - Spi�
+#1318 - Spi 
 
 owner = J05
 controller = J05
 culture = slovakian
 religion = catholic
-capital = "Spi�"
+capital = "Spi "
 trade_goods = copper
 hre = no
 base_tax = 3
@@ -13,11 +13,8 @@ base_manpower = 2
 is_city = yes
 add_core = J05
 discovered_by = western
-discovered_by = eastern
-discovered_by = muslim
-discovered_by = ottoman
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
+discovered_by = slavic
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = north_african
+

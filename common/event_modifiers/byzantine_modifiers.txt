@@ -14,3 +14,13 @@ l01_plague_aftermath = {
     development_cost_modifier = 0.1
     production_efficiency = -0.1
 }
+
+l01_gladius_romanorum = {
+    army_tradition_from_battle = 1
+    siege_ability = 0.1
+}
+
+l01_imperial_expedition = {
+    manpower_recovery_speed = 0.15
+    land_attrition = -0.15
+}

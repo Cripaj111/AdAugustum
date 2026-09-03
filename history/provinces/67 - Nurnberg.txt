@@ -15,5 +15,7 @@ hre = yes
 discovered_by = western
 discovered_by = slavic
 discovered_by = norman
+discovered_by = byzantine
+discovered_by = north_african
 extra_cost = 16
 center_of_trade = 2

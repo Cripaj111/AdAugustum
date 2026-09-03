@@ -60,5 +60,5 @@ shadow_over_crescent = {
     }
 
     on_start = crescent_l01.5553
-    
+    on_end = 
 }

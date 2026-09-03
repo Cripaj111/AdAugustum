@@ -2938,7 +2938,6 @@ iranian = {
 	baluchi = {
 	}
 }
-
 japanese_g = {
 	graphical_culture = asiangfx
 	country = { has_samurai = yes }

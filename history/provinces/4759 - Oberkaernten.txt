@@ -1,4 +1,4 @@
-#4759 - Oberk�rnten
+#4759 - Oberk rnten
 
 owner = J04
 controller = J04
@@ -14,9 +14,9 @@ is_city = yes
 hre = no
 
 
-
 discovered_by = western
-discovered_by = eastern
-discovered_by = muslim
-discovered_by = ottoman
+discovered_by = slavic
+discovered_by = norman
+discovered_by = byzantine
+discovered_by = north_african
 

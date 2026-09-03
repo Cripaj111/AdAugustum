@@ -2199,7 +2199,18 @@ cb_tim_crush_rebellion = {
 }
 
 cb_iberian_unification = {
-	is_triggered_only
+	is_triggered_only= yes
 
 	war_goal = iberian_conquest_war_goal
+}
+
+cb_byzantine_hegemony = {
+	is_triggered_only = yes
+	
+	war_goal = byzantine_hegemony_wargoal
+}
+
+cb_shadow_over_crescent = {
+	is_triggered_only = yes
+	war_goal = shadow_over_crescent_wargoal
 }
